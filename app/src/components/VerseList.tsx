@@ -26,6 +26,17 @@ function getTraducciones(versiculo: Versiculo): Traduccion[] {
   return traducciones
 }
 
+function StudyNote({ nota }: { nota: string }) {
+  return (
+    <div className="mt-3 rounded-lg border border-amber-200/80 bg-amber-50/70 px-3 py-2.5">
+      <p className="mb-1 text-[10px] font-semibold uppercase tracking-wide text-amber-800/80">
+        Nota de estudio · RVR Esquematizada
+      </p>
+      <p className="text-sm leading-relaxed text-amber-950/80">{nota}</p>
+    </div>
+  )
+}
+
 interface VerseCardProps {
   versiculo: Versiculo
 }
@@ -35,13 +46,18 @@ function VerseCard({ versiculo }: VerseCardProps) {
 
   return (
     <article className="rounded-xl border border-slate-200/80 bg-white p-4 shadow-sm transition-shadow hover:shadow-md">
-      <div className="mb-2 flex items-center gap-2">
+      <div className="mb-2 flex flex-wrap items-center gap-2">
         <span className="rounded-md bg-[var(--color-accent-soft)] px-2 py-0.5 text-xs font-semibold text-[var(--color-accent)]">
           {versiculo.referencia}
         </span>
         <span className="text-xs text-[var(--color-muted)]">
           Cap. {versiculo.capitulo}
         </span>
+        {versiculo.nota ? (
+          <span className="rounded-md bg-amber-100 px-2 py-0.5 text-[10px] font-semibold text-amber-800">
+            Nota
+          </span>
+        ) : null}
       </div>
       <div className="space-y-3">
         {traducciones.map((traduccion, index) => (
@@ -70,6 +86,7 @@ function VerseCard({ versiculo }: VerseCardProps) {
           </div>
         ))}
       </div>
+      {versiculo.nota ? <StudyNote nota={versiculo.nota} /> : null}
     </article>
   )
 }
@@ -88,28 +105,33 @@ export function VerseList({ tema, search }: VerseListProps) {
           (v.textoNtv?.toLowerCase().includes(query) ?? false) ||
           (v.textoDhh?.toLowerCase().includes(query) ?? false) ||
           (v.textoTla?.toLowerCase().includes(query) ?? false) ||
+          (v.nota?.toLowerCase().includes(query) ?? false) ||
           v.referencia.includes(query),
       )
     : tema.versiculos
 
+  const conNota = versiculos.filter((v) => v.nota).length
   const featured = versiculos.slice(0, 2)
   const rest = versiculos.slice(2)
 
   return (
-    <div className="flex min-h-0 flex-1 flex-col gap-4 overflow-hidden">
-      <header className="shrink-0 rounded-2xl border border-slate-200/80 bg-white p-5 shadow-sm">
-        <div className="flex flex-wrap items-start justify-between gap-4">
+    <div className="flex min-h-0 flex-1 flex-col gap-3 overflow-y-auto sm:gap-4 lg:overflow-hidden">
+      <header className="shrink-0 rounded-2xl border border-slate-200/80 bg-white p-4 shadow-sm sm:p-5">
+        <div className="flex flex-wrap items-start justify-between gap-3 sm:gap-4">
           <div>
             <p className="text-xs font-semibold uppercase tracking-wider text-[var(--color-muted)]">
               Tema seleccionado
             </p>
-            <h2 className="mt-1 text-2xl font-semibold text-[var(--color-text)]">
+            <h2 className="mt-1 text-xl font-semibold text-[var(--color-text)] lg:text-2xl">
               {tema.nombre}
             </h2>
           </div>
-          <div className="flex gap-2">
+          <div className="flex flex-wrap gap-2">
             <span className="rounded-full bg-[var(--color-accent-soft)] px-3 py-1 text-xs font-semibold text-[var(--color-accent)]">
               {versiculos.length} versículos
+            </span>
+            <span className="rounded-full bg-amber-100 px-3 py-1 text-xs font-semibold text-amber-800">
+              {conNota} con nota
             </span>
             <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-[var(--color-text-soft)]">
               Libro de Proverbios
@@ -125,8 +147,8 @@ export function VerseList({ tema, search }: VerseListProps) {
           </p>
         </div>
       ) : (
-        <div className="grid min-h-0 flex-1 gap-4 overflow-hidden lg:grid-cols-[280px_1fr]">
-          <div className="flex min-h-0 flex-col gap-3 overflow-y-auto pr-1">
+        <div className="grid min-h-0 flex-1 gap-3 sm:gap-4 lg:grid-cols-[280px_1fr] lg:overflow-hidden">
+          <div className="flex min-h-0 flex-col gap-3 lg:overflow-y-auto lg:pr-1">
             {featured.map((v) => (
               <div
                 key={`${v.capitulo}-${v.versiculo}`}
@@ -134,9 +156,16 @@ export function VerseList({ tema, search }: VerseListProps) {
               >
                 <div className="h-1.5 bg-[var(--color-accent)]" />
                 <div className="p-4">
-                  <span className="text-xs font-semibold text-[var(--color-accent)]">
-                    {v.referencia}
-                  </span>
+                  <div className="flex flex-wrap items-center gap-2">
+                    <span className="text-xs font-semibold text-[var(--color-accent)]">
+                      {v.referencia}
+                    </span>
+                    {v.nota ? (
+                      <span className="rounded-md bg-amber-100 px-2 py-0.5 text-[10px] font-semibold text-amber-800">
+                        Nota
+                      </span>
+                    ) : null}
+                  </div>
                   {getTraducciones(v).map((traduccion, index) => (
                     <div key={traduccion.label} className={index === 0 ? 'mt-2' : 'mt-3'}>
                       <p
@@ -159,13 +188,14 @@ export function VerseList({ tema, search }: VerseListProps) {
                       </p>
                     </div>
                   ))}
+                  {v.nota ? <StudyNote nota={v.nota} /> : null}
                 </div>
               </div>
             ))}
           </div>
 
-          <div className="min-h-0 overflow-hidden rounded-2xl border border-slate-200/80 bg-white shadow-sm">
-            <div className="flex items-center justify-between border-b border-slate-100 px-5 py-4">
+          <div className="min-h-0 rounded-2xl border border-slate-200/80 bg-white shadow-sm lg:overflow-hidden">
+            <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 px-4 py-3 sm:px-5 sm:py-4">
               <h3 className="text-sm font-semibold text-[var(--color-text)]">
                 Todos los versículos
               </h3>
@@ -178,7 +208,7 @@ export function VerseList({ tema, search }: VerseListProps) {
                 </span>
               </div>
             </div>
-            <div className="grid max-h-full gap-3 overflow-y-auto p-4 sm:grid-cols-2 xl:grid-cols-2">
+            <div className="grid gap-3 p-4 sm:grid-cols-2 lg:max-h-full lg:overflow-y-auto xl:grid-cols-2">
               {rest.map((v) => (
                 <VerseCard key={`${v.capitulo}-${v.versiculo}`} versiculo={v} />
               ))}

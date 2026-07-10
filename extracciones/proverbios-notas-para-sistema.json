@@ -1,0 +1,1930 @@
+{
+  "fuente": "Reina-Valera 1960 Esquematizada - Biblia de estudio",
+  "paginas": "1695-1771",
+  "aviso": "Material de estudio de la Biblia RVR1960 Esquematizada. Uso personal/estudio local; verificar derechos de reproducción antes de redistribuir.",
+  "introduccion": {
+    "naturaleza": "Libro de sabiduría práctica: moral, sentido común, buenos modales y religión.",
+    "principio": "El principio de la sabiduría es el temor de Jehová (1.7).",
+    "forma": [
+      "paralelismo sinónimo",
+      "paralelismo antitético",
+      "paralelismo sintético",
+      "dichos 'Mejor es...'",
+      "proverbios numéricos",
+      "acróstico 31.10-31"
+    ],
+    "colecciones": [
+      {
+        "nombre": "Introducción",
+        "rango": "1:1-7"
+      },
+      {
+        "nombre": "Primera colección: elogio de la Sabiduría",
+        "rango": "1:8-9:18"
+      },
+      {
+        "nombre": "Segunda colección: proverbios de Salomón",
+        "rango": "10:1-22:16"
+      },
+      {
+        "nombre": "Tercera colección: treinta proverbios de los sabios",
+        "rango": "22:17-24:22"
+      },
+      {
+        "nombre": "Cuarta colección: otros proverbios de los sabios",
+        "rango": "24:23-34"
+      },
+      {
+        "nombre": "Quinta colección: otros proverbios de Salomón",
+        "rango": "25:1-29:27"
+      },
+      {
+        "nombre": "Sexta colección: palabras de Agur",
+        "rango": "30:1-33"
+      },
+      {
+        "nombre": "Séptima colección: palabras del rey Lemuel",
+        "rango": "31:1-31"
+      }
+    ]
+  },
+  "titulos_pericopa": [
+    {
+      "capitulo": 1,
+      "pagina": 1698,
+      "titulo": "Motivo de los proverbios",
+      "resumen_rango": "1.1–7 En esta introducción se presentan los proverbios como un medio para alcanzar la sabiduría."
+    },
+    {
+      "capitulo": 1,
+      "pagina": 1698,
+      "titulo": "Amonestaciones de la Sabiduría",
+      "resumen_rango": "1.8–19 En este pasaje hay consejos que, aunque se aplican a todos, están especialmente dirigidos a los jóvenes (véase v. 8, n.; 8.32). El sabio advierte"
+    },
+    {
+      "capitulo": 1,
+      "pagina": 1699,
+      "titulo": "La cual quita la vida de sus poseedores.",
+      "resumen_rango": "1.20–33 Se presenta la Sabiduría como una profetisa que les dice a las personas lo que deben hacer (8.1–3). Si siguen sus consejos, tendrán su"
+    },
+    {
+      "capitulo": 2,
+      "pagina": 1700,
+      "titulo": "Excelencias de la sabiduría",
+      "resumen_rango": "2.1–22 La persona sabia recibe cinco recompensas: conocimiento de Jehová (v. 5–7); discernimiento de lo que es recto, justo y honrado (v. 9–11);"
+    },
+    {
+      "capitulo": 3,
+      "pagina": 1702,
+      "titulo": "Exhortación a la obediencia",
+      "resumen_rango": "3.1–35 El tema principal de estos consejos para los jóvenes es éste: vale la pena seguir a la sabiduría."
+    },
+    {
+      "capitulo": 4,
+      "pagina": 1704,
+      "titulo": "Beneficios de la sabiduría",
+      "resumen_rango": "4.1–27 Este capítulo se divide en tres partes, marcadas por el uso de la palabra «hijo» (v. 1, 10, 20). 1) En los v. 1–9, el sabio aconseja a los jóvenes a"
+    },
+    {
+      "capitulo": 5,
+      "pagina": 1706,
+      "titulo": "Amonestación contra la impureza",
+      "resumen_rango": "5.1–23 El adulterio es entendido aquí tanto en sentido literal, refiriéndose a la esposa infiel, como en sentido figurado, refiriéndose a la infidelidad"
+    },
+    {
+      "capitulo": 6,
+      "pagina": 1708,
+      "titulo": "Amonestación contra la pereza y la falsedad",
+      "resumen_rango": "6.1–19 Al interrumpir el tema del adulterio, el cual volverá a ser tratado a partir del v. 20, el Sabio menciona algunas cosas que se deben evitar: ser"
+    },
+    {
+      "capitulo": 6,
+      "pagina": 1709,
+      "titulo": "Amonestación contra el adulterio",
+      "resumen_rango": "6.20—7.5 Después de la interrupción de 6.1–19, el libro vuelve al tema del adulterio, el cual había sido tratado anteriormente (véase Pr 5.1–23, n.)."
+    },
+    {
+      "capitulo": 7,
+      "pagina": 1710,
+      "titulo": "Y de la extraña que ablanda sus palabras.",
+      "resumen_rango": "7.6–27 Aquí, el Sabio describe la tentación de la mujer adúltera, considerada como la falta de entendimiento en forma humana. Es un relato largo y"
+    },
+    {
+      "capitulo": 8,
+      "pagina": 1712,
+      "titulo": "Excelencia y eternidad de la Sabiduría",
+      "resumen_rango": "8.1–36 Como en 1.20–33, aquí también la Sabiduría es representada como una mujer. 1) Ella apela a todos a que oigan sus enseñanzas de vida (v. 1–"
+    },
+    {
+      "capitulo": 9,
+      "pagina": 1714,
+      "titulo": "La Sabiduría y la mujer insensata",
+      "resumen_rango": "9.1–18 La Sabiduría invita a las personas a su casa (9.1–6), y la insensata hace lo mismo (9.13–18). En la casa de la Sabiduría está la vida (v. 6); en la"
+    },
+    {
+      "capitulo": 10,
+      "pagina": 1715,
+      "titulo": "Contraste entre el justo y el malvado",
+      "resumen_rango": "10.1—22.16 En estos trece capítulos aparecen 375 proverbios de Salomón, los cuales tratan los asuntos más variados (véase Intr. 2). Aquí, el sabio"
+    },
+    {
+      "capitulo": 22,
+      "pagina": 1739,
+      "titulo": "Preceptos y amonestaciones",
+      "resumen_rango": "22.17—24.22 Estos proverbios de los sabios de Israel (22.17; 24.23) se dividen en treinta grupos o secciones (22.20), y tratan los asuntos más"
+    },
+    {
+      "capitulo": 24,
+      "pagina": 1744,
+      "titulo": "¿quién lo comprende?",
+      "resumen_rango": "24.23–34 Esta sección es un aumento a los treinta proverbios de los sabios (22.17—24.22)."
+    },
+    {
+      "capitulo": 25,
+      "pagina": 1745,
+      "titulo": "Comparaciones y lecciones morales",
+      "resumen_rango": "25.1—29.27 Estos cinco capítulos contienen 123 proverbios, si se cuenta como uno los que constan de dos o más v. (25.4–5, 6–7, 9–10, 16–17, 19–"
+    },
+    {
+      "capitulo": 30,
+      "pagina": 1755,
+      "titulo": "Las palabras de Agur",
+      "resumen_rango": "30.1–33 En sus palabras solemnes, Agur comienza por admitir que, por ser un simple mortal, no posee sabiduría, sobre todo ante la sabiduría de Dios"
+    },
+    {
+      "capitulo": 31,
+      "pagina": 1757,
+      "titulo": "Exhortación a un rey",
+      "resumen_rango": "31.1–9 En sus consejos, la madre del rey Lemuel advierte contra los peligros que un rey debe evitar (v. 1–7), y recuerda las cualidades que debe tener"
+    },
+    {
+      "capitulo": 31,
+      "pagina": 1757,
+      "titulo": "Elogio de la mujer virtuosa",
+      "resumen_rango": "31.10–31 Poema alfabético (véase Sal Intr. 3.10; 3.10.1) de elogio a la esposa ideal (v. 31). En este texto, hay versículos que, en varias traducciones"
+    }
+  ],
+  "esquemas_con_resumen": [
+    {
+      "pagina": 1698,
+      "capitulo_contexto": 1,
+      "rango": "1.1–7",
+      "titulo": "En esta introducción se presentan los proverbios como un medio para alcanzar la sabiduría."
+    },
+    {
+      "pagina": 1698,
+      "capitulo_contexto": 1,
+      "rango": "1.8–19",
+      "titulo": "En este pasaje hay consejos que, aunque se aplican a todos, están especialmente dirigidos a los jóvenes (véase v. 8, n.; 8.32). El sabio advierte"
+    },
+    {
+      "pagina": 1699,
+      "capitulo_contexto": 1,
+      "rango": "1.20–33",
+      "titulo": "Se presenta la Sabiduría como una profetisa que les dice a las personas lo que deben hacer (8.1–3). Si siguen sus consejos, tendrán su"
+    },
+    {
+      "pagina": 1700,
+      "capitulo_contexto": 2,
+      "rango": "2.1–22",
+      "titulo": "La persona sabia recibe cinco recompensas: conocimiento de Jehová (v. 5–7); discernimiento de lo que es recto, justo y honrado (v. 9–11);"
+    },
+    {
+      "pagina": 1702,
+      "capitulo_contexto": 3,
+      "rango": "3.1–35",
+      "titulo": "El tema principal de estos consejos para los jóvenes es éste: vale la pena seguir a la sabiduría."
+    },
+    {
+      "pagina": 1704,
+      "capitulo_contexto": 4,
+      "rango": "4.1–27",
+      "titulo": "Este capítulo se divide en tres partes, marcadas por el uso de la palabra «hijo» (v. 1, 10, 20). 1) En los v. 1–9, el sabio aconseja a los jóvenes a"
+    },
+    {
+      "pagina": 1706,
+      "capitulo_contexto": 5,
+      "rango": "5.1–23",
+      "titulo": "El adulterio es entendido aquí tanto en sentido literal, refiriéndose a la esposa infiel, como en sentido figurado, refiriéndose a la infidelidad"
+    },
+    {
+      "pagina": 1708,
+      "capitulo_contexto": 6,
+      "rango": "6.1–19",
+      "titulo": "Al interrumpir el tema del adulterio, el cual volverá a ser tratado a partir del v. 20, el Sabio menciona algunas cosas que se deben evitar: ser"
+    },
+    {
+      "pagina": 1709,
+      "capitulo_contexto": 6,
+      "rango": "6.20–7.5",
+      "titulo": "Después de la interrupción de 6.1–19, el libro vuelve al tema del adulterio, el cual había sido tratado anteriormente (véase Pr 5.1–23, n.)."
+    },
+    {
+      "pagina": 1710,
+      "capitulo_contexto": 7,
+      "rango": "7.6–27",
+      "titulo": "Aquí, el Sabio describe la tentación de la mujer adúltera, considerada como la falta de entendimiento en forma humana. Es un relato largo y"
+    },
+    {
+      "pagina": 1712,
+      "capitulo_contexto": 8,
+      "rango": "8.1–36",
+      "titulo": "Como en 1.20–33, aquí también la Sabiduría es representada como una mujer. 1) Ella apela a todos a que oigan sus enseñanzas de vida (v. 1–"
+    },
+    {
+      "pagina": 1714,
+      "capitulo_contexto": 9,
+      "rango": "9.1–18",
+      "titulo": "La Sabiduría invita a las personas a su casa (9.1–6), y la insensata hace lo mismo (9.13–18). En la casa de la Sabiduría está la vida (v. 6); en la"
+    },
+    {
+      "pagina": 1715,
+      "capitulo_contexto": 10,
+      "rango": "10.1–22.16",
+      "titulo": "En estos trece capítulos aparecen 375 proverbios de Salomón, los cuales tratan los asuntos más variados (véase Intr. 2). Aquí, el sabio"
+    },
+    {
+      "pagina": 1739,
+      "capitulo_contexto": 22,
+      "rango": "22.17–24.22",
+      "titulo": "Estos proverbios de los sabios de Israel (22.17; 24.23) se dividen en treinta grupos o secciones (22.20), y tratan los asuntos más"
+    },
+    {
+      "pagina": 1744,
+      "capitulo_contexto": 24,
+      "rango": "24.23–34",
+      "titulo": "Esta sección es un aumento a los treinta proverbios de los sabios (22.17—24.22)."
+    },
+    {
+      "pagina": 1745,
+      "capitulo_contexto": 25,
+      "rango": "25.1–29.27",
+      "titulo": "Estos cinco capítulos contienen 123 proverbios, si se cuenta como uno los que constan de dos o más v. (25.4–5, 6–7, 9–10, 16–17, 19–"
+    },
+    {
+      "pagina": 1755,
+      "capitulo_contexto": 30,
+      "rango": "30.1–33",
+      "titulo": "En sus palabras solemnes, Agur comienza por admitir que, por ser un simple mortal, no posee sabiduría, sobre todo ante la sabiduría de Dios"
+    },
+    {
+      "pagina": 1757,
+      "capitulo_contexto": 31,
+      "rango": "31.1–9",
+      "titulo": "En sus consejos, la madre del rey Lemuel advierte contra los peligros que un rey debe evitar (v. 1–7), y recuerda las cualidades que debe tener"
+    },
+    {
+      "pagina": 1757,
+      "capitulo_contexto": 31,
+      "rango": "31.10–31",
+      "titulo": "Poema alfabético (véase Sal Intr. 3.10; 3.10.1) de elogio a la esposa ideal (v. 31). En este texto, hay versículos que, en varias traducciones"
+    }
+  ],
+  "notas_por_referencia": {
+    "1:1": [
+      "proverbios Los proverbios son una de las manifestaciones de la sabiduría (véase Introducción a los Libros de Sabiduría y a los Libros"
+    ],
+    "1:3": [
+      "prudencia, Justicia, juicio y equidad Pr 2.9; Flp 4.8."
+    ],
+    "1:5": [
+      "el sabio, y aumentará el saber Pr 9.9."
+    ],
+    "1:6": [
+      "dichos profundos Véase Sal 78.2, n."
+    ],
+    "1:7": [
+      "el temor de Jehová Temer a Dios no significa tenerle miedo, sino respetar su grandeza y considerar seriamente lo que él dice. Éste es el"
+    ],
+    "1:8": [
+      "hijo Aquí se trata de un joven que vive con sus padres, y recibe su orientación y consejos. También era común, en aquel tiempo, llamarle"
+    ],
+    "1:15": [
+      "Aparta tu pie de sus veredas Pr 4.14–15."
+    ],
+    "1:16": [
+      "sus pies corren hacia el mal… presurosos a derramar sangre Pr 6.16–19; Is 59.7; Jer 2.34; Ro 3.15."
+    ],
+    "1:17": [
+      "red Se refiere a una red para atrapar pájaros (Pr 5.22; 6.5; 7.23; Ec 9.12; Jer 5.26)."
+    ],
+    "1:18": [
+      "a sus almas tienden lazo Esas personas tienen menos cabeza que los pájaros, los cuales no caen en una trampa al ver que se la están"
+    ],
+    "1:21": [
+      "puertas de la ciudad Allí, los jefes de las familias se reunían y actuaban como un tribunal de justicia, y la multitud se aglomeraba en la"
+    ],
+    "1:22": [
+      "simples Es decir, sin experiencia, sin juicio, insensatos (Pr 7.7; 8.5; 9.4; Sal 94.8)."
+    ],
+    "1:23": [
+      "reprensión Pr 1.25, 30; 6.23; 12.1; 13.18; 15.5, 10, 32."
+    ],
+    "1:24": [
+      "llamé, y no quisisteis oír Los que no aceptan la invitación de la Sabiduría (Pr 9.1–6) sufren las consecuencias (Is 65.2, 12; Mt 23.37–38)."
+    ],
+    "1:28": [
+      "llamarán… no me hallarán Dt 1.45; Job 27.9; Jer 11.11."
+    ],
+    "1:29": [
+      "aborrecieron la sabiduría Esa renuencia es producto de un sentimiento de falsa seguridad, propio de personas insensatas (v. 32; Jer 5.12–"
+    ],
+    "1:30": [
+      "reprensión Véase Pr 1.23, n."
+    ],
+    "1:31": [
+      "Comerán del fruto de su camino Pr 8.36; Gl 6.7–8."
+    ],
+    "1:32": [
+      "los echará a perder La falta de juicio y el rechazo de la sabiduría resultan en muerte y destrucción. Y eso no es lenguaje figurado; es la"
+    ],
+    "1:33": [
+      "el que me oyere, habitará confiadamente Véase Pr 4.6, n."
+    ],
+    "2:1": [
+      "Hijo Véase Pr 1.8, n."
+    ],
+    "2:5": [
+      "el temor de Jehová Véase Pr 1.7, n. el conocimiento de Dios Véase Sal 9.10, n.; Jn 10.14–15."
+    ],
+    "2:6": [
+      "Jehová da la sabiduría Dn 2.20–23; Stg 1.5."
+    ],
+    "2:8": [
+      "Es el que guarda las veredas Pr 2.11; 4.6; 6.22."
+    ],
+    "2:13": [
+      "sendas tenebrosas Pr 4.19; Jn 3.19."
+    ],
+    "2:14": [
+      "se alegran haciendo el mal Pr 1.11; 10.23."
+    ],
+    "2:15": [
+      "torcidos sus caminos Quien rechaza la sabiduría no sólo es una persona insensata (véase Pr 1.22, n.), sino también alguien en quien no se"
+    ],
+    "2:16": [
+      "la mujer extraña Ella es lo contrario de la mujer sabia (véase Pr 1.20–33, n.). Es infiel a su marido (v. 17) y trata de seducir a otros (Pr 5.1–"
+    ],
+    "2:18": [
+      "veredas hacia los muertos Pr 5.5; 7.27; 15.24; 16.25. Esto contrasta con el camino de la sabiduría, el cual lleva a una larga vida (Pr 3.2;"
+    ],
+    "2:21": [
+      "la tierra La Tierra prometida (Sal 37.3)."
+    ],
+    "2:22": [
+      "los impíos serán cortados de la tierra Sal 37.9; Pr 1.32."
+    ],
+    "3:1": [
+      "Hijo Véase Pr 1.8, n."
+    ],
+    "3:2": [
+      "largura de días Pr 4.4, 10, 22; 7.2; 8.35; 9.11; 10.27; 19.23; 22.4 (véase Pr 2.18, n.)."
+    ],
+    "3:3": [
+      "Átalas a tu cuello Dt 6.8; 11.18; Pr 6.21; 7.3."
+    ],
+    "3:4": [
+      "hallarás gracia… Ante los ojos de Dios y de los hombres 1 Sa 2.26; Lc 2.52; 2 Co 8.21."
+    ],
+    "3:5": [
+      "Fíate de Jehová Sal 37.5; 91; Pr 16.20; 22.19; 28.25; 29.25. Este v. demuestra que la sabiduría no es, en primer lugar, una cuestión de"
+    ],
+    "3:6": [
+      "Reconócelo Es decir, debes estar atento a buscar lo que él espera de ti."
+    ],
+    "3:7": [
+      "No seas sabio en tu propia opinión Is 5.21; Ro 12.16. Teme a Jehová Véase Pr 1.7, n."
+    ],
+    "3:9": [
+      "las primicias de todos tus frutos Al inicio de la cosecha, una parte de los frutos era llevada como ofrenda a Dios (Ex 23.19; Lv 23.9–11; Nm"
+    ],
+    "3:10": [
+      "serán llenos tus graneros Dios promete bendecir a los que le son fieles (Ml 3.10–12)."
+    ],
+    "3:12": [
+      "Jehová al que ama castiga Dt 8.5; Job 5.17; Heb 12.5–6; Ap 3.19."
+    ],
+    "3:13": [
+      "Bienaventurado Pr 3.18; véase Sal 1.1, n."
+    ],
+    "3:14": [
+      "mejor que la ganancia de la plata… más que el oro fino Job 28.15; Sal 19.10; Pr 8.10, 19; 16.16."
+    ],
+    "3:16": [
+      "Largura de días… riquezas y honra Véase v. 2, n.; 1 Ki 3.10–14; Pr 8.18; 22.4."
+    ],
+    "3:18": [
+      "Ella es árbol de vida Pr 3.2; 9.6; 13.12; 15.4. Parece ser una referencia a Gn 2.9 (Ap 22.2)."
+    ],
+    "3:19": [
+      "Jehová con sabiduría fundó la tierra Los v. 19–20 alaban el papel de la Sabiduría en la creación del mundo (Pr 8.22–31). Otros pasajes"
+    ],
+    "3:23": [
+      "tu pie no tropezará Sal 91.12; Pr 4.12."
+    ],
+    "3:24": [
+      "sueño… grato Lv 26.6; Job 11.18; Sal 3.5; 4.8."
+    ],
+    "3:26": [
+      "confianza Pr 1.33; 4.6; 14.26; Is 33.6."
+    ],
+    "3:27": [
+      "No te niegues a hacer el bien Mt 5.42; Gl 6.10."
+    ],
+    "3:28": [
+      "tu prójimo Pr 3.29; 24.28; 25.9."
+    ],
+    "3:31": [
+      "No envidies al hombre injusto Sal 37.1; Pr 23.17."
+    ],
+    "3:32": [
+      "Jehová abomina Dt 18.12; Pr 6.16–19; 11.20; 12.22; 15.9. comunión íntima Sal 25.14; Jn 15.15."
+    ],
+    "3:33": [
+      "maldición Dt 11.28; Zac 5.3–4; Ml 2.2. bendecirá Dt 11.27."
+    ],
+    "3:34": [
+      "él escarnecerá… a los humildes dará gracia Este v. es citado en Stg 4.6 y 1 Pe 5.5, según la traducción de la Septuaginta. humildes Pr"
+    ],
+    "3:35": [
+      "los necios Véase Pr 1.7, n."
+    ],
+    "4:1": [
+      "hijos Véase Pr 1.8, n."
+    ],
+    "4:4": [
+      "vivirás Véase Pr 3.2, n."
+    ],
+    "4:5": [
+      "Adquiere sabiduría, adquiere inteligencia Pr 3.13."
+    ],
+    "4:6": [
+      "te guardará Pr 2.7, 11; 6.22. te conservará Véase Pr 3.26, n."
+    ],
+    "4:7": [
+      "sobre todas tus posesiones Para obtener sabiduría, es necesario estar dispuesto a renuncias y sacrificios (Pr 23.23; Mt 13.44–46)."
+    ],
+    "4:9": [
+      "Adorno de gracia… Corona de hermosura En las fiestas de casamiento, se usaban coronas de flores como expresión de alegría (Ez 16.12)."
+    ],
+    "4:10": [
+      "hijo Véase Pr 1.8, n. se te multiplicarán años de vida Véase Pr 3.2, n."
+    ],
+    "4:11": [
+      "camino de la sabiduría Éste es también el camino de la honradez (Pr 8.20), del conocimiento (Pr 9.6) y de la vida (Pr 10.17)."
+    ],
+    "4:14": [
+      "No entres por la vereda de los impíos Pr 1.15–16; 22.5. Ese camino es malo (Pr 8.13), torcido (Pr 21.8) y termina en muerte (Pr 14.12;"
+    ],
+    "4:19": [
+      "camino… oscuridad Pr 2.13; 24.20; Jn 3.19."
+    ],
+    "4:20": [
+      "Hijo Véase Pr 1.8, n."
+    ],
+    "4:22": [
+      "vida Véase Pr 3.2, n."
+    ],
+    "4:23": [
+      "guarda tu corazón; Porque de él mana la vida Los pensamientos dirigen la boca (v. 24), los ojos (v. 25) y los pies (v. 27). Para pensar bien"
+    ],
+    "4:24": [
+      "Aparta de ti la perversidad de la boca Pr 6.16–19; 12.22; 13.5; 14.5, 25; 30.8."
+    ],
+    "4:26": [
+      "Examina la senda de tus pies Literalmente, el texto hebreo dice: «Haz caminos aplanados para tus pies» (Heb 12.13; véase Introducción a"
+    ],
+    "5:1": [
+      "Hijo Véase Pr 1.8, n."
+    ],
+    "5:3": [
+      "mujer extraña Véase Pr 2.16, n."
+    ],
+    "5:4": [
+      "amargo Ec 7.26."
+    ],
+    "5:5": [
+      "conducen al Seol Véase Pr 2.18, n."
+    ],
+    "5:7": [
+      "hijos Véase Pr 1.8, n."
+    ],
+    "5:8": [
+      "no te acerques a la puerta de su casa Pr 7.8; 9.14."
+    ],
+    "5:10": [
+      "se sacien de tu fuerza Pr 29.3; Lc 15.13."
+    ],
+    "5:11": [
+      "se consuma tu carne y tu cuerpo Por las enfermedades causadas por una vida de pecado."
+    ],
+    "5:15": [
+      "Bebe el agua de tu misma cisterna So 4.12, 15. Esta metáfora habla de la fidelidad en el matrimonio."
+    ],
+    "5:18": [
+      "alégrate con la mujer de tu juventud Ec 9.9."
+    ],
+    "5:19": [
+      "Sus caricias te satisfagan en todo tiempo Literalmente, el texto hebreo dice: «sus senos»."
+    ],
+    "5:21": [
+      "los ojos de Jehová Motivo religioso para incentivar a las personas a ser fieles a su cónyuge (Job 34.21; véase Pr 15.3, n.)."
+    ],
+    "5:22": [
+      "Prenderán Sal 7.15–16; 9.16; véase Pr 1.18, n.; 23.27; 28.10; 29.6; Ec 10.8."
+    ],
+    "5:23": [
+      "Él morirá por falta de corrección Pr 10.21."
+    ],
+    "6:1": [
+      "Hijo Véase Pr 1.8, n. fiador por tu amigo Ese amigo es un conocido, un vecino, un compañero de negocios, no un amigo íntimo ni un"
+    ],
+    "6:6": [
+      "hormiga Pr 30.25. perezoso La pereza es un tema que se repite en este libro (Pr 10.4; 11.16; 12.24–27; 13.4; 15.19; 19.15, 24; 20.4; 21.25–"
+    ],
+    "6:10": [
+      "Un poco de sueño, un poco de dormitar Pr 10.5; 24.30–34."
+    ],
+    "6:13": [
+      "guiña Véase Pr 10.10, n.; 16.30."
+    ],
+    "6:14": [
+      "anda pensando el mal Sal 140.2; Pr 24.8."
+    ],
+    "6:15": [
+      "calamidad Pr 14.32; 29.1."
+    ],
+    "6:16": [
+      "siete Es un proverbio numérico, usado también en Pr 30.15–33 y Ec 4.9–12 (véase Intr. 3.2.2). abomina Véase Pr 3.32, n."
+    ],
+    "6:17": [
+      "lengua mentirosa Véase Pr 4.24, n. manos derramadoras de sangre inocente Véase Pr 1.16, n."
+    ],
+    "6:19": [
+      "testigo falso Véase Pr 14.5, n."
+    ],
+    "6:20": [
+      "hijo Véase Pr 1.8, n."
+    ],
+    "6:22": [
+      "te guardarán Véase Pr 4.6, n."
+    ],
+    "6:23": [
+      "es luz Sal 119.105. las reprensiones Véase Pr 1.23, n."
+    ],
+    "6:24": [
+      "mala mujer… blandura de la lengua Pr 2.16; 5.3; 7.5."
+    ],
+    "6:26": [
+      "mujer ramera La prostituta se conforma con dinero y, por eso, es menos peligrosa que una mujer adúltera, la cual puede llevar al hombre a"
+    ],
+    "6:27": [
+      "fuego Fuego y brasas (v. 28) son figuras muy apropiadas para hablar de la pasión sensual."
+    ],
+    "6:31": [
+      "pagará siete veces Ex 22.1."
+    ],
+    "6:32": [
+      "el que comete adulterio La situación de quien comete adulterio es mucho peor que la de un ladrón. El ladrón puede devolver con intereses"
+    ],
+    "7:1": [
+      "atesora contigo mis mandamientos Como conclusión (v. 1–5), el Sabio afirma que estar atento a la Sabiduría es el medio para escapar de la"
+    ],
+    "7:2": [
+      "vivirás Véase Pr 3.2, n."
+    ],
+    "7:5": [
+      "ablanda sus palabras Véase Pr 6.24, n."
+    ],
+    "7:7": [
+      "simples Véase Pr 1.22, n."
+    ],
+    "7:8": [
+      "camino a la casa Pr 5.8."
+    ],
+    "7:9": [
+      "oscurecía Job 24.15."
+    ],
+    "7:10": [
+      "atavío de ramera Como Tamar (Gn 38.14–15)."
+    ],
+    "7:14": [
+      "Sacrificios de paz La mujer había presentado una ofrenda de paz, y le correspondía una parte de la carne, la cual debía ser comida el mismo"
+    ],
+    "7:17": [
+      "He perfumado mi cámara Con mirra, áloes y canela So 4.14; 5.5."
+    ],
+    "7:22": [
+      "prisiones Véase Pr 5.22, n."
+    ],
+    "7:24": [
+      "hijos Véase Pr 1.8, n. oídme Véase Pr 7.1, n."
+    ],
+    "7:26": [
+      "ha hecho caer heridos… muertos Pr 9.18."
+    ],
+    "7:27": [
+      "conduce a las cámaras de la muerte Véase Pr 2.18, n."
+    ],
+    "8:1": [
+      "¿No clama la sabiduría…? Véase Pr 1.20–33, n. inteligencia Otro nombre para la Sabiduría."
+    ],
+    "8:5": [
+      "simples Véase Pr 1.7, n."
+    ],
+    "8:10": [
+      "y no plata… antes que el oro escogido La sabiduría tiene mucho más valor que las riquezas materiales (v. 11; Job 28.17; Pr 2.4; véase Pr"
+    ],
+    "8:13": [
+      "El temor de Jehová Véase Pr 1.7, n. soberbia Sal 18.27; Ro 12.16; 1 Ti 6.17. el mal camino Véase Pr 4.14, n."
+    ],
+    "8:15": [
+      "Por mí reinan los reyes 1 Ki 3.9; 2 Ch 1.10; véase Pr 28.2, n."
+    ],
+    "8:17": [
+      "me hallan los que temprano me buscan Mt 7.7–8."
+    ],
+    "8:18": [
+      "riquezas y la honra Véase Pr 3.16, n."
+    ],
+    "8:19": [
+      "oro… plata Véase v. 10, n."
+    ],
+    "8:23": [
+      "desde el principio Ap 3.14."
+    ],
+    "8:27": [
+      "formaba los cielos Gn 1.6–8."
+    ],
+    "8:29": [
+      "que las aguas no traspasasen su mandamiento Las aguas del mar eran consideradas como el poder que procuraba destruir la creación. Por"
+    ],
+    "8:30": [
+      "Con él estaba yo ordenándolo todo La Sabiduría no fue un simple testigo de la creación; actuó también como arquitecto de Dios."
+    ],
+    "8:32": [
+      "hijos Véase Pr 1.8, n."
+    ],
+    "8:34": [
+      "Bienaventurado Véase Sal 1.1, n. a mis puertas Quien vela a las puertas de la Sabiduría es feliz (v. 34) y encuentra la vida (v. 35). Es bien"
+    ],
+    "8:35": [
+      "vida Véase Pr 3.2, n."
+    ],
+    "9:1": [
+      "siete El número de la perfección."
+    ],
+    "9:4": [
+      "cualquier simple Véase Pr 1.7, n. faltos de cordura Véase Pr 1.22, n."
+    ],
+    "9:6": [
+      "vivid Véase Pr 3.18, n. camino de la inteligencia Véase Pr 4.11, n."
+    ],
+    "9:8": [
+      "escarnecedor Pr 15.12. te amará Pr 10.8; 17.10; 19.25."
+    ],
+    "9:9": [
+      "será más sabio Pr 1.5."
+    ],
+    "9:10": [
+      "temor Véase Pr 1.7, n."
+    ],
+    "9:11": [
+      "años de vida se te añadirán Véase Pr 3.2, n."
+    ],
+    "9:14": [
+      "puerta de su casa Pr 5.8."
+    ],
+    "9:17": [
+      "aguas hurtadas… pan comido en oculto Lenguaje figurado para hablar del adulterio."
+    ],
+    "9:18": [
+      "los muertos Véase Pr 2.18, n."
+    ],
+    "10:1": [
+      "proverbios Véase Pr 1.1, n. Salomón Véase Pr 1.1, n. alegra… tristeza Pr 15.20; 17.21, 25. hijo necio Pr 15.20; 17.21, 25; 19.13."
+    ],
+    "10:2": [
+      "libra de muerte No permite que la persona muera antes de su tiempo (Pr 1.17–19; 11.4)."
+    ],
+    "10:3": [
+      "no… padecer hambre Sal 34.9–10; 37.19, 25; Pr 13.25."
+    ],
+    "10:4": [
+      "mano negligente Véase Pr 6.6, n. mano de los diligentes El esfuerzo en el trabajo es un tema que se repite en este libro (Pr 12.24; 13.4;"
+    ],
+    "10:5": [
+      "duerme Véase Pr 6.10, n."
+    ],
+    "10:7": [
+      "será bendita Sal 112.6. se pudrirá Sal 109.13."
+    ],
+    "10:8": [
+      "recibirá los mandamientos Pr 13.13; 20.18; 25.12."
+    ],
+    "10:9": [
+      "integridad… confiado Pr 28.18."
+    ],
+    "10:10": [
+      "guiña el ojo Véase Introducción a la Biblia 4.5; Pr 6.13; 16.30."
+    ],
+    "10:11": [
+      "Manantial de vida Pr 13.14; 14.27; 16.22. violencia… boca de los impíos Repetición de la segunda línea del v. 6."
+    ],
+    "10:12": [
+      "rencillas Pr 17.19. el amor cubrirá todas las faltas 1 Pe 4.8."
+    ],
+    "10:13": [
+      "la vara Pr 19.29; 26.3."
+    ],
+    "10:14": [
+      "necio Véase Pr 1.7, n. calamidad cercana Pr 18.7."
+    ],
+    "10:15": [
+      "rico… pobres El contraste entre ricos y pobres aparece también en Pr 13.8; 14.20; 15.16; 18.23; 19.4, 6–7; 22.7; 28.3, n."
+    ],
+    "10:16": [
+      "es para vida Pr 12.28. el fruto del impío Ro 6.21, 23."
+    ],
+    "10:17": [
+      "Camino a la vida Véase Pr 4.11, n. guardar la instrucción Pr 6.23; 15.10, 32."
+    ],
+    "10:19": [
+      "refrena sus labios Pr 13.3; 17.27; Ec 5.2–3; Stg 1.19; 3.2–12."
+    ],
+    "10:20": [
+      "Plata… lengua Pr 25.11."
+    ],
+    "10:21": [
+      "mueren Pr 5.23."
+    ],
+    "10:22": [
+      "bendición… enriquece Sal 37.22; 90.17; 127.2; Pr 15.6."
+    ],
+    "10:23": [
+      "diversión Véase Pr 2.14, n."
+    ],
+    "10:24": [
+      "lo que desean Sal 37.4; 1 Jn 5.14–15."
+    ],
+    "10:25": [
+      "permanece para siempre Pr 12.3."
+    ],
+    "10:26": [
+      "perezoso Véase Pr 6.6, n."
+    ],
+    "10:27": [
+      "temor de Jehová Véase Pr 1.7, n."
+    ],
+    "10:28": [
+      "alegría Véase Pr 15.13, n. perecerá Job 8.13; Sal 112.10."
+    ],
+    "11:1": [
+      "peso falso… pesa cabal En aquel tiempo, las pesas constaban de dos platos: en uno de ellos se colocaban las pesas marcadas y en el otro, la"
+    ],
+    "11:2": [
+      "soberbia Pr 13.10; 16.5, 18; 18.12; 29.23; Is 2.11–12, 17. humildes Pr 3.34; 15.33; 18.12; 22.4; 29.23."
+    ],
+    "11:3": [
+      "destruirá Pr 13.6."
+    ],
+    "11:4": [
+      "No aprovecharán las riquezas Lc 12.20. día de la ira El día de Jehová (Is 10.3; Am 5.18; Sof 1.2–2.3)."
+    ],
+    "11:8": [
+      "es librado de la tribulación Pr 21.18."
+    ],
+    "11:9": [
+      "El hipócrita con la boca Pr 12.6."
+    ],
+    "11:10": [
+      "se alegra Pr 28.12; 29.2."
+    ],
+    "11:12": [
+      "menosprecia Pr 14.21."
+    ],
+    "11:13": [
+      "anda en chismes Pr 20.19."
+    ],
+    "11:14": [
+      "consejeros Pr 15.22; 24.6."
+    ],
+    "11:15": [
+      "fiador Véase Pr 6.1, n."
+    ],
+    "11:18": [
+      "galardón firme Véase Pr 13.2, n."
+    ],
+    "11:19": [
+      "muerte Es decir, antes de su tiempo (Pr 19.16)."
+    ],
+    "11:20": [
+      "Abominación son a Jehová Véase Pr 3.32, n."
+    ],
+    "11:25": [
+      "el que saciare, él también será saciado Is 58.7–11; Mt 25.29; 2 Co 9.6–11."
+    ],
+    "11:28": [
+      "confía en sus riquezas Sal 52.7–8."
+    ],
+    "11:29": [
+      "siervo Pr 17.2; Ec 4.13–14."
+    ],
+    "11:31": [
+      "el justo Este v., según la traducción de la Septuaginta, es citado en 1 Pe 4.18. recompensado V. 18."
+    ],
+    "12:1": [
+      "el que aborrece Véase Pr 1.7, n. reprensión Véase Pr 1.23, n."
+    ],
+    "12:3": [
+      "no se afirmará Sal 1.3–6; Pr 10.25."
+    ],
+    "12:4": [
+      "mujer virtuosa Véase Pr 18.22, n.; 31.10–31."
+    ],
+    "12:6": [
+      "Las palabras de los impíos Pr 11.9."
+    ],
+    "12:7": [
+      "trastornará… permanecerá Job 8.22; Pr 14.11; 15.25; Mt 7.24–27."
+    ],
+    "12:10": [
+      "cuida de la vida de su bestia Dt 25.4; Pr 27.23."
+    ],
+    "12:12": [
+      "Codicia el impío… dará fruto El texto hebreo de este v. no es claro, y las traducciones varían."
+    ],
+    "12:13": [
+      "enredado… labios Pr 18.7. saldrá de la tribulación Pr 24.16."
+    ],
+    "12:14": [
+      "pagado Véase Pr 13.2, n.; 18.21."
+    ],
+    "12:15": [
+      "camino del necio es derecho en su opinión… es sabio Véase Pr 1.7, n."
+    ],
+    "12:17": [
+      "verdad Pr 14.25."
+    ],
+    "12:18": [
+      "palabras… es medicina Pr 15.4."
+    ],
+    "12:22": [
+      "mentirosos Véase Pr 4.24, n. abominación a Jehová Véase Pr 3.32, n."
+    ],
+    "12:23": [
+      "necedad Pr 13.16; 15.2."
+    ],
+    "12:24": [
+      "diligentes… negligencia Véase Pr 10.4, n."
+    ],
+    "12:28": [
+      "camino de la justicia… no hay muerte Pr 4.10–19. vida Pr 10.16."
+    ],
+    "13:2": [
+      "comerá el bien Pr 11.18, 31; 12.14; 13.21; 14.14."
+    ],
+    "13:3": [
+      "guarda su boca Pr 18.7, 21; 21.23; Stg 3.2–12. mucho abre sus labios Pr 10.19, n."
+    ],
+    "13:4": [
+      "perezoso… los diligentes Véase Pr 10.4, n."
+    ],
+    "13:5": [
+      "mentira Véase Pr 4.24, n."
+    ],
+    "13:6": [
+      "trastornará Pr 11.3. pecador Véase Sal 1.1, n."
+    ],
+    "13:7": [
+      "pretenden ser ricos Ap 3.17."
+    ],
+    "13:8": [
+      "rescate de la vida El asalto con secuestro es una práctica antigua."
+    ],
+    "13:9": [
+      "luz La luz es símbolo de vida (Pr 4.18). se apagará la lámpara Job 18.5–6; Pr 20.20; 24.20."
+    ],
+    "13:10": [
+      "soberbia Véase Pr 11.2, n."
+    ],
+    "13:11": [
+      "disminuirán… las aumenta Pr 20.21."
+    ],
+    "13:12": [
+      "vida Véase Pr 3.18, n."
+    ],
+    "13:13": [
+      "teme el mandamiento Véase Pr 10.8, n."
+    ],
+    "13:16": [
+      "necedad Pr 12.23; 15.2."
+    ],
+    "13:17": [
+      "mensajero El servicio de mensajero era común en los tiempos antiguos (Pr 25.13; 26.6)."
+    ],
+    "13:18": [
+      "corrección Véase Pr 1.23, n."
+    ],
+    "13:21": [
+      "premiados Véase v. 2, n."
+    ],
+    "13:22": [
+      "la riqueza del pecador está guardada Job 27.16–17; Pr 28.8; Ec 2.26."
+    ],
+    "13:24": [
+      "castigo Los padres tienen el deber de disciplinar a los hijos (Pr 19.18; 20.30; 22.15; 23.13–14; 29.15, 17; Ef 6.4)."
+    ],
+    "13:25": [
+      "come hasta saciar su alma Sal 34.10; Pr 10.3."
+    ],
+    "14:1": [
+      "edifica su casa Pr 24.3, 27; 31.10–31."
+    ],
+    "14:2": [
+      "teme a Jehová Véase Pr 1.7, n."
+    ],
+    "14:5": [
+      "testigo verdadero… falso Ex 20.16; Dt 19.15–21; Pr 6.16–19; 14.25; 19.5, 9."
+    ],
+    "14:7": [
+      "hombre necio Véase Pr 1.22, n."
+    ],
+    "14:9": [
+      "necios Véase Pr 1.7, n."
+    ],
+    "14:10": [
+      "alegría Véase Pr 15.13, n."
+    ],
+    "14:11": [
+      "casa de los impíos será asolada… florecerá la tienda de los rectos Véase Pr 12.7, n."
+    ],
+    "14:12": [
+      "muerte Véase Pr 5.5, n."
+    ],
+    "14:13": [
+      "risa Ec 2.1–2; 7.2–6."
+    ],
+    "14:14": [
+      "estará contento del suyo Véase Pr 13.2, n."
+    ],
+    "14:17": [
+      "El que fácilmente se enoja Pr 15.18; 29.22."
+    ],
+    "14:20": [
+      "pobre… rico Véase Pr 10.15, n."
+    ],
+    "14:21": [
+      "menosprecia a su prójimo Pr 11.12. pobres Véase Pr 14.31, n. bienaventurado Véase Sal 1.1, n."
+    ],
+    "14:23": [
+      "En toda labor Pr 10.4."
+    ],
+    "14:25": [
+      "verdadero Pr 12.17."
+    ],
+    "14:26": [
+      "temor de Jehová Véase Pr 1.7, n. confianza Véase Pr 3.26, n."
+    ],
+    "14:27": [
+      "El temor de Jehová… Para apartarse de los lazos de la muerte Este proverbio es semejante a 13.14."
+    ],
+    "14:29": [
+      "tarda en airarse Pr 14.17; 19.11."
+    ],
+    "14:30": [
+      "vida Pr 17.22."
+    ],
+    "14:31": [
+      "al pobre Dt 15.11; Sal 41.1–3; 112.9; Pr 14.21; 17.5; 19.17; 21.13; 22.9, 16; 28.27; Mt 25.35–40; Lc 14.13–14."
+    ],
+    "14:32": [
+      "será lanzado Véase Pr 6.15, n."
+    ],
+    "15:2": [
+      "sandeces Pr 12.23; 13.16."
+    ],
+    "15:3": [
+      "Los ojos de Jehová De Pr 15.3 a 22.16 Jehová es mencionado 31 veces como sujeto de la acción (por ejemplo: 15.3; 16.1; 17.3; 18.22;"
+    ],
+    "15:4": [
+      "vida Véase Pr 3.18, n.; 12.18."
+    ],
+    "15:5": [
+      "corrección Véase Pr 1.23, n.; 12.1; 15.10, 32."
+    ],
+    "15:6": [
+      "gran provisión Pr 10.22; 11.28. las ganancias del impío Is 5.8–10; Stg 5.1–6."
+    ],
+    "15:8": [
+      "El sacrificio de los impíos es abominación a Jehová Véase Pr 21.3, n.; 21.27; 28.9; Is 1.15; Am 5.21–25."
+    ],
+    "15:9": [
+      "Abominación Véase Pr 3.32, n."
+    ],
+    "15:10": [
+      "aborrece la corrección Véase v. 5, n."
+    ],
+    "15:11": [
+      "El Seol y el Abadón Job 26.6; Sal 139.8. delante de Jehová Véase v. 3, n."
+    ],
+    "15:12": [
+      "escarnecedor Pr 9.8."
+    ],
+    "15:13": [
+      "corazón alegre Pr 10.28; 14.10; 15.15; 17.22."
+    ],
+    "15:14": [
+      "busca la sabiduría Pr 18.15."
+    ],
+    "15:15": [
+      "corazón contento Véase v. 13, n."
+    ],
+    "15:16": [
+      "lo poco… el gran tesoro Sal 37.16; véase Pr 10.15, n.; 16.8. temor de Jehová Véase Pr 1.7, n."
+    ],
+    "15:17": [
+      "legumbres… buey engordado Pr 17.1."
+    ],
+    "15:18": [
+      "hombre iracundo Pr 29.22. promueve contiendas Pr 28.25."
+    ],
+    "15:19": [
+      "perezoso Véase Pr 6.6, n. seto de espinos Pr 22.5."
+    ],
+    "15:20": [
+      "alegra… menosprecia Pr 10.1; 17.21, 25. padre… madre Véase Pr 1.8, n. hombre necio Véase Pr 10.1, n."
+    ],
+    "15:22": [
+      "consejeros Pr 11.14; 24.6."
+    ],
+    "15:23": [
+      "palabra a su tiempo Pr 25.11."
+    ],
+    "15:24": [
+      "vida… hacia arriba Pr 4.10–19. apartarse del Seol abajo Véase Pr 5.5, n."
+    ],
+    "15:25": [
+      "asolará… afirmará Véase Pr 12.7, n. viuda Sal 68.5–6."
+    ],
+    "15:27": [
+      "aborrece el soborno Is 33.15–16."
+    ],
+    "15:29": [
+      "Jehová está lejos de los impíos Pr 15.8; Jn 9.31."
+    ],
+    "15:32": [
+      "corrección Véase v. 5, n."
+    ],
+    "15:33": [
+      "temor de Jehová Véase Pr 1.7, n."
+    ],
+    "16:1": [
+      "de Jehová es la respuesta de la lengua Pr 16.9, 33; 19.21; Ec 9.1; Jer 10.23."
+    ],
+    "16:3": [
+      "tus pensamientos serán afirmados Sal 37.5."
+    ],
+    "16:5": [
+      "altivo Véase Pr 11.2, n.; 16.18."
+    ],
+    "16:6": [
+      "temor de Jehová Véase Pr 1.7, n."
+    ],
+    "16:7": [
+      "a sus enemigos hace estar en paz con él Gn 31.24; 33.4."
+    ],
+    "16:9": [
+      "Jehová endereza sus pasos Véase v. 1, n."
+    ],
+    "16:10": [
+      "del rey Los v. 10–15 son una serie de proverbios acerca del rey. Oráculo hay en los labios del rey El rey era elegido por la voluntad de"
+    ],
+    "16:11": [
+      "Peso y balanzas Pr 11.1."
+    ],
+    "16:12": [
+      "justicia Véase Sal 72.1, n; Pr 20.28; 25.5; 29.14."
+    ],
+    "16:14": [
+      "La ira del rey Pr 19.12; 20.2."
+    ],
+    "16:15": [
+      "benevolencia Pr 19.12."
+    ],
+    "16:16": [
+      "oro… plata Véase Pr 3.14, n."
+    ],
+    "16:18": [
+      "soberbia Véase v. 5, n."
+    ],
+    "16:20": [
+      "confía en Jehová Véase Pr 3.5, n."
+    ],
+    "16:22": [
+      "Manantial de vida Véase Pr 10.11, n."
+    ],
+    "16:24": [
+      "miel Sal 19.10."
+    ],
+    "16:25": [
+      "muerte Véase Pr 5.5, n. Este proverbio es igual a 14.12."
+    ],
+    "16:27": [
+      "en sus labios hay como llama de fuego Stg 3.6."
+    ],
+    "16:29": [
+      "camino no bueno Pr 4.14, n."
+    ],
+    "16:30": [
+      "Cierra sus ojos Véase Pr 10.10, n."
+    ],
+    "16:31": [
+      "la vejez Es señal de experiencia y sabiduría (Job 15.10; Pr 20.29)."
+    ],
+    "16:32": [
+      "se enseñorea Pr 25.28."
+    ],
+    "16:33": [
+      "La suerte Se usaban piedras marcadas para echar suertes, y así saber cuál era la voluntad de Dios (1 Sa 14.42; Pr 18.18)."
+    ],
+    "17:1": [
+      "bocado seco… llena de provisiones Pr 15.17."
+    ],
+    "17:2": [
+      "El siervo prudente se enseñoreará No era común, pero sucedía: un siervo sabio podía tomar el lugar de un hijo sin cordura. El hijo era"
+    ],
+    "17:3": [
+      "El crisol para la plata, y la hornaza para el oro El fuego destruye las impurezas del oro y de la plata. Así también los sufrimientos son"
+    ],
+    "17:5": [
+      "pobre Véase Pr 14.31, n."
+    ],
+    "17:7": [
+      "al necio En este capítulo el necio aparece en cinco proverbios (v. 7, 10, 16, 24, 28)."
+    ],
+    "17:8": [
+      "soborno Ex 23.8; Dt 16.19; Pr 17.23; Am 5.12."
+    ],
+    "17:14": [
+      "Deja, pues, la contienda, antes que se enrede Mt 5.25."
+    ],
+    "17:15": [
+      "impío… justo Esto se aplica a los tribunales y a los jueces (Ex 23.6–8; Dt 16.19; Pr 17.23; 18.5; 24.23; 28.21; Is 5.23)."
+    ],
+    "17:17": [
+      "En todo tiempo ama el amigo 1 Sa 20; 2 Sa 1.26; Pr 18.24; 27.5–6, 10."
+    ],
+    "17:18": [
+      "fiador Véase Pr 6.1, n."
+    ],
+    "17:19": [
+      "El que ama la disputa Pr 29.22. disputa Pr 10.12."
+    ],
+    "17:21": [
+      "engendra al insensato Véase Pr 10.1, n. tristeza Pr 10.1; 15.20; 17.25."
+    ],
+    "17:22": [
+      "alegre Véase Pr 15.13, n. buen remedio Pr 14.30."
+    ],
+    "17:23": [
+      "El impío toma soborno Véase v. 8, n; v. 15, n."
+    ],
+    "17:25": [
+      "hijo necio Véase v. 21, n."
+    ],
+    "17:27": [
+      "ahorra sus palabras Véase Pr 10.19, n."
+    ],
+    "17:28": [
+      "contado por sabio Job 13.5."
+    ],
+    "18:2": [
+      "necio V. 6–7."
+    ],
+    "18:4": [
+      "Aguas profundas Jn 7.38."
+    ],
+    "18:5": [
+      "impío… justo Véase Pr 17.15, n."
+    ],
+    "18:7": [
+      "La boca del necio Pr 10.14. sus labios son lazos Pr 12.13."
+    ],
+    "18:10": [
+      "Torre… será levantado Sal 18.2; 61.3; Pr 14.26."
+    ],
+    "18:12": [
+      "se eleva Véase Pr 11.2, n. abatimiento Véase Pr 11.2, n."
+    ],
+    "18:15": [
+      "adquiere sabiduría Pr 15.14."
+    ],
+    "18:16": [
+      "dádiva Pr 19.6; 21.14."
+    ],
+    "18:18": [
+      "La suerte Véase Pr 16.33, n."
+    ],
+    "18:21": [
+      "la lengua… comerá de sus frutos Pr 12.14."
+    ],
+    "18:22": [
+      "esposa… benevolencia Pr 5.18–19; 12.4; 19.14; 31.10–31."
+    ],
+    "18:23": [
+      "pobre… rico Véase Pr 10.15, n."
+    ],
+    "18:24": [
+      "mostrarse amigo Véase Pr 17.17, n."
+    ],
+    "19:1": [
+      "pobre que camina en integridad Pr 28.6."
+    ],
+    "19:2": [
+      "se apresura con los pies Pr 21.5."
+    ],
+    "19:3": [
+      "La insensatez del hombre tuerce su camino Stg 1.13–14."
+    ],
+    "19:4": [
+      "riquezas… pobre Véase Pr 10.15, n."
+    ],
+    "19:5": [
+      "testigo falso Véase Pr 14.5, n. no escapará Pr 19.9; 21.28."
+    ],
+    "19:6": [
+      "del generoso Pr 18.16; 21.14."
+    ],
+    "19:7": [
+      "del pobre Véase v. 4, n."
+    ],
+    "19:8": [
+      "su alma… el bien Pr 8.35."
+    ],
+    "19:9": [
+      "testigo falso Véase v. 5, n."
+    ],
+    "19:10": [
+      "necio… siervo Pr 30.21–22; Ec 10.5–7."
+    ],
+    "19:11": [
+      "detiene su furor Pr 14.29; Stg 1.19."
+    ],
+    "19:12": [
+      "ira del rey Pr 16.14; 20.2."
+    ],
+    "19:13": [
+      "hijo necio Véase Pr 10.1, n. las contiendas de la mujer En Pr hay otras referencias a esposas rencillosas (Pr 21.9, 19; 25.24; 27.15), pero"
+    ],
+    "19:15": [
+      "pereza Véase Pr 6.6, n."
+    ],
+    "19:16": [
+      "morirá Véase Pr 11.19, n."
+    ],
+    "19:17": [
+      "el que da al pobre Véase Pr 14.31, n."
+    ],
+    "19:18": [
+      "Castiga a tu hijo Véase Pr 13.24, n."
+    ],
+    "19:21": [
+      "el consejo de Jehová permanecerá Véase Pr 16.1, n."
+    ],
+    "19:23": [
+      "temor de Jehová Véase Pr 1.7, n."
+    ],
+    "19:25": [
+      "se hará avisado Pr 21.11."
+    ],
+    "19:26": [
+      "El que roba a su padre… acarrea oprobio Los hijos tienen el deber de cuidar de sus padres cuando sean ancianos (Pr 20.20; 30.17)."
+    ],
+    "19:27": [
+      "hijo Véase Pr 1.8, n."
+    ],
+    "19:29": [
+      "azotes Pr 10.13; 26.3."
+    ],
+    "20:1": [
+      "El vino es escarnecedor Dt 21.18–21; Pr 23.29–35; 31.4–7; Is 28.7–8; Os 4.11; 1 Ti 3.3; Tit 1.7."
+    ],
+    "20:2": [
+      "terror del rey Véase Pr 19.12, n."
+    ],
+    "20:3": [
+      "insensato Véase Pr 1.7, n."
+    ],
+    "20:4": [
+      "perezoso Véase Pr 6.6, n."
+    ],
+    "20:8": [
+      "El rey que se sienta en el trono de juicio Otras cualidades del rey, además de sabiduría para juzgar: poder de castigar (v. 26), justicia y"
+    ],
+    "20:9": [
+      "Limpio estoy de mi pecado Job 4.17; Sal 14.2–3; 51.3–5; Pr 30.12; 1 Jn 1.8."
+    ],
+    "20:10": [
+      "Pesa falsa y medida falsa Véase Pr 11.1, n."
+    ],
+    "20:11": [
+      "muchacho Pr 22.6."
+    ],
+    "20:15": [
+      "oro… piedras preciosas Véase Pr 3.14, n."
+    ],
+    "20:16": [
+      "fiador Véase Pr 6.1, n."
+    ],
+    "20:17": [
+      "Sabroso es al hombre el pan de mentira Pr 9.17. después su boca será llena de cascajo Job 20.12–14."
+    ],
+    "20:18": [
+      "consejo Véase Pr 10.8, n."
+    ],
+    "20:19": [
+      "chismes Pr 11.13."
+    ],
+    "20:20": [
+      "maldice a su padre o a su madre Ese pecado debía ser castigado con la muerte (Ex 21.17; Lv 20.9; Pr 30.11, 17)."
+    ],
+    "20:21": [
+      "bienes… adquieren de prisa Pr 13.11."
+    ],
+    "20:22": [
+      "No digas: Yo me vengaré Lv 19.18; Dt 32.35; Pr 24.29, n.; 25.21–22; Ro 12.17–21; 1 Th 5.15."
+    ],
+    "20:23": [
+      "Este proverbio es igual a 20.10."
+    ],
+    "20:24": [
+      "De Jehová son los pasos Véase Pr 16.1, n."
+    ],
+    "20:25": [
+      "hacer apresuradamente voto de consagración Dt 23.21–23; Jue 11.29–40; Ec 5.4–6; Mt 5.33–37."
+    ],
+    "20:26": [
+      "El rey… avienta Pr 20.8."
+    ],
+    "20:27": [
+      "el espíritu del hombre Es la voz interior que nos aprueba cuando hacemos el bien, y nos condena cuando hacemos el mal (Job 27.6; Ro"
+    ],
+    "20:28": [
+      "clemencia Véase Pr 16.12, n. su trono Representado por el rey (véase v. 8, n.)."
+    ],
+    "20:29": [
+      "su vejez Véase Pr 16.31, n."
+    ],
+    "20:30": [
+      "azotes Véase Pr 13.24, n."
+    ],
+    "21:1": [
+      "el corazón del rey en la mano de Jehová Dios controla todo, incluso a las autoridades (véase Pr 16.1, n.)."
+    ],
+    "21:2": [
+      "en su propia opinión… Jehová pesa los corazones Este proverbio es semejante a 16.2."
+    ],
+    "21:3": [
+      "es a Jehová Más agradable que sacrificio Tanto los sabios (Pr 15.8; 21.27) como los profetas (Os 6.6; Am 5.22–24) enseñan que de nada"
+    ],
+    "21:5": [
+      "diligente Pr 19.2."
+    ],
+    "21:9": [
+      "mujer rencillosa Véase Pr 19.13, n."
+    ],
+    "21:11": [
+      "aprende ciencia Pr 19.25."
+    ],
+    "21:13": [
+      "clamor del pobre Véase Pr 14.31, n."
+    ],
+    "21:14": [
+      "dádiva 1 Sa 25.18–35; Pr 18.16; 19.6."
+    ],
+    "21:17": [
+      "el que ama el vino… no se enriquecerá Pr 23.20–21."
+    ],
+    "21:18": [
+      "Rescate del justo es el impío Pr 11.8."
+    ],
+    "21:19": [
+      "mujer… iracunda Véase Pr 19.13, n."
+    ],
+    "21:22": [
+      "el sabio Ec 9.13–16."
+    ],
+    "21:23": [
+      "guarda su boca y su lengua Véase Pr 13.3, n."
+    ],
+    "21:25": [
+      "perezoso Véase Pr 6.6, n."
+    ],
+    "21:27": [
+      "El sacrificio de los impíos es abominación Véase v. 3, n."
+    ],
+    "21:28": [
+      "testigo mentiroso Véase Pr 14.5, n."
+    ],
+    "21:30": [
+      "No hay… contra Jehová Porque Dios es el que tiene la última palabra (véase Pr 16.1, n.; Sal 33.10–11)."
+    ],
+    "21:31": [
+      "Jehová es el que da la victoria Sal 20.7; 33.17."
+    ],
+    "22:1": [
+      "el buen nombre Ec 7.1."
+    ],
+    "22:2": [
+      "se encuentran Pr 29.13."
+    ],
+    "22:4": [
+      "Riquezas… vida Véase Pr 3.2, n. humildad Véase Pr 11.2, n. del temor de Jehová Véase Pr 1.7, n."
+    ],
+    "22:5": [
+      "Espinos y lazos Pr 15.19."
+    ],
+    "22:6": [
+      "al niño Pr 20.11."
+    ],
+    "22:7": [
+      "El rico… pobres Véase Pr 10.15, n."
+    ],
+    "22:8": [
+      "sembrare… segará Job 4.8; Os 8.7; Gl 6.7."
+    ],
+    "22:9": [
+      "dio de su pan al indigente Véase Pr 14.31, n."
+    ],
+    "22:11": [
+      "la gracia de sus labios Col 4.6. tendrá la amistad del rey Sal 101.6."
+    ],
+    "22:14": [
+      "mujer extraña Véase Pr 2.16, n."
+    ],
+    "22:15": [
+      "corrección Véase Pr 13.18, n."
+    ],
+    "22:17": [
+      "los sabios Véase Introducción a los Libros de Sabiduría y a los Libros Poéticos 2.2. las palabras de los sabios Pr 2.2–4; 23.12."
+    ],
+    "22:19": [
+      "confianza sea en Jehová La sabiduría no sólo ilumina la mente, sino también, y sobre todo, ayuda a la persona a crecer en la fe (véase Pr"
+    ],
+    "22:22": [
+      "No robes al pobre, porque es pobre Ex 23.6; Pr 14.21, 31; 19.17."
+    ],
+    "22:26": [
+      "fiadores Véase Pr 6.1, n."
+    ],
+    "22:28": [
+      "los linderos antiguos Dt 19.14; 27.17; Pr 23.10."
+    ],
+    "23:3": [
+      "No codicies V. 6."
+    ],
+    "23:4": [
+      "por hacerte rico Ec 5.13–17."
+    ],
+    "23:9": [
+      "No hables a oídos del necio Mt 7.6. necio Véase Pr 1.7, n."
+    ],
+    "23:11": [
+      "defensor de ellos es el Fuerte Pr 22.22–23."
+    ],
+    "23:12": [
+      "la enseñanza Pr 2.2–4; 22.17."
+    ],
+    "23:13": [
+      "corregir al muchacho Véase Pr 13.24, n."
+    ],
+    "23:15": [
+      "a mí se me alegrará el corazón Pr 10.1."
+    ],
+    "23:17": [
+      "envidia de los pecadores Sal 37.1–2; Pr 3.31; 24.1, 19. pecadores Véase Sal 1.1, n. temor de Jehová Véase Pr 1.7, n."
+    ],
+    "23:18": [
+      "hay fin… esperanza Pr 24.14."
+    ],
+    "23:21": [
+      "el bebedor Véase Pr 20.1, n. el comilón Pr 21.17."
+    ],
+    "23:22": [
+      "padre… madre Véase Pr 1.8, n."
+    ],
+    "23:24": [
+      "se alegrará el padre Pr 10.1."
+    ],
+    "23:26": [
+      "hijo Véase Pr 1.8, n."
+    ],
+    "23:27": [
+      "ramera Pr 29.3; pozo angosto Véase Pr 5.22, n. la extraña Véase Pr 2.16, n."
+    ],
+    "23:30": [
+      "se detienen mucho en el vino Véase v. 21, n."
+    ],
+    "24:1": [
+      "envidia de los hombres malos Véase Pr 23.17, n."
+    ],
+    "24:3": [
+      "se edificará la casa Véase Pr 14.1, n."
+    ],
+    "24:4": [
+      "con ciencia se llenarán las cámaras… preciado y agradable Pr 31.10–31."
+    ],
+    "24:6": [
+      "con ingenio Pr 20.18. consejeros Pr 11.14; 15.22; véase Pr 28.2, n."
+    ],
+    "24:8": [
+      "piensa hacer el mal Sal 140.2; Pr 6.14."
+    ],
+    "24:11": [
+      "Libra a los que son llevados a la muerte Al parecer, se trata de evitar que un inocente sea condenado a muerte (Pr 17.15; Is 58.6–7). Pero"
+    ],
+    "24:12": [
+      "el que pesa los corazones Pr 16.2; 21.2. dará al hombre según sus obras Job 34.11; Sal 62.11–12; Ez 18.30; 33.20; Ro 2.6."
+    ],
+    "24:13": [
+      "hijo Véase Pr 1.8, n."
+    ],
+    "24:14": [
+      "al fin tu esperanza Pr 23.18."
+    ],
+    "24:16": [
+      "vuelve a levantarse Sal 37.24."
+    ],
+    "24:17": [
+      "Cuando cayere tu enemigo, no te regocijes Job 31.29."
+    ],
+    "24:19": [
+      "No te entremetas con los malignos Véase Pr 23.17, n."
+    ],
+    "24:20": [
+      "lámpara… será apagada Véase Pr 13.9, n."
+    ],
+    "24:21": [
+      "Teme a Jehová Véase Pr 1.7, n. hijo Véase Pr 1.8, n. y al rey 1 Pe 2.17."
+    ],
+    "24:23": [
+      "sabios Véase Pr 22.17, n. Hacer acepción de personas en el juicio no es bueno Lv 19.15; Dt 1.17; 16.19; Pr 28.21; 31.9."
+    ],
+    "24:27": [
+      "tu casa Véase Pr 14.1, n."
+    ],
+    "24:28": [
+      "tu prójimo Pr 3.28–29; 25.9."
+    ],
+    "24:29": [
+      "Como me hizo, así le haré Véase Pr 20.22, n.; Mt 5.38–48; 6.12, 14–15."
+    ],
+    "24:34": [
+      "tu pobreza como hombre armado Véase Pr 6.10, n."
+    ],
+    "25:1": [
+      "Salomón Véase Pr 1.1, n. Ezequías Véase Intr. 4.2."
+    ],
+    "25:2": [
+      "encubrir un asunto Dt 29.29; Job 26.14; Is 40.13; Ro 11.33."
+    ],
+    "25:5": [
+      "impío… rey… trono Véase Pr 28.2, n. justicia Véase Pr 16.12, n."
+    ],
+    "25:6": [
+      "No te alabes Lc 14.8–10."
+    ],
+    "25:9": [
+      "tu compañero Pr 3.28–29; 24.28."
+    ],
+    "25:11": [
+      "palabra dicha como conviene Pr 15.23."
+    ],
+    "25:21": [
+      "Si el que te aborrece tuviere hambre Ro 12.20."
+    ],
+    "25:24": [
+      "Mejor es… rencillosa Este proverbio es igual a 21.9."
+    ],
+    "25:25": [
+      "las buenas nuevas Pr 15.30."
+    ],
+    "25:28": [
+      "no tiene rienda Pr 19.11; 29.11."
+    ],
+    "26:1": [
+      "necio Toda esta sección (v. 1–12) trata acerca del necio (véase Pr 1.7, n.)."
+    ],
+    "26:3": [
+      "látigo… vara Pr 10.13; 19.29."
+    ],
+    "26:5": [
+      "Responde al necio Este proverbio parece contradecir el anterior (v. 4), pero éste no es el caso; los dos tienen su propio sentido. A veces, la"
+    ],
+    "26:6": [
+      "envía recado Véase Pr 13.17, n.; 25.13."
+    ],
+    "26:8": [
+      "honda Una especie de resortera."
+    ],
+    "26:11": [
+      "perro que vuelve a su vómito Estas palabras son citadas en 2 Pe 2.22."
+    ],
+    "26:12": [
+      "sabio en su propia opinión Pr 3.7. Más esperanza hay del necio Pr 29.20."
+    ],
+    "26:13": [
+      "Dice el perezoso… las calles Este proverbio es igual a 22.13 (véase Pr 6.6, n.)."
+    ],
+    "26:15": [
+      "Mete el perezoso… boca Este proverbio es igual a 19.24."
+    ],
+    "26:17": [
+      "se deja llevar de la ira en pleito ajeno Esta sección (v. 17–28), menos el v. 27, hace referencia a varios pecados de la lengua."
+    ],
+    "26:22": [
+      "Las palabras… las entrañas Este proverbio es igual a 18.8."
+    ],
+    "26:23": [
+      "los labios lisonjeros y el corazón malo Sal 28.3; Jer 9.4–8; Mt 23.25–28."
+    ],
+    "26:27": [
+      "El que cava foso caerá en él Véase Pr 1.18, n."
+    ],
+    "27:1": [
+      "no sabes qué dará de sí el día Lc 12.16–20; Stg 4.13–16."
+    ],
+    "27:2": [
+      "Alábete… y no tu propia boca Pr 25.6–7; Mt 6.2–5; 2 Co 10.18."
+    ],
+    "27:5": [
+      "reprensión manifiesta Sal 141.5; Pr 28.23."
+    ],
+    "27:6": [
+      "heridas del que ama Véase Pr 17.17, n. los besos del que aborrece Mt 26.49."
+    ],
+    "27:9": [
+      "el cordial consejo del amigo, al hombre Este texto no es claro en el original hebreo, y las traducciones varían."
+    ],
+    "27:10": [
+      "Mejor es el vecino cerca que el hermano lejos Pr 17.17; 18.24."
+    ],
+    "27:11": [
+      "hijo Véase Pr 1.8, n."
+    ],
+    "27:12": [
+      "El avisado… el daño Este proverbio es igual a Pr 22.3."
+    ],
+    "27:13": [
+      "Quítale… prenda Este proverbio es igual a 20.16. fiador Véase Pr 6.1, n."
+    ],
+    "27:14": [
+      "El que bendice a su amigo en alta voz, madrugando Este v. se relaciona con el v. 9: el saludo en voz alta a horas importunas es señal de"
+    ],
+    "27:15": [
+      "mujer rencillosa Véase Pr 19.13, n."
+    ],
+    "27:20": [
+      "nunca se sacian Pr 30.15–16; Ec 1.8. los ojos Son los ojos los que ven y codician (Ec 1.8; 1 Jn 2.16)."
+    ],
+    "27:21": [
+      "El crisol prueba la plata Véase Pr 17.3, n."
+    ],
+    "27:23": [
+      "mira con cuidado por tus rebaños Véase Pr 12.10, n."
+    ],
+    "28:1": [
+      "el impío… el justo En este capítulo se menciona varias veces a los malos y los buenos (v. 1, 4, 12, 18, 28). sin que nadie lo persiga Lv"
+    ],
+    "28:2": [
+      "sus príncipes… permanece estable Otros proverbios que tratan este tema: 8.15; 24.5–6; 25.5; 29.4."
+    ],
+    "28:3": [
+      "pobre En este capítulo se menciona varias veces la pobreza y la riqueza: v. 6, 8, 11, 22, 27. pobres Véase Pr 14.31, n."
+    ],
+    "28:4": [
+      "la ley V. 7, 9. Se refiere a los mandamientos dados a Israel a través de Moisés."
+    ],
+    "28:6": [
+      "pobre… integridad Véase v. 3, n.; 19.1."
+    ],
+    "28:9": [
+      "Su oración también es abominable Véase Pr 15.8, n."
+    ],
+    "28:10": [
+      "caerá en su misma fosa Véase Pr 1.18, n."
+    ],
+    "28:12": [
+      "se alegran… los hombres Versículos en Proverbios que hablan de las reacciones del pueblo al gobierno de los malos y de los buenos:"
+    ],
+    "28:13": [
+      "el que los confiesa… alcanzará misericordia Sal 32.3–5; Lc 18.9–14; 1 Jn 1.9."
+    ],
+    "28:14": [
+      "Bienaventurado Véase Sal 1.1, n. teme a Dios Véase Pr 1.7, n."
+    ],
+    "28:15": [
+      "León rugiente… Es el príncipe impío Sof 3.3."
+    ],
+    "28:17": [
+      "El hombre cargado de la sangre… sepulcro Gn 4.10–12. Según la Ley, el castigo era la muerte (Ex 21.12)."
+    ],
+    "28:18": [
+      "El que en integridad camina Pr 10.9."
+    ],
+    "28:19": [
+      "El que… de pobreza Este proverbio es parecido a 12.11."
+    ],
+    "28:21": [
+      "Hacer acepción de personas Véase Pr 24.23, n."
+    ],
+    "28:22": [
+      "Se apresura a ser rico Pr 23.4; 1 Ti 6.9."
+    ],
+    "28:23": [
+      "El que reprende al hombre La crítica constructiva es una señal de amistad (Pr 27.5–6)."
+    ],
+    "28:24": [
+      "roba a su padre o a su madre Pr 19.26; Mt 15.4–6."
+    ],
+    "28:25": [
+      "suscita contiendas Pr 15.18; 29.22. confía en Jehová Pr 3.5, n."
+    ],
+    "28:26": [
+      "necio Véase Pr 1.7, n."
+    ],
+    "28:27": [
+      "pobre Véase Pr 28.3, n.; 14.31, n."
+    ],
+    "28:28": [
+      "Cuando… se esconde el hombre La primera parte de este v. es semejante a la segunda parte del v. 12."
+    ],
+    "29:1": [
+      "será quebrantado Pr 6.12–15."
+    ],
+    "29:2": [
+      "domina el impío Véase Pr 28.12, n.; 29.16."
+    ],
+    "29:3": [
+      "alegra a su padre Pr 10.1; Lc 15.13. rameras Pr 23.27."
+    ],
+    "29:4": [
+      "El rey Véase Pr 28.2, n."
+    ],
+    "29:6": [
+      "lazo Véase Pr 1.18, n."
+    ],
+    "29:7": [
+      "la causa de los pobres Is 1.23."
+    ],
+    "29:11": [
+      "necio Véase Pr 1.7, n."
+    ],
+    "29:13": [
+      "El pobre y el usurero se encuentran Un pensamiento semejante se encuentra en Pr 22.2."
+    ],
+    "29:14": [
+      "Del rey que juzga con verdad a los pobres Sal 72.4, 12; Pr 16.12; 20.28."
+    ],
+    "29:15": [
+      "corrección V. 17; ver Pr 13.24, n."
+    ],
+    "29:16": [
+      "Cuando los impíos son muchos Véase v. 2, n.; 28.12, n. verán la ruina de ellos Sal 37.35–36."
+    ],
+    "29:20": [
+      "ligero en sus palabras Ec 5.1–2; Stg 1.19. necio Véase Pr 1.7, n."
+    ],
+    "29:22": [
+      "levanta contiendas Pr 15.18; 28.25."
+    ],
+    "29:23": [
+      "soberbia… humilde Véase Pr 11.2, n.; Mt 23.12; 1 Pe 5.5."
+    ],
+    "29:25": [
+      "El temor del hombre Mt 10.28. confía en Jehová Véase Pr 3.5, n."
+    ],
+    "29:27": [
+      "Abominación es a los justos el hombre inicuo Malos y buenos no se mezclan (Sal 139.21–22; 2 Co 6.14–16)."
+    ],
+    "30:1": [
+      "Agur Probablemente no era israelita."
+    ],
+    "30:2": [
+      "más rudo soy yo que ninguno También el salmista decía no tener entendimiento (Sal 73.22)."
+    ],
+    "30:4": [
+      "¿Quién…? ¿Quién…? Las preguntas de este v. pueden ser reales, y la respuesta (como en Job 38 y en Is 40.12–14) sería: «Dios». O tal vez"
+    ],
+    "30:5": [
+      "escudo 2 Sa 22.31; Sal 18.30."
+    ],
+    "30:6": [
+      "No añadas a sus palabras, para que no te reprenda Dt 4.2."
+    ],
+    "30:8": [
+      "palabra mentirosa Véase Pr 4.24, n. pobreza ni riquezas 1 Ti 6.6–8. del pan Mt 6.11."
+    ],
+    "30:9": [
+      "No sea que me sacie Dt 32.15."
+    ],
+    "30:10": [
+      "No acuses al siervo ante su señor Se entiende que la acusación, en este caso, sería falsa. maldiga La única defensa de ese siervo será"
+    ],
+    "30:11": [
+      "maldice a su padre Véase Pr 20.20, n."
+    ],
+    "30:12": [
+      "limpia en su propia opinión Véase Pr 20.9, n."
+    ],
+    "30:14": [
+      "devorar a los pobres Pr 14.31."
+    ],
+    "30:15": [
+      "Tres cosas… la cuarta Éste es el primero de cinco proverbios llamados numéricos (véase Pr 6.16, n.): v. 15–16, 18–19, 21–23, 24–28, 29–"
+    ],
+    "30:17": [
+      "padre… madre Véase v. 11, n. Los cuervos de la cañada lo saquen Era una desgracia muy grande morir y no ser sepultado (Dt 21.23; 1"
+    ],
+    "30:18": [
+      "Tres cosas me son ocultas Es decir, cosas cuyo final nadie puede prever."
+    ],
+    "30:20": [
+      "mujer adúltera Véase Pr 2.16, n."
+    ],
+    "30:22": [
+      "el siervo cuando reina Pr 19.10; Ec 10.5–7."
+    ],
+    "30:25": [
+      "Las hormigas Pr 6.6–8."
+    ],
+    "30:27": [
+      "Las langostas Jl 1.4; 2.2–11."
+    ],
+    "31:1": [
+      "Lemuel No se tiene noticia de ese rey. Es probable que no perteneciera al pueblo de Israel."
+    ],
+    "31:2": [
+      "hijo de mis deseos Como en el caso de Samuel (1 Sa 1.9–28)."
+    ],
+    "31:3": [
+      "los reyes 1 Ki 11.1, 4."
+    ],
+    "31:4": [
+      "beber vino Ec 10.17."
+    ],
+    "31:8": [
+      "Abre tu boca por el mudo Sal 72.2–4, 12–14."
+    ],
+    "31:9": [
+      "juzga con justicia Véase Pr 24.23, n. pobre Véase Pr 14.31, n."
+    ],
+    "31:10": [
+      "Mujer virtuosa, ¿quién la hallará? Las mujeres eran tratadas como personas inferiores (véase Pr 19.13, n.), pero aquí, al final de"
+    ],
+    "31:30": [
+      "hermosura Pr 11.22. La mujer que teme a Jehová, ésta será alabada Así, este libro termina enfatizando su idea central, la cual aparece"
+    ]
+  },
+  "stats": {
+    "pericopas": 19,
+    "notas_total": 535,
+    "notas_explicativas_aprox": 128,
+    "notas_cruzadas_aprox": 407,
+    "notas_por_capitulo": {
+      "1": 20,
+      "2": 11,
+      "3": 25,
+      "4": 15,
+      "5": 14,
+      "6": 17,
+      "7": 13,
+      "8": 15,
+      "9": 10,
+      "10": 26,
+      "11": 18,
+      "12": 16,
+      "13": 19,
+      "14": 21,
+      "15": 26,
+      "16": 23,
+      "17": 17,
+      "18": 13,
+      "19": 23,
+      "20": 24,
+      "21": 18,
+      "22": 16,
+      "23": 15,
+      "24": 19,
+      "25": 10,
+      "26": 13,
+      "27": 14,
+      "28": 22,
+      "29": 16,
+      "30": 18,
+      "31": 8
+    },
+    "titulos_pericopa": 19
+  }
+}

@@ -6,6 +6,19 @@ export interface Versiculo {
   textoNtv?: string
   textoDhh?: string
   textoTla?: string
+  /** Nota de estudio (RVR1960 Esquematizada) */
+  nota?: string
+}
+
+export interface ColeccionEstudio {
+  nombre: string
+  rango: string
+}
+
+export interface NotasEstudioMeta {
+  fuente: string
+  paginas: string
+  colecciones?: ColeccionEstudio[]
 }
 
 export interface Tema {
@@ -25,6 +38,12 @@ export interface BibliaPorTemas {
     ntv: string
     dhh: string
     tla: string
+  }
+  notasEstudio?: NotasEstudioMeta
+  statsNotas?: {
+    notasDisponibles: number
+    versiculosConNotaUnicos: number
+    asignacionesEnTemas: number
   }
   temas: Tema[]
 }
