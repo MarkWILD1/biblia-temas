@@ -25,3 +25,6 @@ Thumbs.db
 
 # archivos
 biblias-pdf/
+
+# Snapshots completos de biblias (solo se commitea data/versiones extraído)
+.cache/

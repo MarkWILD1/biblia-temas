@@ -1,0 +1,28 @@
+export const TEMAS_JOB = [
+  { slug: 'sufrimiento', nombre: 'Sufrimiento', orden: 1, icono: '💧' },
+  { slug: 'integridad', nombre: 'Integridad', orden: 2, icono: '✨' },
+  { slug: 'retribucion', nombre: 'Retribución', orden: 3, icono: '⚖️' },
+  { slug: 'amistad', nombre: 'Amistad', orden: 4, icono: '👥' },
+  { slug: 'sabiduria', nombre: 'Sabiduría', orden: 5, icono: '💎' },
+  { slug: 'creacion', nombre: 'Creación', orden: 6, icono: '🌌' },
+  { slug: 'teofania', nombre: 'Teofanía', orden: 7, icono: '🌪️' },
+  { slug: 'esperanza', nombre: 'Esperanza', orden: 8, icono: '🌅' },
+]
+
+/** Cada relato entra en uno o más temas. No se tocan versos. */
+export const PERICOPA_A_TEMAS_JOB = {
+  'las-pruebas': ['sufrimiento', 'integridad'],
+  'lamento-de-job': ['sufrimiento'],
+  'elifaz-y-job': ['retribucion', 'amistad'],
+  'bildad-y-job': ['retribucion', 'amistad'],
+  'zofar-y-job': ['retribucion', 'amistad'],
+  'segundo-elifaz': ['retribucion', 'amistad'],
+  'segundo-bildad': ['retribucion', 'amistad', 'esperanza'],
+  'segundo-zofar': ['retribucion', 'amistad'],
+  'tercer-ciclo': ['retribucion', 'amistad'],
+  'poema-de-la-sabiduria': ['sabiduria'],
+  'defensa-final': ['integridad', 'sufrimiento'],
+  'eliud': ['sabiduria', 'amistad'],
+  'jehova-responde': ['creacion', 'teofania', 'sabiduria'],
+  'restauracion': ['teofania', 'integridad', 'esperanza'],
+}

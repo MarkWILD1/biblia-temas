@@ -1,0 +1,79 @@
+{
+  "libro": "MAL",
+  "id": "malaquias",
+  "unidad": "pericopa",
+  "temas": [
+    {
+      "slug": "os-he-amado",
+      "nombre": "Os he amado",
+      "orden": 1,
+      "icono": "❤️",
+      "desde": "1:1",
+      "hasta": "1:5",
+      "conteoOrientativo": 5
+    },
+    {
+      "slug": "ofrendas-contaminadas",
+      "nombre": "Ofrendas contaminadas",
+      "orden": 2,
+      "icono": "🐑",
+      "desde": "1:6",
+      "hasta": "1:14",
+      "conteoOrientativo": 9
+    },
+    {
+      "slug": "contra-los-sacerdotes",
+      "nombre": "Contra los sacerdotes",
+      "orden": 3,
+      "icono": "⛪",
+      "desde": "2:1",
+      "hasta": "2:9",
+      "conteoOrientativo": 9
+    },
+    {
+      "slug": "infidelidad-y-repudio",
+      "nombre": "Infidelidad y repudio",
+      "orden": 4,
+      "icono": "💔",
+      "desde": "2:10",
+      "hasta": "2:16",
+      "conteoOrientativo": 7
+    },
+    {
+      "slug": "el-mensajero",
+      "nombre": "El mensajero",
+      "orden": 5,
+      "icono": "📯",
+      "desde": "2:17",
+      "hasta": "3:6",
+      "conteoOrientativo": 7
+    },
+    {
+      "slug": "el-diezmo",
+      "nombre": "El diezmo",
+      "orden": 6,
+      "icono": "🌾",
+      "desde": "3:7",
+      "hasta": "3:12",
+      "conteoOrientativo": 6
+    },
+    {
+      "slug": "los-que-temen",
+      "nombre": "Los que temen",
+      "orden": 7,
+      "icono": "📖",
+      "desde": "3:13",
+      "hasta": "3:18",
+      "conteoOrientativo": 6
+    },
+    {
+      "slug": "el-dia-y-elias",
+      "nombre": "El día y Elías",
+      "orden": 8,
+      "icono": "🔥",
+      "desde": "4:1",
+      "hasta": "4:6",
+      "conteoOrientativo": 6
+    }
+  ]
+}

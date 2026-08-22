@@ -1,0 +1,89 @@
+{
+  "libro": "JOL",
+  "temas": [
+    {
+      "slug": "plaga",
+      "nombre": "Plaga",
+      "orden": 1,
+      "icono": "🦗"
+    },
+    {
+      "slug": "lamento",
+      "nombre": "Lamento",
+      "orden": 2,
+      "icono": "🕯️"
+    },
+    {
+      "slug": "dia-del-senor",
+      "nombre": "Día del Señor",
+      "orden": 3,
+      "icono": "🌑"
+    },
+    {
+      "slug": "arrepentimiento",
+      "nombre": "Arrepentimiento",
+      "orden": 4,
+      "icono": "🙏"
+    },
+    {
+      "slug": "restauracion",
+      "nombre": "Restauración",
+      "orden": 5,
+      "icono": "🌾"
+    },
+    {
+      "slug": "espiritu",
+      "nombre": "Espíritu",
+      "orden": 6,
+      "icono": "🔥"
+    },
+    {
+      "slug": "naciones",
+      "nombre": "Naciones",
+      "orden": 7,
+      "icono": "🌍"
+    },
+    {
+      "slug": "sion",
+      "nombre": "Sion",
+      "orden": 8,
+      "icono": "🏔️"
+    }
+  ],
+  "pericopaATemas": {
+    "la-plaga-de-langostas": [
+      "plaga",
+      "lamento"
+    ],
+    "lamento-y-ayuno": [
+      "lamento",
+      "arrepentimiento"
+    ],
+    "el-ejercito-del-senor": [
+      "dia-del-senor",
+      "plaga"
+    ],
+    "rasgad-el-corazon": [
+      "arrepentimiento",
+      "dia-del-senor"
+    ],
+    "los-anos-de-la-langosta": [
+      "restauracion",
+      "plaga"
+    ],
+    "derramare-mi-espiritu": [
+      "espiritu",
+      "dia-del-senor"
+    ],
+    "valle-de-josafat": [
+      "naciones",
+      "dia-del-senor",
+      "sion"
+    ],
+    "sion-habitada": [
+      "sion",
+      "restauracion",
+      "naciones"
+    ]
+  }
+}

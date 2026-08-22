@@ -1,0 +1,16 @@
+export const PERICOPAS_SALMOS = [
+  { slug: 'dichosos-y-rey', nombre: 'Dichosos y Rey', orden: 1, icono: '👑', desde: '1:1', hasta: '8:9' },
+  { slug: 'confianza-de-david', nombre: 'Confianza de David', orden: 2, icono: '🛡️', desde: '9:1', hasta: '18:50' },
+  { slug: 'tora-y-angustia', nombre: 'Torá y angustia', orden: 3, icono: '📖', desde: '19:1', hasta: '31:24' },
+  { slug: 'perdon-y-cierre', nombre: 'Perdón y cierre', orden: 4, icono: '💧', desde: '32:1', hasta: '41:13' },
+  { slug: 'hijos-de-core', nombre: 'Hijos de Coré', orden: 5, icono: '🏛️', desde: '42:1', hasta: '49:20' },
+  { slug: 'asaf-y-david', nombre: 'Asaf y David', orden: 6, icono: '🎵', desde: '50:1', hasta: '60:12' },
+  { slug: 'cierre-del-libro-ii', nombre: 'Cierre del libro II', orden: 7, icono: '📜', desde: '61:1', hasta: '72:20' },
+  { slug: 'libro-iii', nombre: 'Libro III', orden: 8, icono: '📜', desde: '73:1', hasta: '89:52' },
+  { slug: 'moises-y-el-reino', nombre: 'Moisés y el reino', orden: 9, icono: '👑', desde: '90:1', hasta: '100:5' },
+  { slug: 'cierre-del-libro-iv', nombre: 'Cierre del libro IV', orden: 10, icono: '🌅', desde: '101:1', hasta: '106:48' },
+  { slug: 'accion-de-gracias', nombre: 'Acción de gracias', orden: 11, icono: '🙌', desde: '107:1', hasta: '118:29' },
+  { slug: 'el-salmo-de-la-ley', nombre: 'El salmo de la ley', orden: 12, icono: '📖', desde: '119:1', hasta: '119:176' },
+  { slug: 'canticos-de-ascenso', nombre: 'Cánticos de ascenso', orden: 13, icono: '⛰️', desde: '120:1', hasta: '134:3' },
+  { slug: 'aleluya-final', nombre: 'Aleluya final', orden: 14, icono: '🎉', desde: '135:1', hasta: '150:6' },
+]

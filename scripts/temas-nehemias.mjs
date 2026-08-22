@@ -1,0 +1,15 @@
+export const PERICOPAS_NEHEMIAS = [
+  { slug: 'oracion-de-nehemias', nombre: 'Oración de Nehemías', orden: 1, icono: '🙏', desde: '1:1', hasta: '1:11' },
+  { slug: 'comision-e-inspeccion', nombre: 'Comisión e inspección', orden: 2, icono: '🐴', desde: '2:1', hasta: '2:20' },
+  { slug: 'los-constructores', nombre: 'Los constructores', orden: 3, icono: '🧱', desde: '3:1', hasta: '3:32' },
+  { slug: 'oposicion-al-muro', nombre: 'Oposición al muro', orden: 4, icono: '🚫', desde: '4:1', hasta: '4:23' },
+  { slug: 'injusticia-social', nombre: 'Injusticia social', orden: 5, icono: '⚖️', desde: '5:1', hasta: '5:19' },
+  { slug: 'el-muro-terminado', nombre: 'El muro terminado', orden: 6, icono: '🏛️', desde: '6:1', hasta: '6:19' },
+  { slug: 'los-que-volvieron', nombre: 'Los que volvieron', orden: 7, icono: '🚶', desde: '7:1', hasta: '7:73' },
+  { slug: 'la-ley-leida', nombre: 'La ley leída', orden: 8, icono: '📖', desde: '8:1', hasta: '8:18' },
+  { slug: 'la-confesion', nombre: 'La confesión', orden: 9, icono: '💧', desde: '9:1', hasta: '9:38' },
+  { slug: 'el-pacto-sellado', nombre: 'El pacto sellado', orden: 10, icono: '📜', desde: '10:1', hasta: '10:39' },
+  { slug: 'habitantes-de-jerusalen', nombre: 'Habitantes de Jerusalén', orden: 11, icono: '🏘️', desde: '11:1', hasta: '11:36' },
+  { slug: 'dedicacion-del-muro', nombre: 'Dedicación del muro', orden: 12, icono: '🎺', desde: '12:1', hasta: '12:47' },
+  { slug: 'las-reformas', nombre: 'Las reformas', orden: 13, icono: '✨', desde: '13:1', hasta: '13:31' },
+]

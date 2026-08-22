@@ -1,0 +1,28 @@
+export const TEMAS_2_CRONICAS = [
+  { slug: 'templo', nombre: 'Templo', orden: 1, icono: '🏛️' },
+  { slug: 'realeza', nombre: 'Realeza', orden: 2, icono: '👑' },
+  { slug: 'reforma', nombre: 'Reforma', orden: 3, icono: '🔨' },
+  { slug: 'idolatria', nombre: 'Idolatría', orden: 4, icono: '🗿' },
+  { slug: 'juicio', nombre: 'Juicio', orden: 5, icono: '⚖️' },
+  { slug: 'guerra', nombre: 'Guerra', orden: 6, icono: '⚔️' },
+  { slug: 'pacto', nombre: 'Pacto', orden: 7, icono: '📜' },
+  { slug: 'exilio', nombre: 'Exilio', orden: 8, icono: '🚶' },
+]
+
+/** Cada relato entra en uno o más temas. No se tocan versos. */
+export const PERICOPA_A_TEMAS_2_CRONICAS = {
+  'sabiduria-y-templo': ['templo', 'realeza'],
+  'dedicacion-del-templo': ['templo', 'pacto'],
+  'gloria-de-salomon': ['realeza', 'templo'],
+  'division-y-roboam': ['realeza', 'juicio', 'idolatria'],
+  'abias-y-asa': ['realeza', 'reforma', 'guerra', 'pacto'],
+  josafat: ['realeza', 'reforma', 'guerra'],
+  'joram-y-atalia': ['realeza', 'idolatria', 'juicio'],
+  joas: ['reforma', 'templo', 'juicio'],
+  'amasias-y-ozias': ['realeza', 'juicio'],
+  'jotam-y-acaz': ['realeza', 'idolatria', 'juicio'],
+  'reforma-de-ezequias': ['reforma', 'templo', 'pacto'],
+  'ezequias-y-senaquerib': ['guerra', 'realeza'],
+  'manases-y-josias': ['idolatria', 'reforma', 'pacto', 'juicio'],
+  'caida-y-ciro': ['exilio', 'juicio'],
+}

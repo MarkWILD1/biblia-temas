@@ -1,0 +1,22 @@
+export const TEMAS_NAHUM = [
+  { slug: 'ira', nombre: 'Ira', orden: 1, icono: '🌩️' },
+  { slug: 'juicio', nombre: 'Juicio', orden: 2, icono: '⚖️' },
+  { slug: 'ninive', nombre: 'Nínive', orden: 3, icono: '🏰' },
+  { slug: 'guerra', nombre: 'Guerra', orden: 4, icono: '⚔️' },
+  { slug: 'consuelo', nombre: 'Consuelo', orden: 5, icono: '🕊️' },
+  { slug: 'soberania', nombre: 'Soberanía', orden: 6, icono: '👑' },
+  { slug: 'violencia', nombre: 'Violencia', orden: 7, icono: '🩸' },
+  { slug: 'caida', nombre: 'Caída', orden: 8, icono: '💥' },
+]
+
+/** Cada relato entra en uno o más temas. No se tocan versos. */
+export const PERICOPA_A_TEMAS_NAHUM = {
+  'el-senor-celoso': ['ira', 'soberania'],
+  'buenas-nuevas-a-juda': ['consuelo', 'soberania'],
+  'el-asalto': ['guerra', 'ninive'],
+  'el-cubil-del-leon': ['ninive', 'violencia'],
+  'ciudad-de-sangre': ['violencia', 'juicio'],
+  'como-no-amon': ['caida', 'ninive'],
+  'langostas-y-mercaderes': ['caida', 'guerra'],
+  'no-hay-alivio': ['juicio', 'caida'],
+}

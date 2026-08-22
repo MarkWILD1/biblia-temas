@@ -1,0 +1,28 @@
+export const TEMAS_1_CRONICAS = [
+  { slug: 'linaje', nombre: 'Linaje', orden: 1, icono: '🌳' },
+  { slug: 'realeza', nombre: 'Realeza', orden: 2, icono: '👑' },
+  { slug: 'culto', nombre: 'Culto', orden: 3, icono: '🕯️' },
+  { slug: 'pacto', nombre: 'Pacto', orden: 4, icono: '📜' },
+  { slug: 'templo', nombre: 'Templo', orden: 5, icono: '🏛️' },
+  { slug: 'guerra', nombre: 'Guerra', orden: 6, icono: '⚔️' },
+  { slug: 'juicio', nombre: 'Juicio', orden: 7, icono: '⚖️' },
+  { slug: 'sucesion', nombre: 'Sucesión', orden: 8, icono: '🔄' },
+]
+
+/** Cada relato entra en uno o más temas. No se tocan versos. */
+export const PERICOPA_A_TEMAS_1_CRONICAS = {
+  'de-adam-a-israel': ['linaje'],
+  'casa-de-david': ['linaje', 'realeza'],
+  'juda-y-simeon': ['linaje'],
+  'tribus-del-este-y-levi': ['linaje', 'culto'],
+  'resto-de-israel': ['linaje'],
+  'muerte-de-saul': ['realeza', 'juicio'],
+  'david-rey': ['realeza', 'guerra'],
+  'el-arca-a-jerusalen': ['culto'],
+  'pacto-con-david': ['pacto', 'realeza'],
+  'guerras-de-david': ['guerra', 'realeza'],
+  'el-censo': ['juicio', 'templo'],
+  'levitas-y-turnos': ['culto', 'templo'],
+  'oficiales-y-salomon': ['realeza', 'sucesion', 'templo', 'pacto'],
+  'ofrenda-y-oracion': ['culto', 'templo', 'sucesion', 'pacto'],
+}

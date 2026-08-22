@@ -1,0 +1,16 @@
+export const PERICOPAS_OSEAS = [
+  { slug: 'gomer-y-los-hijos', nombre: 'Gomer y los hijos', orden: 1, icono: '👶', desde: '1:1', hasta: '1:11' },
+  { slug: 'la-esposa-infiel', nombre: 'La esposa infiel', orden: 2, icono: '💔', desde: '2:1', hasta: '2:23' },
+  { slug: 'gomer-redimida', nombre: 'Gomer redimida', orden: 3, icono: '💍', desde: '3:1', hasta: '3:5' },
+  { slug: 'pleito-contra-israel', nombre: 'Pleito contra Israel', orden: 4, icono: '⚖️', desde: '4:1', hasta: '4:19' },
+  { slug: 'juicio-de-efrain', nombre: 'Juicio de Efraín', orden: 5, icono: '📯', desde: '5:1', hasta: '5:15' },
+  { slug: 'volvamos-al-senor', nombre: 'Volvamos al Señor', orden: 6, icono: '🙏', desde: '6:1', hasta: '6:11' },
+  { slug: 'el-corazon-de-efrain', nombre: 'El corazón de Efraín', orden: 7, icono: '🔥', desde: '7:1', hasta: '7:16' },
+  { slug: 'sembraron-viento', nombre: 'Sembraron viento', orden: 8, icono: '🌬️', desde: '8:1', hasta: '8:14' },
+  { slug: 'dias-de-castigo', nombre: 'Días de castigo', orden: 9, icono: '🌑', desde: '9:1', hasta: '9:17' },
+  { slug: 'la-vid-vacia', nombre: 'La vid vacía', orden: 10, icono: '🍇', desde: '10:1', hasta: '10:15' },
+  { slug: 'cuando-israel-era-nino', nombre: 'Cuando Israel era niño', orden: 11, icono: '🤍', desde: '11:1', hasta: '11:12' },
+  { slug: 'jacob-y-efrain', nombre: 'Jacob y Efraín', orden: 12, icono: '🪜', desde: '12:1', hasta: '12:14' },
+  { slug: 'no-hay-salvador', nombre: 'No hay salvador', orden: 13, icono: '⚔️', desde: '13:1', hasta: '13:16' },
+  { slug: 'sanare-su-rebelion', nombre: 'Sanaré su rebelión', orden: 14, icono: '🌿', desde: '14:1', hasta: '14:9' },
+]

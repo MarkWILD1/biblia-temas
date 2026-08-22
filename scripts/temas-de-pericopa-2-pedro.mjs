@@ -1,0 +1,22 @@
+export const TEMAS_2_PEDRO = [
+  { slug: 'promesas', nombre: 'Promesas', orden: 1, icono: '💎' },
+  { slug: 'testimonio', nombre: 'Testimonio', orden: 2, icono: '👁️' },
+  { slug: 'apostasia', nombre: 'Apostasía', orden: 3, icono: '⚠️' },
+  { slug: 'juicio', nombre: 'Juicio', orden: 4, icono: '⚖️' },
+  { slug: 'venida', nombre: 'Venida', orden: 5, icono: '🌅' },
+  { slug: 'paciencia', nombre: 'Paciencia', orden: 6, icono: '⏳' },
+  { slug: 'creacion', nombre: 'Creación', orden: 7, icono: '🌍' },
+  { slug: 'crecimiento', nombre: 'Crecimiento', orden: 8, icono: '🌾' },
+]
+
+/** Cada relato entra en uno o más temas. No se tocan versos. */
+export const PERICOPA_A_TEMAS_2_PEDRO = {
+  'preciosas-promesas': ['promesas', 'crecimiento'],
+  'testigos-oculares': ['testimonio'],
+  'falsos-maestros': ['apostasia'],
+  'balaam-y-tinieblas': ['apostasia', 'juicio'],
+  'burladores': ['venida', 'creacion'],
+  'mil-anos': ['venida', 'paciencia'],
+  'nuevos-cielos': ['creacion', 'promesas'],
+  'creced-en-gracia': ['crecimiento', 'paciencia'],
+}

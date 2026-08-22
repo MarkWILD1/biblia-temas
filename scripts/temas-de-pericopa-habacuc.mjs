@@ -1,0 +1,22 @@
+export const TEMAS_HABACUC = [
+  { slug: 'queja', nombre: 'Queja', orden: 1, icono: '📢' },
+  { slug: 'injusticia', nombre: 'Injusticia', orden: 2, icono: '⛓️' },
+  { slug: 'naciones', nombre: 'Naciones', orden: 3, icono: '🌍' },
+  { slug: 'fe', nombre: 'Fe', orden: 4, icono: '✨' },
+  { slug: 'juicio', nombre: 'Juicio', orden: 5, icono: '⚖️' },
+  { slug: 'idolatria', nombre: 'Idolatría', orden: 6, icono: '🗿' },
+  { slug: 'teofania', nombre: 'Teofanía', orden: 7, icono: '🌩️' },
+  { slug: 'gozo', nombre: 'Gozo', orden: 8, icono: '🎶' },
+]
+
+/** Cada relato entra en uno o más temas. No se tocan versos. */
+export const PERICOPA_A_TEMAS_HABACUC = {
+  'la-queja': ['queja', 'injusticia'],
+  'los-caldeos': ['naciones', 'juicio'],
+  'por-que-callas': ['queja', 'naciones'],
+  'sobre-el-atalaya': ['fe', 'juicio'],
+  'ayes-del-opresor': ['injusticia', 'juicio'],
+  'el-templo-en-silencio': ['idolatria', 'teofania'],
+  'oracion-de-habacuc': ['teofania', 'naciones'],
+  'aunque-la-higuera': ['gozo', 'fe'],
+}

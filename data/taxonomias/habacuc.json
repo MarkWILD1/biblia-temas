@@ -1,0 +1,79 @@
+{
+  "libro": "HAB",
+  "id": "habacuc",
+  "unidad": "pericopa",
+  "temas": [
+    {
+      "slug": "la-queja",
+      "nombre": "La queja",
+      "orden": 1,
+      "icono": "📢",
+      "desde": "1:1",
+      "hasta": "1:4",
+      "conteoOrientativo": 4
+    },
+    {
+      "slug": "los-caldeos",
+      "nombre": "Los caldeos",
+      "orden": 2,
+      "icono": "🐎",
+      "desde": "1:5",
+      "hasta": "1:11",
+      "conteoOrientativo": 7
+    },
+    {
+      "slug": "por-que-callas",
+      "nombre": "¿Por qué callas?",
+      "orden": 3,
+      "icono": "❓",
+      "desde": "1:12",
+      "hasta": "1:17",
+      "conteoOrientativo": 6
+    },
+    {
+      "slug": "sobre-el-atalaya",
+      "nombre": "Sobre el atalaya",
+      "orden": 4,
+      "icono": "🗼",
+      "desde": "2:1",
+      "hasta": "2:5",
+      "conteoOrientativo": 5
+    },
+    {
+      "slug": "ayes-del-opresor",
+      "nombre": "Ayes del opresor",
+      "orden": 5,
+      "icono": "⚠️",
+      "desde": "2:6",
+      "hasta": "2:14",
+      "conteoOrientativo": 9
+    },
+    {
+      "slug": "el-templo-en-silencio",
+      "nombre": "El templo en silencio",
+      "orden": 6,
+      "icono": "🤫",
+      "desde": "2:15",
+      "hasta": "2:20",
+      "conteoOrientativo": 6
+    },
+    {
+      "slug": "oracion-de-habacuc",
+      "nombre": "Oración de Habacuc",
+      "orden": 7,
+      "icono": "🙏",
+      "desde": "3:1",
+      "hasta": "3:15",
+      "conteoOrientativo": 15
+    },
+    {
+      "slug": "aunque-la-higuera",
+      "nombre": "Aunque la higuera",
+      "orden": 8,
+      "icono": "🌿",
+      "desde": "3:16",
+      "hasta": "3:19",
+      "conteoOrientativo": 4
+    }
+  ]
+}

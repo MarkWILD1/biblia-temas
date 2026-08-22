@@ -1,0 +1,87 @@
+{
+  "libro": "2TH",
+  "temas": [
+    {
+      "slug": "juicio",
+      "nombre": "Juicio",
+      "orden": 1,
+      "icono": "⚖️"
+    },
+    {
+      "slug": "venida",
+      "nombre": "Venida",
+      "orden": 2,
+      "icono": "🎺"
+    },
+    {
+      "slug": "engano",
+      "nombre": "Engaño",
+      "orden": 3,
+      "icono": "⚡"
+    },
+    {
+      "slug": "firmeza",
+      "nombre": "Firmeza",
+      "orden": 4,
+      "icono": "🛡️"
+    },
+    {
+      "slug": "trabajo",
+      "nombre": "Trabajo",
+      "orden": 5,
+      "icono": "🌾"
+    },
+    {
+      "slug": "oracion",
+      "nombre": "Oración",
+      "orden": 6,
+      "icono": "🙏"
+    },
+    {
+      "slug": "paz",
+      "nombre": "Paz",
+      "orden": 7,
+      "icono": "🕊️"
+    },
+    {
+      "slug": "gloria",
+      "nombre": "Gloria",
+      "orden": 8,
+      "icono": "✨"
+    }
+  ],
+  "pericopaATemas": {
+    "gracias-y-gloria": [
+      "gloria",
+      "firmeza"
+    ],
+    "justo-juicio": [
+      "juicio",
+      "gloria"
+    ],
+    "no-os-movais": [
+      "venida",
+      "firmeza"
+    ],
+    "el-inicuo": [
+      "engano",
+      "venida"
+    ],
+    "firmeza": [
+      "firmeza",
+      "oracion"
+    ],
+    "orad-por-nosotros": [
+      "oracion",
+      "paz"
+    ],
+    "el-que-no-trabaja": [
+      "trabajo",
+      "paz"
+    ],
+    "no-os-canseis": [
+      "trabajo",
+      "paz"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+export const PERICOPAS_ROMANOS = [
+  { slug: 'ira-de-dios', nombre: 'Ira de Dios', orden: 1, icono: '⚡', desde: '1:1', hasta: '1:32' },
+  { slug: 'el-juez', nombre: 'El juez', orden: 2, icono: '⚖️', desde: '2:1', hasta: '2:29' },
+  { slug: 'nadie-es-justo', nombre: 'Nadie es justo', orden: 3, icono: '📜', desde: '3:1', hasta: '3:20' },
+  { slug: 'fe-de-abraham', nombre: 'Fe de Abraham', orden: 4, icono: '⭐', desde: '3:21', hasta: '4:25' },
+  { slug: 'paz-con-dios', nombre: 'Paz con Dios', orden: 5, icono: '🕊️', desde: '5:1', hasta: '5:21' },
+  { slug: 'muertos-al-pecado', nombre: 'Muertos al pecado', orden: 6, icono: '💧', desde: '6:1', hasta: '6:23' },
+  { slug: 'la-ley-y-el-pecado', nombre: 'La ley y el pecado', orden: 7, icono: '⛓️', desde: '7:1', hasta: '7:25' },
+  { slug: 'el-espiritu', nombre: 'El Espíritu', orden: 8, icono: '🔥', desde: '8:1', hasta: '8:39' },
+  { slug: 'israel-y-la-eleccion', nombre: 'Israel y la elección', orden: 9, icono: '🫒', desde: '9:1', hasta: '9:33' },
+  { slug: 'la-palabra-esta-cerca', nombre: 'La palabra está cerca', orden: 10, icono: '📣', desde: '10:1', hasta: '10:21' },
+  { slug: 'el-olivo', nombre: 'El olivo', orden: 11, icono: '🌿', desde: '11:1', hasta: '11:36' },
+  { slug: 'culto-racional', nombre: 'Culto racional', orden: 12, icono: '🙏', desde: '12:1', hasta: '13:14' },
+  { slug: 'debiles-y-fuertes', nombre: 'Débiles y fuertes', orden: 13, icono: '🤝', desde: '14:1', hasta: '14:23' },
+  { slug: 'mision-y-saludos', nombre: 'Misión y saludos', orden: 14, icono: '✉️', desde: '15:1', hasta: '16:27' },
+]

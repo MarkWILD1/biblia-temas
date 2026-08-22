@@ -1,0 +1,16 @@
+export const PERICOPAS_2_SAMUEL = [
+  { slug: 'lamento-por-saul', nombre: 'Lamento por Saúl', orden: 1, icono: '😢', desde: '1:1', hasta: '1:27' },
+  { slug: 'rey-en-hebron', nombre: 'Rey en Hebrón', orden: 2, icono: '👑', desde: '2:1', hasta: '4:12' },
+  { slug: 'rey-en-jerusalen', nombre: 'Rey en Jerusalén', orden: 3, icono: '🏰', desde: '5:1', hasta: '5:25' },
+  { slug: 'el-arca-a-sion', nombre: 'El arca a Sión', orden: 4, icono: '📦', desde: '6:1', hasta: '6:23' },
+  { slug: 'pacto-con-david', nombre: 'Pacto con David', orden: 5, icono: '📜', desde: '7:1', hasta: '7:29' },
+  { slug: 'victorias-y-mefiboset', nombre: 'Victorias y Mefiboset', orden: 6, icono: '🤝', desde: '8:1', hasta: '9:13' },
+  { slug: 'guerra-contra-amon', nombre: 'Guerra contra Amón', orden: 7, icono: '⚔️', desde: '10:1', hasta: '10:19' },
+  { slug: 'betseba-y-urias', nombre: 'Betsabé y Urías', orden: 8, icono: '💔', desde: '11:1', hasta: '12:31' },
+  { slug: 'amnon-y-tamar', nombre: 'Amnón y Tamar', orden: 9, icono: '🌙', desde: '13:1', hasta: '13:39' },
+  { slug: 'absalon-vuelve', nombre: 'Absalón vuelve', orden: 10, icono: '🕊️', desde: '14:1', hasta: '14:33' },
+  { slug: 'rebelion-de-absalon', nombre: 'Rebelión de Absalón', orden: 11, icono: '🌲', desde: '15:1', hasta: '18:33' },
+  { slug: 'regreso-y-seba', nombre: 'Regreso y Seba', orden: 12, icono: '🚪', desde: '19:1', hasta: '20:26' },
+  { slug: 'hambre-y-gigantes', nombre: 'Hambre y gigantes', orden: 13, icono: '🪨', desde: '21:1', hasta: '21:22' },
+  { slug: 'cantico-y-censo', nombre: 'Cántico y censo', orden: 14, icono: '🎵', desde: '22:1', hasta: '24:25' },
+]

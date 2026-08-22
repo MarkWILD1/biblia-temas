@@ -1,0 +1,90 @@
+{
+  "libro": "PRO",
+  "id": "proverbios",
+  "temas": [
+    {
+      "slug": "el-temor-de-jehova-y-la-sabiduria",
+      "nombre": "El temor de Jehová y la sabiduría",
+      "orden": 1,
+      "icono": "📖",
+      "conteoOrientativo": 216
+    },
+    {
+      "slug": "la-lengua-y-las-palabras",
+      "nombre": "La lengua y las palabras",
+      "orden": 2,
+      "icono": "💬",
+      "conteoOrientativo": 71
+    },
+    {
+      "slug": "riqueza-y-pobreza",
+      "nombre": "Riqueza y pobreza",
+      "orden": 3,
+      "icono": "💰",
+      "conteoOrientativo": 61
+    },
+    {
+      "slug": "diligencia-y-pereza",
+      "nombre": "Diligencia y pereza",
+      "orden": 4,
+      "icono": "⚡",
+      "conteoOrientativo": 43
+    },
+    {
+      "slug": "familia-y-crianza",
+      "nombre": "Familia y crianza",
+      "orden": 5,
+      "icono": "👨‍👩‍👧",
+      "conteoOrientativo": 57
+    },
+    {
+      "slug": "matrimonio-y-sexualidad",
+      "nombre": "Matrimonio y sexualidad",
+      "orden": 6,
+      "icono": "💍",
+      "conteoOrientativo": 100
+    },
+    {
+      "slug": "justos-y-malvados-retribucion",
+      "nombre": "Justos y malvados (retribución)",
+      "orden": 7,
+      "icono": "⚖️",
+      "conteoOrientativo": 105
+    },
+    {
+      "slug": "orgullo-y-humildad",
+      "nombre": "Orgullo y humildad",
+      "orden": 8,
+      "icono": "🙏",
+      "conteoOrientativo": 83
+    },
+    {
+      "slug": "ira-dominio-propio-y-contiendas",
+      "nombre": "Ira, dominio propio y contiendas",
+      "orden": 9,
+      "icono": "🔥",
+      "conteoOrientativo": 49
+    },
+    {
+      "slug": "amistad-y-relaciones-sociales",
+      "nombre": "Amistad y relaciones sociales",
+      "orden": 10,
+      "icono": "🤝",
+      "conteoOrientativo": 44
+    },
+    {
+      "slug": "justicia-integridad-y-gobierno",
+      "nombre": "Justicia, integridad y gobierno",
+      "orden": 11,
+      "icono": "🏛️",
+      "conteoOrientativo": 86
+    },
+    {
+      "slug": "vino-y-bebida",
+      "nombre": "Vino y bebida",
+      "orden": 12,
+      "icono": "🍷",
+      "conteoOrientativo": 0
+    }
+  ]
+}

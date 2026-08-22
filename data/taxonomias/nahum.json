@@ -1,0 +1,79 @@
+{
+  "libro": "NAM",
+  "id": "nahum",
+  "unidad": "pericopa",
+  "temas": [
+    {
+      "slug": "el-senor-celoso",
+      "nombre": "El Señor celoso",
+      "orden": 1,
+      "icono": "🌩️",
+      "desde": "1:1",
+      "hasta": "1:8",
+      "conteoOrientativo": 8
+    },
+    {
+      "slug": "buenas-nuevas-a-juda",
+      "nombre": "Buenas nuevas a Judá",
+      "orden": 2,
+      "icono": "📯",
+      "desde": "1:9",
+      "hasta": "1:15",
+      "conteoOrientativo": 7
+    },
+    {
+      "slug": "el-asalto",
+      "nombre": "El asalto",
+      "orden": 3,
+      "icono": "⚔️",
+      "desde": "2:1",
+      "hasta": "2:7",
+      "conteoOrientativo": 7
+    },
+    {
+      "slug": "el-cubil-del-leon",
+      "nombre": "El cubil del león",
+      "orden": 4,
+      "icono": "🦁",
+      "desde": "2:8",
+      "hasta": "2:13",
+      "conteoOrientativo": 6
+    },
+    {
+      "slug": "ciudad-de-sangre",
+      "nombre": "Ciudad de sangre",
+      "orden": 5,
+      "icono": "🩸",
+      "desde": "3:1",
+      "hasta": "3:7",
+      "conteoOrientativo": 7
+    },
+    {
+      "slug": "como-no-amon",
+      "nombre": "Como No-amón",
+      "orden": 6,
+      "icono": "🌊",
+      "desde": "3:8",
+      "hasta": "3:13",
+      "conteoOrientativo": 6
+    },
+    {
+      "slug": "langostas-y-mercaderes",
+      "nombre": "Langostas y mercaderes",
+      "orden": 7,
+      "icono": "🦗",
+      "desde": "3:14",
+      "hasta": "3:17",
+      "conteoOrientativo": 4
+    },
+    {
+      "slug": "no-hay-alivio",
+      "nombre": "No hay alivio",
+      "orden": 8,
+      "icono": "🌑",
+      "desde": "3:18",
+      "hasta": "3:19",
+      "conteoOrientativo": 2
+    }
+  ]
+}

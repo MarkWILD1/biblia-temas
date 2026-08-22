@@ -1,0 +1,16 @@
+export const PERICOPAS_1_CRONICAS = [
+  { slug: 'de-adam-a-israel', nombre: 'De Adán a Israel', orden: 1, icono: '🌳', desde: '1:1', hasta: '1:54' },
+  { slug: 'casa-de-david', nombre: 'Casa de David', orden: 2, icono: '👑', desde: '2:1', hasta: '3:24' },
+  { slug: 'juda-y-simeon', nombre: 'Judá y Simeón', orden: 3, icono: '📜', desde: '4:1', hasta: '4:43' },
+  { slug: 'tribus-del-este-y-levi', nombre: 'Tribus del este y Leví', orden: 4, icono: '🕯️', desde: '5:1', hasta: '6:81' },
+  { slug: 'resto-de-israel', nombre: 'Resto de Israel', orden: 5, icono: '🏘️', desde: '7:1', hasta: '9:44' },
+  { slug: 'muerte-de-saul', nombre: 'Muerte de Saúl', orden: 6, icono: '💔', desde: '10:1', hasta: '10:14' },
+  { slug: 'david-rey', nombre: 'David rey', orden: 7, icono: '🛡️', desde: '11:1', hasta: '12:40' },
+  { slug: 'el-arca-a-jerusalen', nombre: 'El arca a Jerusalén', orden: 8, icono: '📦', desde: '13:1', hasta: '16:43' },
+  { slug: 'pacto-con-david', nombre: 'Pacto con David', orden: 9, icono: '📜', desde: '17:1', hasta: '17:27' },
+  { slug: 'guerras-de-david', nombre: 'Guerras de David', orden: 10, icono: '⚔️', desde: '18:1', hasta: '20:8' },
+  { slug: 'el-censo', nombre: 'El censo', orden: 11, icono: '⚖️', desde: '21:1', hasta: '21:30' },
+  { slug: 'levitas-y-turnos', nombre: 'Levitas y turnos', orden: 12, icono: '🎵', desde: '22:1', hasta: '26:32' },
+  { slug: 'oficiales-y-salomon', nombre: 'Oficiales y Salomón', orden: 13, icono: '👑', desde: '27:1', hasta: '28:21' },
+  { slug: 'ofrenda-y-oracion', nombre: 'Ofrenda y oración', orden: 14, icono: '🙏', desde: '29:1', hasta: '29:30' },
+]

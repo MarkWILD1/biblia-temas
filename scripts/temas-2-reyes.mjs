@@ -1,0 +1,16 @@
+export const PERICOPAS_2_REYES = [
+  { slug: 'elias-y-eliseo', nombre: 'Elías y Eliseo', orden: 1, icono: '🔥', desde: '1:1', hasta: '2:25' },
+  { slug: 'guerra-contra-moab', nombre: 'Guerra contra Moab', orden: 2, icono: '⚔️', desde: '3:1', hasta: '3:27' },
+  { slug: 'milagros-de-eliseo', nombre: 'Milagros de Eliseo', orden: 3, icono: '🍞', desde: '4:1', hasta: '4:44' },
+  { slug: 'naaman', nombre: 'Naamán', orden: 4, icono: '💧', desde: '5:1', hasta: '5:27' },
+  { slug: 'samaria-sitiada', nombre: 'Samaria sitiada', orden: 5, icono: '🏰', desde: '6:1', hasta: '7:20' },
+  { slug: 'hazael-y-los-reyes', nombre: 'Hazael y los reyes', orden: 6, icono: '👑', desde: '8:1', hasta: '8:29' },
+  { slug: 'jehu', nombre: 'Jehú', orden: 7, icono: '🐎', desde: '9:1', hasta: '10:36' },
+  { slug: 'atalia-y-joas', nombre: 'Atalía y Joás', orden: 8, icono: '🛡️', desde: '11:1', hasta: '12:21' },
+  { slug: 'muerte-de-eliseo', nombre: 'Muerte de Eliseo', orden: 9, icono: '🏹', desde: '13:1', hasta: '14:29' },
+  { slug: 'caida-de-samaria', nombre: 'Caída de Samaria', orden: 10, icono: '💔', desde: '15:1', hasta: '17:41' },
+  { slug: 'ezequias-y-senaquerib', nombre: 'Ezequías y Senaquerib', orden: 11, icono: '🙏', desde: '18:1', hasta: '20:21' },
+  { slug: 'manases', nombre: 'Manasés', orden: 12, icono: '🚫', desde: '21:1', hasta: '21:26' },
+  { slug: 'josias', nombre: 'Josías', orden: 13, icono: '📜', desde: '22:1', hasta: '23:37' },
+  { slug: 'caida-de-jerusalen', nombre: 'Caída de Jerusalén', orden: 14, icono: '🔥', desde: '24:1', hasta: '25:30' },
+]

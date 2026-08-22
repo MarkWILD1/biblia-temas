@@ -1,0 +1,280 @@
+---
+import { Icon } from 'astro-icon/components'
+import BookCover from '../components/BookCover.astro'
+import Layout from '../components/Layout.astro'
+import LogoFlip from '../components/LogoFlip.astro'
+import { getCanon, getGruposConLibros, getLibroPage } from '../lib/biblia'
+
+const canon = getCanon()
+const grupos = getGruposConLibros()
+const publicados = canon.libros.filter((libro) => libro.estado === 'publicado')
+const resumenes = new Map(publicados.map((libro) => [libro.slug, getLibroPage(libro.slug)]))
+
+function metaDe(slug: string) {
+  const page = resumenes.get(slug)
+  if (!page) return undefined
+  const unidad = page.unidad === 'pericopa' ? 'relatos' : 'temas'
+  return `${page.temas.length} ${unidad}`
+}
+
+const totalVersiculos = [...resumenes.values()].reduce((sum, page) => sum + page.totalVersiculos, 0)
+const destacadosPreferidos = ['genesis', 'proverbios', '1-samuel']
+const destacados = [
+  ...destacadosPreferidos
+    .map((slug) => publicados.find((libro) => libro.slug === slug))
+    .filter((libro): libro is (typeof publicados)[number] => Boolean(libro)),
+  ...publicados.filter((libro) => !destacadosPreferidos.includes(libro.slug)),
+].slice(0, 3)
+
+const nombreGrupo = new Map(canon.grupos.map((grupo) => [grupo.id, grupo.nombre]))
+const testamentos = [
+  { id: 'at' as const, nombre: 'Antiguo Testamento' },
+  { id: 'nt' as const, nombre: 'Nuevo Testamento' },
+]
+---
+
+<Layout title="Arcano01 · La Biblia por temas">
+  <div class="min-h-dvh bg-[var(--color-surface)]">
+    <header
+      class="sticky top-0 z-30 border-b border-line/70 bg-[var(--color-surface)]/90 backdrop-blur"
+    >
+      <div class="mx-auto flex max-w-7xl flex-wrap items-center gap-x-6 gap-y-3 px-4 py-3 sm:px-6">
+        <LogoFlip size="sm" href="/" />
+        <nav class="hidden items-center gap-6 md:flex">
+          {
+            [
+              { href: '#biblioteca', label: 'Biblioteca' },
+              { href: '#at', label: 'Antiguo Testamento' },
+              { href: '#nt', label: 'Nuevo Testamento' },
+            ].map((item) => (
+              <a
+                href={item.href}
+                class="text-sm font-medium text-[var(--color-text-soft)] transition-colors hover:text-[var(--color-accent)]"
+              >
+                {item.label}
+              </a>
+            ))
+          }
+        </nav>
+        <div class="ml-auto flex w-full items-center gap-3 sm:w-auto">
+          <label class="relative w-full sm:w-64">
+            <span class="sr-only">Buscar libro</span>
+            <Icon
+              name="ph:magnifying-glass"
+              class="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-[var(--color-muted)]"
+            />
+            <input
+              type="search"
+              data-book-search
+              placeholder="Buscar un libro…"
+              class="w-full rounded-full border border-line bg-[var(--color-card)] py-2 pl-9 pr-4 text-sm text-[var(--color-text)] outline-none transition placeholder:text-[var(--color-muted)] focus:border-[var(--color-accent)] focus:ring-2 focus:ring-[var(--color-accent-soft)]"
+            />
+          </label>
+        </div>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-7xl px-4 pb-20 sm:px-6">
+      <section class="fade-up grid items-center gap-8 py-10 lg:grid-cols-[1fr_1.05fr] lg:gap-12 lg:py-16">
+        <div>
+          <p
+            class="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--color-accent)]"
+          >
+            Canon protestante · 66 libros · 4 versiones
+          </p>
+          <h1
+            class="mt-4 font-display text-4xl leading-[1.05] tracking-[-0.01em] text-[var(--color-text)] sm:text-5xl lg:text-6xl"
+          >
+            Encontrá tu próximo<br />estudio
+          </h1>
+          <p class="mt-5 max-w-md text-sm leading-relaxed text-[var(--color-text-soft)]">
+            Cada libro abierto por relatos y por temas, con Reina-Valera 1960, NTV, DHH y TLA
+            enfrentadas en la misma página y las notas de la RVR esquematizada al pie.
+          </p>
+          <div class="mt-7 flex flex-wrap items-center gap-3">
+            <a
+              href="#biblioteca"
+              class="inline-flex items-center gap-2 rounded-full bg-[var(--color-accent)] px-5 py-2.5 text-sm font-semibold text-[var(--color-card)] shadow-paper transition-colors hover:bg-[var(--color-accent-strong)]"
+            >
+              Explorar la biblioteca
+              <Icon name="ph:arrow-right" class="h-4 w-4" />
+            </a>
+            <div class="flex flex-wrap gap-2">
+              <span
+                class="rounded-full bg-[var(--color-accent-soft)] px-3 py-1 text-xs font-semibold text-[var(--color-accent)]"
+              >
+                {publicados.length} libros publicados
+              </span>
+              <span
+                class="rounded-full border border-line bg-[var(--color-card)] px-3 py-1 text-xs font-medium text-[var(--color-text-soft)]"
+              >
+                {totalVersiculos.toLocaleString('es-AR')} versículos
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-3 items-end gap-3 sm:gap-4">
+          {
+            destacados.map((libro, index) => (
+              <div
+                class:list={[
+                  'flex items-end justify-center rounded-t-[999px] bg-[var(--color-surface-alt)] px-3',
+                  index === 1 ? 'pb-5 pt-10 sm:pb-7 sm:pt-14' : 'pb-4 pt-6 sm:pb-5 sm:pt-9',
+                ]}
+              >
+                <BookCover
+                  libro={libro}
+                  grupoNombre={nombreGrupo.get(libro.grupo) ?? ''}
+                  meta={metaDe(libro.slug)}
+                  size={index === 1 ? 'md' : 'sm'}
+                />
+              </div>
+            ))
+          }
+        </div>
+      </section>
+
+      <div
+        data-search-empty
+        hidden
+        class="rounded-2xl border border-dashed border-line bg-[var(--color-card)] p-10 text-center"
+      >
+        <p class="text-sm text-[var(--color-text-soft)]">Ningún libro coincide con esa búsqueda.</p>
+      </div>
+
+      <div id="biblioteca" class="space-y-14 pt-4">
+        {
+          testamentos.map((testamento) => (
+            <section id={testamento.id} class="scroll-mt-24">
+              <div class="flex items-baseline justify-between gap-4 border-b border-line pb-3">
+                <h2 class="font-display text-2xl text-[var(--color-text)]">
+                  {testamento.nombre}
+                </h2>
+                <span class="text-xs font-medium uppercase tracking-wider text-[var(--color-muted)]">
+                  {canon.libros.filter((libro) => libro.testamento === testamento.id).length} libros
+                </span>
+              </div>
+
+              <div class="mt-8 space-y-10">
+                {grupos
+                  .filter((grupo) => grupo.testamento === testamento.id)
+                  .map((grupo) => {
+                    const publicadosDelGrupo = grupo.libros.filter(
+                      (libro) => libro.estado === 'publicado',
+                    ).length
+                    return (
+                      <section data-fila class="group/fila">
+                        <div class="mb-3 flex items-end justify-between gap-4">
+                          <div>
+                            <h3 class="font-display text-lg text-[var(--color-text)]">
+                              {grupo.nombre}
+                            </h3>
+                            <p class="mt-0.5 text-xs text-[var(--color-muted)]">
+                              {publicadosDelGrupo > 0
+                                ? `${publicadosDelGrupo} de ${grupo.libros.length} disponibles`
+                                : 'En preparación'}
+                            </p>
+                          </div>
+                          <div class="hidden gap-1.5 sm:flex">
+                            <button
+                              type="button"
+                              data-scroll="-1"
+                              aria-label={`Ver libros anteriores de ${grupo.nombre}`}
+                              class="flex h-8 w-8 items-center justify-center rounded-full border border-line bg-[var(--color-card)] text-[var(--color-text-soft)] transition-colors hover:border-[var(--color-accent)] hover:text-[var(--color-accent)]"
+                            >
+                              <Icon name="ph:caret-left" class="h-4 w-4" />
+                            </button>
+                            <button
+                              type="button"
+                              data-scroll="1"
+                              aria-label={`Ver más libros de ${grupo.nombre}`}
+                              class="flex h-8 w-8 items-center justify-center rounded-full border border-line bg-[var(--color-card)] text-[var(--color-text-soft)] transition-colors hover:border-[var(--color-accent)] hover:text-[var(--color-accent)]"
+                            >
+                              <Icon name="ph:caret-right" class="h-4 w-4" />
+                            </button>
+                          </div>
+                        </div>
+
+                        <div
+                          data-scroller
+                          class="no-scrollbar fade-stagger -mx-4 flex snap-x snap-mandatory gap-4 overflow-x-auto scroll-smooth px-4 pb-3 pt-1 sm:mx-0 sm:px-0"
+                        >
+                          {grupo.libros.map((libro) => (
+                            <div class="snap-start" data-libro data-nombre={libro.nombre.toLowerCase()}>
+                              <BookCover
+                                libro={libro}
+                                grupoNombre={grupo.nombre}
+                                meta={metaDe(libro.slug)}
+                              />
+                            </div>
+                          ))}
+                        </div>
+                      </section>
+                    )
+                  })}
+              </div>
+            </section>
+          ))
+        }
+      </div>
+    </main>
+
+    <footer class="border-t border-line bg-[var(--color-surface-alt)]">
+      <div
+        class="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-4 py-8 sm:px-6"
+      >
+        <div class="flex items-center gap-3">
+          <LogoFlip size="sm" />
+          <p class="text-xs text-[var(--color-text-soft)]">
+            Arcano01 · La Biblia por temas y relatos
+          </p>
+        </div>
+        <p class="text-xs text-[var(--color-muted)]">
+          {canon.versiones.map((version) => version.etiqueta).join(' · ')}
+        </p>
+      </div>
+    </footer>
+  </div>
+</Layout>
+
+<script>
+  function wireHome() {
+    for (const button of document.querySelectorAll<HTMLButtonElement>('[data-scroll]')) {
+      button.addEventListener('click', () => {
+        const fila = button.closest('[data-fila]')
+        const scroller = fila?.querySelector<HTMLElement>('[data-scroller]')
+        if (!scroller) return
+        const direction = Number(button.dataset.scroll ?? '1')
+        scroller.scrollBy({ left: direction * scroller.clientWidth * 0.8, behavior: 'smooth' })
+      })
+    }
+
+    const input = document.querySelector<HTMLInputElement>('[data-book-search]')
+    const empty = document.querySelector<HTMLElement>('[data-search-empty]')
+    const biblioteca = document.querySelector<HTMLElement>('#biblioteca')
+
+    input?.addEventListener('input', () => {
+      const query = input.value.trim().toLowerCase()
+      let visibles = 0
+
+      for (const card of document.querySelectorAll<HTMLElement>('[data-libro]')) {
+        const show = query === '' || (card.dataset.nombre ?? '').includes(query)
+        card.hidden = !show
+        if (show) visibles += 1
+      }
+
+      for (const fila of document.querySelectorAll<HTMLElement>('[data-fila]')) {
+        const alguno = [...fila.querySelectorAll<HTMLElement>('[data-libro]')].some(
+          (card) => !card.hidden,
+        )
+        fila.hidden = !alguno
+      }
+
+      if (empty) empty.hidden = visibles !== 0
+      if (biblioteca) biblioteca.hidden = visibles === 0
+    })
+  }
+
+  document.addEventListener('astro:page-load', wireHome)
+</script>

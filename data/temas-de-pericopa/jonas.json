@@ -1,0 +1,87 @@
+{
+  "libro": "JON",
+  "temas": [
+    {
+      "slug": "llamado",
+      "nombre": "Llamado",
+      "orden": 1,
+      "icono": "📯"
+    },
+    {
+      "slug": "huida",
+      "nombre": "Huida",
+      "orden": 2,
+      "icono": "🏃"
+    },
+    {
+      "slug": "mar",
+      "nombre": "Mar",
+      "orden": 3,
+      "icono": "🌊"
+    },
+    {
+      "slug": "oracion",
+      "nombre": "Oración",
+      "orden": 4,
+      "icono": "🙏"
+    },
+    {
+      "slug": "arrepentimiento",
+      "nombre": "Arrepentimiento",
+      "orden": 5,
+      "icono": "💔"
+    },
+    {
+      "slug": "misericordia",
+      "nombre": "Misericordia",
+      "orden": 6,
+      "icono": "🤍"
+    },
+    {
+      "slug": "naciones",
+      "nombre": "Naciones",
+      "orden": 7,
+      "icono": "🌍"
+    },
+    {
+      "slug": "ira",
+      "nombre": "Ira",
+      "orden": 8,
+      "icono": "⚡"
+    }
+  ],
+  "pericopaATemas": {
+    "huida-a-tarsis": [
+      "llamado",
+      "huida"
+    ],
+    "la-tempestad": [
+      "mar",
+      "huida"
+    ],
+    "al-mar": [
+      "mar",
+      "oracion"
+    ],
+    "oracion-en-el-pez": [
+      "oracion",
+      "misericordia"
+    ],
+    "segunda-llamada": [
+      "llamado",
+      "naciones"
+    ],
+    "ninive-se-arrepiente": [
+      "arrepentimiento",
+      "misericordia"
+    ],
+    "la-ira-de-jonas": [
+      "ira",
+      "misericordia"
+    ],
+    "la-calabacera": [
+      "misericordia",
+      "naciones"
+    ]
+  }
+}

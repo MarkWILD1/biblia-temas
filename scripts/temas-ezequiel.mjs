@@ -1,0 +1,16 @@
+export const PERICOPAS_EZEQUIEL = [
+  { slug: 'el-carro-de-gloria', nombre: 'El carro de gloria', orden: 1, icono: '🔥', desde: '1:1', hasta: '3:27' },
+  { slug: 'senales-contra-jerusalen', nombre: 'Señales contra Jerusalén', orden: 2, icono: '🧱', desde: '4:1', hasta: '7:27' },
+  { slug: 'la-gloria-parte', nombre: 'La gloria parte', orden: 3, icono: '🚪', desde: '8:1', hasta: '11:25' },
+  { slug: 'destierro-y-falsos', nombre: 'Destierro y falsos', orden: 4, icono: '🧳', desde: '12:1', hasta: '14:23' },
+  { slug: 'alegorias-de-jerusalen', nombre: 'Alegorías de Jerusalén', orden: 5, icono: '🍇', desde: '15:1', hasta: '17:24' },
+  { slug: 'cada-uno-por-si', nombre: 'Cada uno por sí', orden: 6, icono: '⚖️', desde: '18:1', hasta: '20:49' },
+  { slug: 'la-espada-y-la-olla', nombre: 'La espada y la olla', orden: 7, icono: '⚔️', desde: '21:1', hasta: '24:27' },
+  { slug: 'naciones-cercanas', nombre: 'Naciones cercanas', orden: 8, icono: '🌊', desde: '25:1', hasta: '28:26' },
+  { slug: 'egipto', nombre: 'Egipto', orden: 9, icono: '🐊', desde: '29:1', hasta: '32:32' },
+  { slug: 'atalaya-y-pastores', nombre: 'Atalaya y pastores', orden: 10, icono: '🐑', desde: '33:1', hasta: '34:31' },
+  { slug: 'huesos-secos', nombre: 'Huesos secos', orden: 11, icono: '💀', desde: '35:1', hasta: '37:28' },
+  { slug: 'gog-y-magog', nombre: 'Gog y Magog', orden: 12, icono: '🛡️', desde: '38:1', hasta: '39:29' },
+  { slug: 'el-templo-nuevo', nombre: 'El templo nuevo', orden: 13, icono: '🏛️', desde: '40:1', hasta: '43:27' },
+  { slug: 'el-rio-y-la-ciudad', nombre: 'El río y la ciudad', orden: 14, icono: '🌊', desde: '44:1', hasta: '48:35' },
+]

@@ -1,0 +1,87 @@
+{
+  "libro": "1TI",
+  "temas": [
+    {
+      "slug": "doctrina",
+      "nombre": "Doctrina",
+      "orden": 1,
+      "icono": "📜"
+    },
+    {
+      "slug": "oracion",
+      "nombre": "Oración",
+      "orden": 2,
+      "icono": "🙏"
+    },
+    {
+      "slug": "liderazgo",
+      "nombre": "Liderazgo",
+      "orden": 3,
+      "icono": "⚖️"
+    },
+    {
+      "slug": "piedad",
+      "nombre": "Piedad",
+      "orden": 4,
+      "icono": "🕊️"
+    },
+    {
+      "slug": "familia",
+      "nombre": "Familia",
+      "orden": 5,
+      "icono": "🏠"
+    },
+    {
+      "slug": "contentamiento",
+      "nombre": "Contentamiento",
+      "orden": 6,
+      "icono": "🌾"
+    },
+    {
+      "slug": "batalla",
+      "nombre": "Batalla",
+      "orden": 7,
+      "icono": "⚔️"
+    },
+    {
+      "slug": "testimonio",
+      "nombre": "Testimonio",
+      "orden": 8,
+      "icono": "✨"
+    }
+  ],
+  "pericopaATemas": {
+    "la-sana-doctrina": [
+      "doctrina",
+      "piedad"
+    ],
+    "pablo-y-timoteo": [
+      "testimonio",
+      "doctrina"
+    ],
+    "oracion-y-modestia": [
+      "oracion",
+      "familia"
+    ],
+    "obispos-y-diaconos": [
+      "liderazgo",
+      "piedad"
+    ],
+    "apostasia-y-ejercicio": [
+      "doctrina",
+      "piedad"
+    ],
+    "viudas-y-ancianos": [
+      "familia",
+      "liderazgo"
+    ],
+    "piedad-y-contentamiento": [
+      "contentamiento",
+      "piedad"
+    ],
+    "pelea-la-buena-batalla": [
+      "batalla",
+      "testimonio"
+    ]
+  }
+}

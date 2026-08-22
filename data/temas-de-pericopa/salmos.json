@@ -1,0 +1,116 @@
+{
+  "libro": "PSA",
+  "temas": [
+    {
+      "slug": "alabanza",
+      "nombre": "Alabanza",
+      "orden": 1,
+      "icono": "🙌"
+    },
+    {
+      "slug": "lamento",
+      "nombre": "Lamento",
+      "orden": 2,
+      "icono": "💧"
+    },
+    {
+      "slug": "confianza",
+      "nombre": "Confianza",
+      "orden": 3,
+      "icono": "🛡️"
+    },
+    {
+      "slug": "rey",
+      "nombre": "Rey",
+      "orden": 4,
+      "icono": "👑"
+    },
+    {
+      "slug": "ley",
+      "nombre": "Ley",
+      "orden": 5,
+      "icono": "📖"
+    },
+    {
+      "slug": "creacion",
+      "nombre": "Creación",
+      "orden": 6,
+      "icono": "🌌"
+    },
+    {
+      "slug": "sion",
+      "nombre": "Sión",
+      "orden": 7,
+      "icono": "🏛️"
+    },
+    {
+      "slug": "sabiduria",
+      "nombre": "Sabiduría",
+      "orden": 8,
+      "icono": "💎"
+    }
+  ],
+  "pericopaATemas": {
+    "dichosos-y-rey": [
+      "sabiduria",
+      "rey",
+      "alabanza"
+    ],
+    "confianza-de-david": [
+      "confianza",
+      "lamento",
+      "rey"
+    ],
+    "tora-y-angustia": [
+      "ley",
+      "lamento",
+      "creacion"
+    ],
+    "perdon-y-cierre": [
+      "lamento",
+      "confianza"
+    ],
+    "hijos-de-core": [
+      "sion",
+      "lamento",
+      "rey"
+    ],
+    "asaf-y-david": [
+      "lamento",
+      "sion"
+    ],
+    "cierre-del-libro-ii": [
+      "rey",
+      "confianza"
+    ],
+    "libro-iii": [
+      "sion",
+      "lamento"
+    ],
+    "moises-y-el-reino": [
+      "creacion",
+      "alabanza",
+      "rey"
+    ],
+    "cierre-del-libro-iv": [
+      "alabanza",
+      "creacion"
+    ],
+    "accion-de-gracias": [
+      "alabanza",
+      "sion",
+      "rey"
+    ],
+    "el-salmo-de-la-ley": [
+      "ley"
+    ],
+    "canticos-de-ascenso": [
+      "sion",
+      "confianza"
+    ],
+    "aleluya-final": [
+      "alabanza",
+      "creacion"
+    ]
+  }
+}

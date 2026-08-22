@@ -1,0 +1,115 @@
+{
+  "libro": "1KI",
+  "temas": [
+    {
+      "slug": "realeza",
+      "nombre": "Realeza",
+      "orden": 1,
+      "icono": "👑"
+    },
+    {
+      "slug": "sabiduria",
+      "nombre": "Sabiduría",
+      "orden": 2,
+      "icono": "💡"
+    },
+    {
+      "slug": "templo",
+      "nombre": "Templo",
+      "orden": 3,
+      "icono": "🏛️"
+    },
+    {
+      "slug": "pacto",
+      "nombre": "Pacto",
+      "orden": 4,
+      "icono": "📜"
+    },
+    {
+      "slug": "idolatria",
+      "nombre": "Idolatría",
+      "orden": 5,
+      "icono": "🗿"
+    },
+    {
+      "slug": "profecia",
+      "nombre": "Profecía",
+      "orden": 6,
+      "icono": "📣"
+    },
+    {
+      "slug": "juicio",
+      "nombre": "Juicio",
+      "orden": 7,
+      "icono": "⚖️"
+    },
+    {
+      "slug": "provision",
+      "nombre": "Provisión",
+      "orden": 8,
+      "icono": "🍞"
+    }
+  ],
+  "pericopaATemas": {
+    "salomon-rey": [
+      "realeza"
+    ],
+    "sabiduria-de-salomon": [
+      "sabiduria",
+      "realeza"
+    ],
+    "construccion-del-templo": [
+      "templo"
+    ],
+    "dedicacion-del-templo": [
+      "templo",
+      "pacto"
+    ],
+    "reina-de-saba": [
+      "sabiduria",
+      "realeza"
+    ],
+    "caida-de-salomon": [
+      "idolatria",
+      "juicio",
+      "realeza",
+      "pacto"
+    ],
+    "division-del-reino": [
+      "realeza",
+      "juicio",
+      "idolatria"
+    ],
+    "jeroboam-y-el-profeta": [
+      "profecia",
+      "idolatria",
+      "juicio"
+    ],
+    "reyes-hasta-acab": [
+      "realeza",
+      "idolatria"
+    ],
+    "elias-y-la-viuda": [
+      "profecia",
+      "provision"
+    ],
+    "elias-en-el-carmelo": [
+      "profecia",
+      "idolatria",
+      "provision"
+    ],
+    "elias-en-horeb": [
+      "profecia"
+    ],
+    "acab-y-ben-adad": [
+      "realeza",
+      "profecia",
+      "juicio"
+    ],
+    "nabot-y-muerte-de-acab": [
+      "juicio",
+      "idolatria",
+      "profecia"
+    ]
+  }
+}

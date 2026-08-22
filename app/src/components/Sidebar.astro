@@ -1,0 +1,93 @@
+---
+import { Icon } from 'astro-icon/components'
+import type { LibroCanon, TemaTaxonomia, UnidadTaxonomia } from '../lib/types'
+
+interface Props {
+  libro: LibroCanon
+  temas: TemaTaxonomia[]
+  activeSlug?: string
+  unidad?: UnidadTaxonomia
+  seccionHref?: 'temas' | 'ejes'
+}
+
+const { libro, temas, activeSlug, unidad = 'tema', seccionHref = 'temas' } = Astro.props
+const esRelato = unidad === 'pericopa'
+---
+
+<aside
+  id="temas-drawer"
+  data-drawer
+  tabindex="-1"
+  aria-label={esRelato ? 'Lista de relatos' : 'Lista de temas'}
+  class="drawer-panel fixed inset-y-0 left-0 z-50 flex w-72 shrink-0 flex-col border-r border-line bg-[var(--color-sidebar)] shadow-paper-lg outline-none transition-transform duration-200 ease-out lg:static lg:z-auto lg:shadow-none"
+>
+  <div class="flex items-start justify-between gap-2 border-b border-line px-5 py-5">
+    <div>
+      <p class="text-xs font-semibold uppercase tracking-wider text-[var(--color-muted)]">
+        <a href={`/libros/${libro.slug}`} class="transition-colors hover:text-[var(--color-accent)]">
+          {libro.nombre}
+        </a>
+      </p>
+      <h1 class="mt-1 font-display text-xl text-[var(--color-text)]">
+        <a href={`/libros/${libro.slug}`}>{esRelato ? 'Relatos' : 'Por temas'}</a>
+      </h1>
+    </div>
+    <button
+      type="button"
+      data-drawer-close
+      aria-label={esRelato ? 'Cerrar menú de relatos' : 'Cerrar menú de temas'}
+      class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg text-[var(--color-text-soft)] transition-colors hover:bg-[var(--color-card)] hover:text-[var(--color-text)] lg:hidden"
+    >
+      <Icon name="ph:x" class="h-5 w-5" />
+    </button>
+  </div>
+
+  <nav class="flex-1 overflow-y-auto px-3 py-4">
+    <ul class="fade-stagger space-y-1">
+      {
+        temas.map((tema) => {
+          const active = tema.slug === activeSlug
+          const href = `/libros/${libro.slug}/${seccionHref}/${tema.slug}`
+          return (
+            <li>
+              <a
+                href={href}
+                aria-current={active ? 'page' : undefined}
+                class:list={[
+                  'flex w-full items-start gap-3 rounded-xl px-3 py-3 text-left transition-colors',
+                  active
+                    ? 'bg-[var(--color-card)] shadow-paper ring-1 ring-line'
+                    : 'hover:bg-[var(--color-card)]/70',
+                ]}
+              >
+                <span
+                  class:list={[
+                    'flex h-9 w-9 shrink-0 items-center justify-center rounded-lg text-base',
+                    active ? 'bg-[var(--color-accent-soft)]' : 'bg-[var(--color-card)]/80',
+                  ]}
+                >
+                  <span class="icono-tinta">{tema.icono}</span>
+                </span>
+                <span class="min-w-0 flex-1">
+                  <span
+                    class:list={[
+                      'block text-sm leading-snug',
+                      active
+                        ? 'font-semibold text-[var(--color-text)]'
+                        : 'font-medium text-[var(--color-text-soft)]',
+                    ]}
+                  >
+                    {tema.nombre}
+                  </span>
+                  <span class="mt-0.5 block text-xs text-[var(--color-muted)]">
+                    {tema.conteo} versículos
+                  </span>
+                </span>
+              </a>
+            </li>
+          )
+        })
+      }
+    </ul>
+  </nav>
+</aside>

@@ -1,0 +1,16 @@
+export const PERICOPAS_1_REYES = [
+  { slug: 'salomon-rey', nombre: 'Salomón rey', orden: 1, icono: '👑', desde: '1:1', hasta: '2:46' },
+  { slug: 'sabiduria-de-salomon', nombre: 'Sabiduría de Salomón', orden: 2, icono: '💡', desde: '3:1', hasta: '4:34' },
+  { slug: 'construccion-del-templo', nombre: 'Construcción del templo', orden: 3, icono: '🏛️', desde: '5:1', hasta: '7:51' },
+  { slug: 'dedicacion-del-templo', nombre: 'Dedicación del templo', orden: 4, icono: '🙏', desde: '8:1', hasta: '8:66' },
+  { slug: 'reina-de-saba', nombre: 'Reina de Sabá', orden: 5, icono: '🐫', desde: '9:1', hasta: '10:29' },
+  { slug: 'caida-de-salomon', nombre: 'Caída de Salomón', orden: 6, icono: '💔', desde: '11:1', hasta: '11:43' },
+  { slug: 'division-del-reino', nombre: 'División del reino', orden: 7, icono: '✂️', desde: '12:1', hasta: '12:33' },
+  { slug: 'jeroboam-y-el-profeta', nombre: 'Jeroboam y el profeta', orden: 8, icono: '📜', desde: '13:1', hasta: '14:31' },
+  { slug: 'reyes-hasta-acab', nombre: 'Reyes hasta Acab', orden: 9, icono: '👑', desde: '15:1', hasta: '16:34' },
+  { slug: 'elias-y-la-viuda', nombre: 'Elías y la viuda', orden: 10, icono: '🍞', desde: '17:1', hasta: '17:24' },
+  { slug: 'elias-en-el-carmelo', nombre: 'Elías en el Carmelo', orden: 11, icono: '🔥', desde: '18:1', hasta: '18:46' },
+  { slug: 'elias-en-horeb', nombre: 'Elías en Horeb', orden: 12, icono: '🌬️', desde: '19:1', hasta: '19:21' },
+  { slug: 'acab-y-ben-adad', nombre: 'Acab y Ben-adad', orden: 13, icono: '⚔️', desde: '20:1', hasta: '20:43' },
+  { slug: 'nabot-y-muerte-de-acab', nombre: 'Nabot y muerte de Acab', orden: 14, icono: '🍇', desde: '21:1', hasta: '22:53' },
+]

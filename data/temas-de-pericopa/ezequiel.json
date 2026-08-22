@@ -1,0 +1,110 @@
+{
+  "libro": "EZK",
+  "temas": [
+    {
+      "slug": "gloria",
+      "nombre": "Gloria",
+      "orden": 1,
+      "icono": "🔥"
+    },
+    {
+      "slug": "llamado",
+      "nombre": "Llamado",
+      "orden": 2,
+      "icono": "📯"
+    },
+    {
+      "slug": "juicio",
+      "nombre": "Juicio",
+      "orden": 3,
+      "icono": "⚖️"
+    },
+    {
+      "slug": "idolatria",
+      "nombre": "Idolatría",
+      "orden": 4,
+      "icono": "🗿"
+    },
+    {
+      "slug": "naciones",
+      "nombre": "Naciones",
+      "orden": 5,
+      "icono": "🌍"
+    },
+    {
+      "slug": "restauracion",
+      "nombre": "Restauración",
+      "orden": 6,
+      "icono": "🌅"
+    },
+    {
+      "slug": "templo",
+      "nombre": "Templo",
+      "orden": 7,
+      "icono": "🏛️"
+    },
+    {
+      "slug": "esperanza",
+      "nombre": "Esperanza",
+      "orden": 8,
+      "icono": "✨"
+    }
+  ],
+  "pericopaATemas": {
+    "el-carro-de-gloria": [
+      "gloria",
+      "llamado"
+    ],
+    "senales-contra-jerusalen": [
+      "juicio"
+    ],
+    "la-gloria-parte": [
+      "templo",
+      "idolatria",
+      "gloria"
+    ],
+    "destierro-y-falsos": [
+      "juicio",
+      "llamado"
+    ],
+    "alegorias-de-jerusalen": [
+      "juicio",
+      "idolatria"
+    ],
+    "cada-uno-por-si": [
+      "juicio",
+      "restauracion"
+    ],
+    "la-espada-y-la-olla": [
+      "juicio"
+    ],
+    "naciones-cercanas": [
+      "naciones",
+      "juicio"
+    ],
+    "egipto": [
+      "naciones",
+      "juicio"
+    ],
+    "atalaya-y-pastores": [
+      "llamado",
+      "restauracion"
+    ],
+    "huesos-secos": [
+      "restauracion",
+      "esperanza"
+    ],
+    "gog-y-magog": [
+      "naciones",
+      "juicio"
+    ],
+    "el-templo-nuevo": [
+      "templo",
+      "gloria"
+    ],
+    "el-rio-y-la-ciudad": [
+      "templo",
+      "esperanza"
+    ]
+  }
+}

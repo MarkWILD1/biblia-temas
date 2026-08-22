@@ -1,0 +1,10 @@
+export const PERICOPAS_2_TESALONICENSES = [
+  { slug: 'gracias-y-gloria', nombre: 'Gracias y gloria', orden: 1, icono: '✨', desde: '1:1', hasta: '1:5' },
+  { slug: 'justo-juicio', nombre: 'Justo juicio', orden: 2, icono: '⚖️', desde: '1:6', hasta: '1:12' },
+  { slug: 'no-os-movais', nombre: 'No os mováis', orden: 3, icono: '🎺', desde: '2:1', hasta: '2:5' },
+  { slug: 'el-inicuo', nombre: 'El inicuo', orden: 4, icono: '⚡', desde: '2:6', hasta: '2:12' },
+  { slug: 'firmeza', nombre: 'Firmeza', orden: 5, icono: '🛡️', desde: '2:13', hasta: '2:17' },
+  { slug: 'orad-por-nosotros', nombre: 'Orad por nosotros', orden: 6, icono: '🙏', desde: '3:1', hasta: '3:5' },
+  { slug: 'el-que-no-trabaja', nombre: 'El que no trabaja', orden: 7, icono: '🌾', desde: '3:6', hasta: '3:12' },
+  { slug: 'no-os-canseis', nombre: 'No os canséis', orden: 8, icono: '🕊️', desde: '3:13', hasta: '3:18' },
+]

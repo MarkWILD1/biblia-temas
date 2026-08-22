@@ -1,0 +1,16 @@
+export const PERICOPAS_JUECES = [
+  { slug: 'conquista-incompleta', nombre: 'Conquista incompleta', orden: 1, icono: '⚔️', desde: '1:1', hasta: '2:5' },
+  { slug: 'el-ciclo', nombre: 'El ciclo', orden: 2, icono: '🔄', desde: '2:6', hasta: '3:6' },
+  { slug: 'otniel-ehud-y-samgar', nombre: 'Otniel, Ehud y Samgar', orden: 3, icono: '🗡️', desde: '3:7', hasta: '3:31' },
+  { slug: 'debora-y-barac', nombre: 'Débora y Barac', orden: 4, icono: '🎵', desde: '4:1', hasta: '5:31' },
+  { slug: 'llamado-de-gedeon', nombre: 'El llamado de Gedeón', orden: 5, icono: '🔥', desde: '6:1', hasta: '7:25' },
+  { slug: 'gedeon-y-el-efod', nombre: 'Gedeón y el efod', orden: 6, icono: '👑', desde: '8:1', hasta: '8:35' },
+  { slug: 'abimelec', nombre: 'Abimelec', orden: 7, icono: '🌳', desde: '9:1', hasta: '9:57' },
+  { slug: 'jefte', nombre: 'Jefté', orden: 8, icono: '🏳️', desde: '10:1', hasta: '12:15' },
+  { slug: 'nacimiento-de-sanson', nombre: 'Nacimiento de Sansón', orden: 9, icono: '👼', desde: '13:1', hasta: '13:25' },
+  { slug: 'sanson-y-timnat', nombre: 'Sansón y Timnat', orden: 10, icono: '🦁', desde: '14:1', hasta: '15:20' },
+  { slug: 'sanson-y-dalila', nombre: 'Sansón y Dalila', orden: 11, icono: '💇', desde: '16:1', hasta: '16:31' },
+  { slug: 'micas-y-dan', nombre: 'Micas y Dan', orden: 12, icono: '🗿', desde: '17:1', hasta: '18:31' },
+  { slug: 'el-levita-en-guibea', nombre: 'El levita en Gabaa', orden: 13, icono: '🌙', desde: '19:1', hasta: '19:30' },
+  { slug: 'guerra-contra-benjamin', nombre: 'Guerra contra Benjamín', orden: 14, icono: '💔', desde: '20:1', hasta: '21:25' },
+]

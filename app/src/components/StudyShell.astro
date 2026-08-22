@@ -1,0 +1,170 @@
+---
+import { Icon } from 'astro-icon/components'
+import type { LibroCanon, TemaTaxonomia, UnidadTaxonomia } from '../lib/types'
+import LogoFlip from './LogoFlip.astro'
+import SearchBox from './SearchBox.astro'
+import Sidebar from './Sidebar.astro'
+
+interface Props {
+  libro: LibroCanon
+  temas: TemaTaxonomia[]
+  activeSlug?: string
+  unidad?: UnidadTaxonomia
+  seccionHref?: 'temas' | 'ejes'
+  ejesCount?: number
+  totalVersiculos: number
+  notasUnicas: number
+  showSearch?: boolean
+}
+
+const {
+  libro,
+  temas,
+  activeSlug,
+  unidad = 'tema',
+  seccionHref = 'temas',
+  ejesCount = 0,
+  totalVersiculos,
+  notasUnicas,
+  showSearch = false,
+} = Astro.props
+const esRelato = unidad === 'pericopa'
+---
+
+<div class="flex h-full items-stretch justify-center p-0 lg:items-center lg:p-4 xl:p-6">
+  <div
+    class="relative flex h-dvh w-full max-w-7xl overflow-hidden rounded-none border-0 border-line bg-[var(--color-surface)] shadow-none lg:h-[min(920px,calc(100dvh-2rem))] lg:rounded-3xl lg:border lg:shadow-paper-lg"
+  >
+    <button
+      type="button"
+      data-drawer-overlay
+      hidden
+      aria-label={esRelato ? 'Cerrar menú de relatos' : 'Cerrar menú de temas'}
+      class="fixed inset-0 z-40 bg-[#403a2b]/35 lg:hidden"
+    ></button>
+
+    <Sidebar
+      libro={libro}
+      temas={temas}
+      activeSlug={activeSlug}
+      unidad={unidad}
+      seccionHref={seccionHref}
+    />
+
+    <main class="flex min-w-0 flex-1 flex-col overflow-hidden">
+      <div
+        class="flex shrink-0 flex-col gap-3 border-b border-line bg-[var(--color-card)]/60 px-4 py-3 sm:px-5 lg:flex-row lg:items-center lg:gap-3"
+      >
+        <div class="flex items-start gap-3">
+          <button
+            type="button"
+            data-drawer-open
+            aria-label={esRelato ? 'Abrir relatos' : 'Abrir temas'}
+            aria-expanded="false"
+            aria-controls="temas-drawer"
+            class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-line bg-[var(--color-card)] text-[var(--color-text)] shadow-paper transition-colors hover:bg-[var(--color-surface-alt)] lg:hidden"
+          >
+            <Icon name="ph:list" class="h-5 w-5" />
+          </button>
+          <a
+            href="/"
+            class="inline-flex h-10 shrink-0 items-center gap-1.5 rounded-xl border border-line bg-[var(--color-card)] px-3 text-sm font-medium text-[var(--color-text)] shadow-paper transition-colors hover:bg-[var(--color-surface-alt)]"
+          >
+            <Icon name="ph:caret-left" class="h-4 w-4" />
+            Volver
+          </a>
+          <span class="hidden shrink-0 self-center xl:block">
+            <LogoFlip size="sm" href="/" />
+          </span>
+          <div class="flex min-w-0 flex-1 flex-wrap items-center gap-1.5">
+            <span
+              class="rounded-full bg-[var(--color-accent-soft)] px-2.5 py-0.5 text-[11px] font-medium text-[var(--color-accent)]"
+            >
+              Temas
+            </span>
+            <span
+              class="rounded-full bg-[var(--color-surface-alt)] px-2.5 py-0.5 text-[11px] font-medium text-[var(--color-text-soft)]"
+            >
+              {libro.nombre}
+            </span>
+            <span
+              class="rounded-full bg-[var(--color-surface-alt)] px-2.5 py-0.5 text-[11px] font-medium text-[var(--color-text-soft)]"
+            >
+              RVR + NTV + DHH + TLA
+            </span>
+            <span
+              class="rounded-full border border-line bg-[var(--color-card)] px-2.5 py-0.5 text-[11px] font-medium text-[var(--color-text-soft)]"
+            >
+              <span class="font-semibold text-[var(--color-text)]">{totalVersiculos}</span> vers.
+            </span>
+            {
+              ejesCount > 0 ? (
+                <span class="rounded-full border border-line bg-[var(--color-card)] px-2.5 py-0.5 text-[11px] font-medium text-[var(--color-text-soft)]">
+                  <span class="font-semibold text-[var(--color-text)]">{ejesCount}</span> temas
+                </span>
+              ) : null
+            }
+            <span
+              class="rounded-full border border-line bg-[var(--color-card)] px-2.5 py-0.5 text-[11px] font-medium text-[var(--color-text-soft)]"
+            >
+              <span class="font-semibold text-[var(--color-text)]">{temas.length}</span>{' '}
+              {esRelato ? 'relatos' : 'temas'}
+            </span>
+            {
+              notasUnicas > 0 ? (
+                <span class="rounded-full border border-note-line bg-[var(--color-note)] px-2.5 py-0.5 text-[11px] font-medium text-[var(--color-note-text)]">
+                  <span class="font-semibold">{notasUnicas}</span> notas
+                </span>
+              ) : null
+            }
+          </div>
+        </div>
+        {
+          showSearch ? (
+            <div class="w-full lg:ml-auto lg:max-w-xs lg:flex-1">
+              <SearchBox />
+            </div>
+          ) : null
+        }
+      </div>
+
+      <div class="flex min-h-0 flex-1 flex-col overflow-hidden p-3 sm:p-5">
+        <slot />
+      </div>
+    </main>
+  </div>
+</div>
+
+<script>
+  function wireDrawer() {
+    const drawer = document.querySelector<HTMLElement>('[data-drawer]')
+    const overlay = document.querySelector<HTMLButtonElement>('[data-drawer-overlay]')
+    const openButton = document.querySelector<HTMLButtonElement>('[data-drawer-open]')
+    const closeButton = document.querySelector<HTMLButtonElement>('[data-drawer-close]')
+    if (!drawer || !overlay || !openButton) return
+
+    const setOpen = (open: boolean) => {
+      drawer.classList.toggle('is-open', open)
+      overlay.hidden = !open
+      openButton.setAttribute('aria-expanded', String(open))
+      if (open) drawer.focus()
+      else openButton.focus()
+    }
+
+    openButton.addEventListener('click', () => setOpen(true))
+    overlay.addEventListener('click', () => setOpen(false))
+    closeButton?.addEventListener('click', () => setOpen(false))
+  }
+
+  // Un único listener global: los elementos del drawer se reemplazan en cada navegación.
+  if (!document.documentElement.dataset.a01DrawerEsc) {
+    document.documentElement.dataset.a01DrawerEsc = 'true'
+    document.addEventListener('keydown', (event) => {
+      if (event.key !== 'Escape') return
+      const overlay = document.querySelector<HTMLButtonElement>('[data-drawer-overlay]')
+      if (overlay && !overlay.hidden) overlay.click()
+    })
+  }
+
+  document.addEventListener('astro:page-load', wireDrawer)
+</script>

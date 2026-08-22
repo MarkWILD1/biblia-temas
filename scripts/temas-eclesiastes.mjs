@@ -1,0 +1,10 @@
+export const PERICOPAS_ECLESIASTES = [
+  { slug: 'todo-es-vanidad', nombre: 'Todo es vanidad', orden: 1, icono: '💨', desde: '1:1', hasta: '1:18' },
+  { slug: 'el-experimento', nombre: 'El experimento', orden: 2, icono: '🍷', desde: '2:1', hasta: '2:26' },
+  { slug: 'tiempo-para-todo', nombre: 'Tiempo para todo', orden: 3, icono: '⏳', desde: '3:1', hasta: '3:22' },
+  { slug: 'opresion-y-compania', nombre: 'Opresión y compañía', orden: 4, icono: '👥', desde: '4:1', hasta: '4:16' },
+  { slug: 'votos-y-riqueza', nombre: 'Votos y riqueza', orden: 5, icono: '💰', desde: '5:1', hasta: '6:12' },
+  { slug: 'mejor-que', nombre: 'Mejor que', orden: 6, icono: '💎', desde: '7:1', hasta: '8:17' },
+  { slug: 'muerte-y-necedad', nombre: 'Muerte y necedad', orden: 7, icono: '⚰️', desde: '9:1', hasta: '10:20' },
+  { slug: 'el-epilogo', nombre: 'El epílogo', orden: 8, icono: '📜', desde: '11:1', hasta: '12:14' },
+]

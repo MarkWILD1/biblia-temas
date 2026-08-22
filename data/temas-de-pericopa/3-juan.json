@@ -1,0 +1,75 @@
+{
+  "libro": "3JN",
+  "temas": [
+    {
+      "slug": "verdad",
+      "nombre": "Verdad",
+      "orden": 1,
+      "icono": "📜"
+    },
+    {
+      "slug": "prosperidad",
+      "nombre": "Prosperidad",
+      "orden": 2,
+      "icono": "🌾"
+    },
+    {
+      "slug": "hospitalidad",
+      "nombre": "Hospitalidad",
+      "orden": 3,
+      "icono": "🏠"
+    },
+    {
+      "slug": "orgullo",
+      "nombre": "Orgullo",
+      "orden": 4,
+      "icono": "⚠️"
+    },
+    {
+      "slug": "testimonio",
+      "nombre": "Testimonio",
+      "orden": 5,
+      "icono": "✨"
+    },
+    {
+      "slug": "paz",
+      "nombre": "Paz",
+      "orden": 6,
+      "icono": "🕊️"
+    },
+    {
+      "slug": "comunion",
+      "nombre": "Comunión",
+      "orden": 7,
+      "icono": "🤝"
+    },
+    {
+      "slug": "imitacion",
+      "nombre": "Imitación",
+      "orden": 8,
+      "icono": "🧭"
+    }
+  ],
+  "pericopaATemas": {
+    "el-anciano-a-gaio": [
+      "verdad",
+      "prosperidad"
+    ],
+    "hospedaje-a-los-hermanos": [
+      "hospitalidad"
+    ],
+    "diotrefes": [
+      "orgullo"
+    ],
+    "no-imites-lo-malo": [
+      "imitacion"
+    ],
+    "demetrio": [
+      "testimonio"
+    ],
+    "tinta-y-pluma": [
+      "paz",
+      "comunion"
+    ]
+  }
+}

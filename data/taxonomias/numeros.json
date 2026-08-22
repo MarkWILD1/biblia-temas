@@ -1,0 +1,133 @@
+{
+  "libro": "NUM",
+  "id": "numeros",
+  "unidad": "pericopa",
+  "temas": [
+    {
+      "slug": "censo-y-campamento",
+      "nombre": "Censo y campamento",
+      "orden": 1,
+      "icono": "⛺",
+      "desde": "1:1",
+      "hasta": "4:49",
+      "conteoOrientativo": 188
+    },
+    {
+      "slug": "pureza-nazareo-y-bendicion",
+      "nombre": "Pureza, nazareo y bendición",
+      "orden": 2,
+      "icono": "✨",
+      "desde": "5:1",
+      "hasta": "6:27",
+      "conteoOrientativo": 58
+    },
+    {
+      "slug": "ofrendas-y-levitas",
+      "nombre": "Ofrendas y levitas",
+      "orden": 3,
+      "icono": "🪔",
+      "desde": "7:1",
+      "hasta": "8:26",
+      "conteoOrientativo": 115
+    },
+    {
+      "slug": "pascua-y-partida",
+      "nombre": "Pascua y partida",
+      "orden": 4,
+      "icono": "☁️",
+      "desde": "9:1",
+      "hasta": "10:36",
+      "conteoOrientativo": 59
+    },
+    {
+      "slug": "quejas-en-el-desierto",
+      "nombre": "Quejas en el desierto",
+      "orden": 5,
+      "icono": "🍖",
+      "desde": "11:1",
+      "hasta": "12:16",
+      "conteoOrientativo": 51
+    },
+    {
+      "slug": "los-espias",
+      "nombre": "Los espías",
+      "orden": 6,
+      "icono": "🍇",
+      "desde": "13:1",
+      "hasta": "14:45",
+      "conteoOrientativo": 78
+    },
+    {
+      "slug": "core",
+      "nombre": "Coré",
+      "orden": 7,
+      "icono": "⚡",
+      "desde": "15:1",
+      "hasta": "16:50",
+      "conteoOrientativo": 91
+    },
+    {
+      "slug": "sacerdocio-y-vaca-roja",
+      "nombre": "Sacerdocio y vaca roja",
+      "orden": 8,
+      "icono": "🐄",
+      "desde": "17:1",
+      "hasta": "19:22",
+      "conteoOrientativo": 67
+    },
+    {
+      "slug": "cades-y-serpiente",
+      "nombre": "Cades y la serpiente",
+      "orden": 9,
+      "icono": "🐍",
+      "desde": "20:1",
+      "hasta": "21:35",
+      "conteoOrientativo": 64
+    },
+    {
+      "slug": "balaam",
+      "nombre": "Balaam",
+      "orden": 10,
+      "icono": "🐴",
+      "desde": "22:1",
+      "hasta": "24:25",
+      "conteoOrientativo": 96
+    },
+    {
+      "slug": "baal-peor",
+      "nombre": "Baal-peor",
+      "orden": 11,
+      "icono": "💔",
+      "desde": "25:1",
+      "hasta": "25:18",
+      "conteoOrientativo": 18
+    },
+    {
+      "slug": "segundo-censo-y-sucesion",
+      "nombre": "Segundo censo y sucesión",
+      "orden": 12,
+      "icono": "📋",
+      "desde": "26:1",
+      "hasta": "27:23",
+      "conteoOrientativo": 88
+    },
+    {
+      "slug": "fiestas-y-votos",
+      "nombre": "Fiestas y votos",
+      "orden": 13,
+      "icono": "🗓️",
+      "desde": "28:1",
+      "hasta": "30:16",
+      "conteoOrientativo": 87
+    },
+    {
+      "slug": "tierra-al-este-y-reparto",
+      "nombre": "Tierra al este y reparto",
+      "orden": 14,
+      "icono": "🗺️",
+      "desde": "31:1",
+      "hasta": "36:13",
+      "conteoOrientativo": 228
+    }
+  ]
+}

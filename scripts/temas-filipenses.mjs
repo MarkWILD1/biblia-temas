@@ -1,0 +1,10 @@
+export const PERICOPAS_FILIPENSES = [
+  { slug: 'cautiverio-y-gozo', nombre: 'Cautiverio y gozo', orden: 1, icono: '⛓️', desde: '1:1', hasta: '1:18' },
+  { slug: 'vivir-es-cristo', nombre: 'Vivir es Cristo', orden: 2, icono: '✝️', desde: '1:19', hasta: '1:30' },
+  { slug: 'la-humillacion', nombre: 'La humillación', orden: 3, icono: '🙏', desde: '2:1', hasta: '2:18' },
+  { slug: 'timoteo-y-epafrodito', nombre: 'Timoteo y Epafrodito', orden: 4, icono: '🤝', desde: '2:19', hasta: '2:30' },
+  { slug: 'perdida-y-ganancia', nombre: 'Pérdida y ganancia', orden: 5, icono: '💎', desde: '3:1', hasta: '3:11' },
+  { slug: 'la-meta', nombre: 'La meta', orden: 6, icono: '🏁', desde: '3:12', hasta: '3:21' },
+  { slug: 'gozo-y-paz', nombre: 'Gozo y paz', orden: 7, icono: '🕊️', desde: '4:1', hasta: '4:9' },
+  { slug: 'contentamiento', nombre: 'Contentamiento', orden: 8, icono: '🌾', desde: '4:10', hasta: '4:23' },
+]

@@ -1,0 +1,16 @@
+export const PERICOPAS_2_CRONICAS = [
+  { slug: 'sabiduria-y-templo', nombre: 'Sabiduría y templo', orden: 1, icono: '🏛️', desde: '1:1', hasta: '5:14' },
+  { slug: 'dedicacion-del-templo', nombre: 'Dedicación del templo', orden: 2, icono: '🙏', desde: '6:1', hasta: '7:22' },
+  { slug: 'gloria-de-salomon', nombre: 'Gloria de Salomón', orden: 3, icono: '👑', desde: '8:1', hasta: '9:31' },
+  { slug: 'division-y-roboam', nombre: 'División y Roboam', orden: 4, icono: '✂️', desde: '10:1', hasta: '12:16' },
+  { slug: 'abias-y-asa', nombre: 'Abías y Asa', orden: 5, icono: '🛡️', desde: '13:1', hasta: '16:14' },
+  { slug: 'josafat', nombre: 'Josafat', orden: 6, icono: '🎵', desde: '17:1', hasta: '20:37' },
+  { slug: 'joram-y-atalia', nombre: 'Joram y Atalía', orden: 7, icono: '💔', desde: '21:1', hasta: '23:21' },
+  { slug: 'joas', nombre: 'Joás', orden: 8, icono: '🔨', desde: '24:1', hasta: '24:27' },
+  { slug: 'amasias-y-ozias', nombre: 'Amasías y Ozías', orden: 9, icono: '🏰', desde: '25:1', hasta: '26:23' },
+  { slug: 'jotam-y-acaz', nombre: 'Jotam y Acaz', orden: 10, icono: '🚫', desde: '27:1', hasta: '28:27' },
+  { slug: 'reforma-de-ezequias', nombre: 'Reforma de Ezequías', orden: 11, icono: '🔥', desde: '29:1', hasta: '31:21' },
+  { slug: 'ezequias-y-senaquerib', nombre: 'Ezequías y Senaquerib', orden: 12, icono: '⚔️', desde: '32:1', hasta: '32:33' },
+  { slug: 'manases-y-josias', nombre: 'Manasés y Josías', orden: 13, icono: '📜', desde: '33:1', hasta: '35:27' },
+  { slug: 'caida-y-ciro', nombre: 'Caída y Ciro', orden: 14, icono: '🚶', desde: '36:1', hasta: '36:23' },
+]

@@ -1,0 +1,130 @@
+---
+import Layout from '../../../../components/Layout.astro'
+import StudyShell from '../../../../components/StudyShell.astro'
+import VerseCard from '../../../../components/VerseCard.astro'
+import { getEjePage, getStaticEjePaths } from '../../../../lib/biblia'
+
+export function getStaticPaths() {
+  return getStaticEjePaths()
+}
+
+const { libro: libroSlug, eje: ejeSlug } = Astro.params
+if (!libroSlug || !ejeSlug) throw new Error('Faltan libro o eje')
+
+const page = getEjePage(libroSlug, ejeSlug)
+const { libro, tema, temas, versiculos, totalVersiculos, notasUnicas, relatosFuente = [] } = page
+const featured = versiculos.slice(0, 2)
+const rest = versiculos.slice(2)
+const conNota = versiculos.filter((verso) => verso.nota).length
+---
+
+<Layout
+  title={`${tema.nombre} · ${libro.nombre}`}
+  description={`${tema.nombre} en ${libro.nombre}: ${tema.conteo} versículos en RVR, NTV, DHH y TLA.`}
+>
+  <StudyShell
+    libro={libro}
+    temas={temas}
+    activeSlug={tema.slug}
+    unidad="tema"
+    seccionHref="ejes"
+    totalVersiculos={totalVersiculos}
+    notasUnicas={notasUnicas}
+    showSearch
+  >
+    <div class="flex min-h-0 flex-1 flex-col gap-3 overflow-y-auto sm:gap-4 lg:overflow-hidden">
+      <header
+        class="fade-up shrink-0 rounded-2xl border border-line bg-[var(--color-card)] p-4 shadow-paper sm:p-5"
+      >
+        <div class="flex flex-wrap items-start justify-between gap-3 sm:gap-4">
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-wider text-[var(--color-muted)]">
+              Tema seleccionado
+            </p>
+            <h2 class="mt-1 font-display text-2xl text-[var(--color-text)] lg:text-3xl">
+              {tema.nombre}
+            </h2>
+            {
+              relatosFuente.length > 0 ? (
+                <p class="mt-2 flex flex-wrap items-center gap-1.5 text-sm text-[var(--color-text-soft)]">
+                  <span>Junta</span>
+                  {relatosFuente.map((relato) => (
+                    <a
+                      href={`/libros/${libro.slug}/temas/${relato.slug}`}
+                      class="rounded-full bg-[var(--color-surface-alt)] px-2.5 py-0.5 text-xs font-medium text-[var(--color-text)] transition-colors hover:bg-[var(--color-accent-soft)] hover:text-[var(--color-accent)]"
+                    >
+                      {relato.nombre}
+                    </a>
+                  ))}
+                </p>
+              ) : null
+            }
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span
+              class="rounded-full bg-[var(--color-accent-soft)] px-3 py-1 text-xs font-semibold text-[var(--color-accent)]"
+            >
+              <span data-search-count>{versiculos.length}</span> versículos
+            </span>
+            {
+              notasUnicas > 0 ? (
+                <span class="rounded-full border border-note-line bg-[var(--color-note)] px-3 py-1 text-xs font-semibold text-[var(--color-note-text)]">
+                  <span data-search-notes>{conNota}</span> con nota
+                </span>
+              ) : null
+            }
+            <span
+              class="rounded-full bg-[var(--color-surface-alt)] px-3 py-1 text-xs font-medium text-[var(--color-text-soft)]"
+            >
+              Libro de {libro.nombre}
+            </span>
+          </div>
+        </div>
+      </header>
+
+      <div
+        data-search-empty
+        hidden
+        class="flex flex-1 items-center justify-center rounded-2xl border border-dashed border-line bg-[var(--color-card)]/60 p-8 text-center"
+      >
+        <p class="text-sm text-[var(--color-text-soft)]">
+          No hay versículos que coincidan con tu búsqueda.
+        </p>
+      </div>
+
+      <div
+        data-search-results
+        class="grid min-h-0 flex-1 gap-3 sm:gap-4 lg:grid-cols-[280px_1fr] lg:overflow-hidden"
+      >
+        <div class="fade-stagger flex min-h-0 flex-col gap-3 lg:overflow-y-auto lg:pr-1">
+          {featured.map((verso) => <VerseCard verso={verso} featured />)}
+        </div>
+
+        <div
+          class="fade-up min-h-0 rounded-2xl border border-line bg-[var(--color-card)] shadow-paper lg:overflow-hidden"
+        >
+          <div
+            class="flex flex-wrap items-center justify-between gap-2 border-b border-line-soft px-4 py-3 sm:px-5 sm:py-4"
+          >
+            <h3 class="font-display text-lg text-[var(--color-text)]">Todos los versículos</h3>
+            <div class="flex gap-2">
+              <span
+                class="rounded-full bg-[var(--color-accent)] px-3 py-1 text-xs font-medium text-[var(--color-card)]"
+              >
+                Lista
+              </span>
+              <span
+                class="rounded-full bg-[var(--color-surface-alt)] px-3 py-1 text-xs font-medium text-[var(--color-text-soft)]"
+              >
+                {tema.conteo} total
+              </span>
+            </div>
+          </div>
+          <div class="grid gap-3 p-4 sm:grid-cols-2 lg:max-h-full lg:overflow-y-auto xl:grid-cols-2">
+            {rest.map((verso) => <VerseCard verso={verso} />)}
+          </div>
+        </div>
+      </div>
+    </div>
+  </StudyShell>
+</Layout>

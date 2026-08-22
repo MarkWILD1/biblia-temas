@@ -1,0 +1,133 @@
+{
+  "libro": "1SA",
+  "id": "1-samuel",
+  "unidad": "pericopa",
+  "temas": [
+    {
+      "slug": "nacimiento-de-samuel",
+      "nombre": "Nacimiento de Samuel",
+      "orden": 1,
+      "icono": "🙏",
+      "desde": "1:1",
+      "hasta": "2:11",
+      "conteoOrientativo": 39
+    },
+    {
+      "slug": "el-llamado-de-samuel",
+      "nombre": "El llamado de Samuel",
+      "orden": 2,
+      "icono": "👂",
+      "desde": "2:12",
+      "hasta": "3:21",
+      "conteoOrientativo": 46
+    },
+    {
+      "slug": "el-arca-capturada",
+      "nombre": "El arca capturada",
+      "orden": 3,
+      "icono": "📦",
+      "desde": "4:1",
+      "hasta": "7:2",
+      "conteoOrientativo": 57
+    },
+    {
+      "slug": "mizpa-y-el-rey",
+      "nombre": "Mizpa y el rey",
+      "orden": 4,
+      "icono": "👑",
+      "desde": "7:3",
+      "hasta": "8:22",
+      "conteoOrientativo": 37
+    },
+    {
+      "slug": "saul-ungido",
+      "nombre": "Saúl ungido",
+      "orden": 5,
+      "icono": "🛢️",
+      "desde": "9:1",
+      "hasta": "10:27",
+      "conteoOrientativo": 54
+    },
+    {
+      "slug": "jabes-y-reino",
+      "nombre": "Jabes y el reino",
+      "orden": 6,
+      "icono": "🛡️",
+      "desde": "11:1",
+      "hasta": "12:25",
+      "conteoOrientativo": 40
+    },
+    {
+      "slug": "guerra-contra-filisteos",
+      "nombre": "Guerra contra los filisteos",
+      "orden": 7,
+      "icono": "⚔️",
+      "desde": "13:1",
+      "hasta": "14:52",
+      "conteoOrientativo": 75
+    },
+    {
+      "slug": "saul-rechazado",
+      "nombre": "Saúl rechazado",
+      "orden": 8,
+      "icono": "🚫",
+      "desde": "15:1",
+      "hasta": "15:35",
+      "conteoOrientativo": 35
+    },
+    {
+      "slug": "david-ungido",
+      "nombre": "David ungido",
+      "orden": 9,
+      "icono": "🎵",
+      "desde": "16:1",
+      "hasta": "16:23",
+      "conteoOrientativo": 23
+    },
+    {
+      "slug": "david-y-goliat",
+      "nombre": "David y Goliat",
+      "orden": 10,
+      "icono": "🪨",
+      "desde": "17:1",
+      "hasta": "17:58",
+      "conteoOrientativo": 58
+    },
+    {
+      "slug": "celos-de-saul",
+      "nombre": "Celos de Saúl",
+      "orden": 11,
+      "icono": "🏹",
+      "desde": "18:1",
+      "hasta": "20:42",
+      "conteoOrientativo": 96
+    },
+    {
+      "slug": "david-huye",
+      "nombre": "David huye",
+      "orden": 12,
+      "icono": "🏃",
+      "desde": "21:1",
+      "hasta": "23:29",
+      "conteoOrientativo": 67
+    },
+    {
+      "slug": "david-en-el-desierto",
+      "nombre": "David en el desierto",
+      "orden": 13,
+      "icono": "🏕️",
+      "desde": "24:1",
+      "hasta": "26:25",
+      "conteoOrientativo": 91
+    },
+    {
+      "slug": "la-caida-de-saul",
+      "nombre": "La caída de Saúl",
+      "orden": 14,
+      "icono": "💔",
+      "desde": "27:1",
+      "hasta": "31:13",
+      "conteoOrientativo": 92
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import { readFileSync, writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
+import { escribirCapasDesdeBlob } from './lib/escribir-capas-proverbios.mjs'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 
@@ -52,7 +53,6 @@ function mergeVersion(temas, versionMap, field, label) {
 }
 
 const temasPath = join(root, 'proverbios-por-temas.json')
-const publicPath = join(root, 'app', 'public', 'proverbios-por-temas.json')
 
 const temas = JSON.parse(readFileSync(temasPath, 'utf8'))
 const ntv = JSON.parse(readFileSync(join(root, 'ntv-v.json'), 'utf8'))
@@ -71,9 +71,9 @@ temas.versiones = {
 }
 
 writeFileSync(temasPath, `${JSON.stringify(temas, null, 2)}\n`, 'utf8')
-writeFileSync(publicPath, `${JSON.stringify(temas, null, 2)}\n`, 'utf8')
+escribirCapasDesdeBlob(temas, root)
 
 const total = temas.temas.reduce((n, t) => n + t.versiculos.length, 0)
 console.log(`Actualizado: ${temasPath}`)
-console.log(`Actualizado: ${publicPath}`)
+console.log(`Capas actualizadas en data/`)
 console.log(`Versículos con NTV, DHH y TLA: ${total}`)

@@ -1,0 +1,79 @@
+{
+  "libro": "HAG",
+  "id": "hageo",
+  "unidad": "pericopa",
+  "temas": [
+    {
+      "slug": "casas-artesonadas",
+      "nombre": "Casas artesonadas",
+      "orden": 1,
+      "icono": "🏠",
+      "desde": "1:1",
+      "hasta": "1:6",
+      "conteoOrientativo": 6
+    },
+    {
+      "slug": "meditad-vuestros-caminos",
+      "nombre": "Meditad vuestros caminos",
+      "orden": 2,
+      "icono": "🌾",
+      "desde": "1:7",
+      "hasta": "1:11",
+      "conteoOrientativo": 5
+    },
+    {
+      "slug": "el-pueblo-obedece",
+      "nombre": "El pueblo obedece",
+      "orden": 3,
+      "icono": "🔨",
+      "desde": "1:12",
+      "hasta": "1:15",
+      "conteoOrientativo": 4
+    },
+    {
+      "slug": "sed-fuertes",
+      "nombre": "Sed fuertes",
+      "orden": 4,
+      "icono": "💪",
+      "desde": "2:1",
+      "hasta": "2:5",
+      "conteoOrientativo": 5
+    },
+    {
+      "slug": "la-gloria-postrera",
+      "nombre": "La gloria postrera",
+      "orden": 5,
+      "icono": "✨",
+      "desde": "2:6",
+      "hasta": "2:9",
+      "conteoOrientativo": 4
+    },
+    {
+      "slug": "pueblo-impuro",
+      "nombre": "Pueblo impuro",
+      "orden": 6,
+      "icono": "🫧",
+      "desde": "2:10",
+      "hasta": "2:14",
+      "conteoOrientativo": 5
+    },
+    {
+      "slug": "desde-este-dia",
+      "nombre": "Desde este día",
+      "orden": 7,
+      "icono": "🌱",
+      "desde": "2:15",
+      "hasta": "2:19",
+      "conteoOrientativo": 5
+    },
+    {
+      "slug": "zorobabel-sello",
+      "nombre": "Zorobabel, sello",
+      "orden": 8,
+      "icono": "💍",
+      "desde": "2:20",
+      "hasta": "2:23",
+      "conteoOrientativo": 4
+    }
+  ]
+}

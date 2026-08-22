@@ -1,0 +1,79 @@
+{
+  "libro": "1TI",
+  "id": "1-timoteo",
+  "unidad": "pericopa",
+  "temas": [
+    {
+      "slug": "la-sana-doctrina",
+      "nombre": "La sana doctrina",
+      "orden": 1,
+      "icono": "📜",
+      "desde": "1:1",
+      "hasta": "1:11",
+      "conteoOrientativo": 11
+    },
+    {
+      "slug": "pablo-y-timoteo",
+      "nombre": "Pablo y Timoteo",
+      "orden": 2,
+      "icono": "🤝",
+      "desde": "1:12",
+      "hasta": "1:20",
+      "conteoOrientativo": 9
+    },
+    {
+      "slug": "oracion-y-modestia",
+      "nombre": "Oración y modestia",
+      "orden": 3,
+      "icono": "🙏",
+      "desde": "2:1",
+      "hasta": "2:15",
+      "conteoOrientativo": 15
+    },
+    {
+      "slug": "obispos-y-diaconos",
+      "nombre": "Obispos y diáconos",
+      "orden": 4,
+      "icono": "⚖️",
+      "desde": "3:1",
+      "hasta": "3:16",
+      "conteoOrientativo": 16
+    },
+    {
+      "slug": "apostasia-y-ejercicio",
+      "nombre": "Apostasía y ejercicio",
+      "orden": 5,
+      "icono": "🛡️",
+      "desde": "4:1",
+      "hasta": "4:16",
+      "conteoOrientativo": 16
+    },
+    {
+      "slug": "viudas-y-ancianos",
+      "nombre": "Viudas y ancianos",
+      "orden": 6,
+      "icono": "🏠",
+      "desde": "5:1",
+      "hasta": "5:25",
+      "conteoOrientativo": 25
+    },
+    {
+      "slug": "piedad-y-contentamiento",
+      "nombre": "Piedad y contentamiento",
+      "orden": 7,
+      "icono": "🌾",
+      "desde": "6:1",
+      "hasta": "6:10",
+      "conteoOrientativo": 10
+    },
+    {
+      "slug": "pelea-la-buena-batalla",
+      "nombre": "Pelea la buena batalla",
+      "orden": 8,
+      "icono": "⚔️",
+      "desde": "6:11",
+      "hasta": "6:21",
+      "conteoOrientativo": 11
+    }
+  ]
+}

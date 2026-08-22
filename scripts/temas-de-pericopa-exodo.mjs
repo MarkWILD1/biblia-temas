@@ -1,0 +1,26 @@
+export const TEMAS_EXODO = [
+  { slug: 'liberacion', nombre: 'Liberación', orden: 1, icono: '🚪' },
+  { slug: 'llamado', nombre: 'Llamado', orden: 2, icono: '🔥' },
+  { slug: 'juicio', nombre: 'Juicio', orden: 3, icono: '⚖️' },
+  { slug: 'pascua', nombre: 'Pascua', orden: 4, icono: '🐑' },
+  { slug: 'pacto', nombre: 'Pacto', orden: 5, icono: '⭐' },
+  { slug: 'provision', nombre: 'Provisión', orden: 6, icono: '🍞' },
+  { slug: 'presencia', nombre: 'Presencia', orden: 7, icono: '☁️' },
+  { slug: 'idolatria', nombre: 'Idolatría', orden: 8, icono: '🐂' },
+]
+
+/** Cada relato entra en uno o más temas. No se tocan versos. */
+export const PERICOPA_A_TEMAS_EXODO = {
+  'opresion-en-egipto': ['liberacion'],
+  'llamado-de-moises': ['llamado'],
+  'moises-y-faraon': ['liberacion'],
+  'las-plagas': ['liberacion', 'juicio'],
+  'pascua-y-salida': ['pascua', 'liberacion'],
+  'mar-rojo': ['liberacion', 'juicio'],
+  'desierto-hacia-sinai': ['provision'],
+  'sinai-y-decalogo': ['pacto', 'presencia'],
+  'libro-del-pacto': ['pacto'],
+  'tabernaculo-instrucciones': ['presencia'],
+  'becerro-de-oro': ['idolatria', 'pacto', 'juicio'],
+  'tabernaculo-construccion': ['presencia'],
+}

@@ -1,0 +1,16 @@
+export const PERICOPAS_1_CORINTIOS = [
+  { slug: 'divisiones', nombre: 'Divisiones', orden: 1, icono: '⚔️', desde: '1:1', hasta: '1:31' },
+  { slug: 'sabiduria-de-dios', nombre: 'Sabiduría de Dios', orden: 2, icono: '✨', desde: '2:1', hasta: '3:23' },
+  { slug: 'apostoles-y-juicio', nombre: 'Apóstoles y juicio', orden: 3, icono: '⚖️', desde: '4:1', hasta: '4:21' },
+  { slug: 'inmoralidad', nombre: 'Inmoralidad', orden: 4, icono: '🚫', desde: '5:1', hasta: '6:20' },
+  { slug: 'matrimonio', nombre: 'Matrimonio', orden: 5, icono: '💍', desde: '7:1', hasta: '7:40' },
+  { slug: 'idolos', nombre: 'Ídolos', orden: 6, icono: '🍖', desde: '8:1', hasta: '8:13' },
+  { slug: 'derechos-del-apostol', nombre: 'Derechos del apóstol', orden: 7, icono: '👣', desde: '9:1', hasta: '9:27' },
+  { slug: 'israel-y-la-copa', nombre: 'Israel y la copa', orden: 8, icono: '🍷', desde: '10:1', hasta: '10:33' },
+  { slug: 'velo-y-cena', nombre: 'Velo y cena', orden: 9, icono: '🍞', desde: '11:1', hasta: '11:34' },
+  { slug: 'dones', nombre: 'Dones', orden: 10, icono: '🎁', desde: '12:1', hasta: '12:31' },
+  { slug: 'el-amor', nombre: 'El amor', orden: 11, icono: '❤️', desde: '13:1', hasta: '13:13' },
+  { slug: 'lenguas-y-profecia', nombre: 'Lenguas y profecía', orden: 12, icono: '📣', desde: '14:1', hasta: '14:40' },
+  { slug: 'la-resurreccion', nombre: 'La resurrección', orden: 13, icono: '🌅', desde: '15:1', hasta: '15:58' },
+  { slug: 'ofrenda-y-saludos', nombre: 'Ofrenda y saludos', orden: 14, icono: '✉️', desde: '16:1', hasta: '16:24' },
+]

@@ -1,0 +1,87 @@
+{
+  "libro": "OBA",
+  "temas": [
+    {
+      "slug": "orgullo",
+      "nombre": "Orgullo",
+      "orden": 1,
+      "icono": "🦅"
+    },
+    {
+      "slug": "edom",
+      "nombre": "Edom",
+      "orden": 2,
+      "icono": "🏔️"
+    },
+    {
+      "slug": "juicio",
+      "nombre": "Juicio",
+      "orden": 3,
+      "icono": "⚖️"
+    },
+    {
+      "slug": "traicion",
+      "nombre": "Traición",
+      "orden": 4,
+      "icono": "🗡️"
+    },
+    {
+      "slug": "hermano",
+      "nombre": "Hermano",
+      "orden": 5,
+      "icono": "🤝"
+    },
+    {
+      "slug": "dia-del-senor",
+      "nombre": "Día del Señor",
+      "orden": 6,
+      "icono": "🌑"
+    },
+    {
+      "slug": "sion",
+      "nombre": "Sion",
+      "orden": 7,
+      "icono": "🏔️"
+    },
+    {
+      "slug": "reino",
+      "nombre": "Reino",
+      "orden": 8,
+      "icono": "👑"
+    }
+  ],
+  "pericopaATemas": {
+    "el-aguila-de-edom": [
+      "orgullo",
+      "edom"
+    ],
+    "saqueadores-y-aliados": [
+      "traicion",
+      "edom"
+    ],
+    "sabios-de-teman": [
+      "edom",
+      "juicio"
+    ],
+    "violencia-contra-jacob": [
+      "hermano",
+      "traicion"
+    ],
+    "el-dia-de-tu-hermano": [
+      "hermano",
+      "orgullo"
+    ],
+    "dia-del-senor": [
+      "dia-del-senor",
+      "juicio"
+    ],
+    "fuego-en-jacob": [
+      "sion",
+      "hermano"
+    ],
+    "el-reino-del-senor": [
+      "reino",
+      "sion"
+    ]
+  }
+}

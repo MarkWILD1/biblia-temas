@@ -1,0 +1,16 @@
+export const PERICOPAS_HECHOS = [
+  { slug: 'pentecostes', nombre: 'Pentecostés', orden: 1, icono: '🔥', desde: '1:1', hasta: '2:47' },
+  { slug: 'el-cojo-y-el-sanedrin', nombre: 'El cojo y el sanedrín', orden: 2, icono: '✋', desde: '3:1', hasta: '4:37' },
+  { slug: 'ananias-y-los-apostoles', nombre: 'Ananías y los apóstoles', orden: 3, icono: '⛪', desde: '5:1', hasta: '5:42' },
+  { slug: 'esteban', nombre: 'Esteban', orden: 4, icono: '🪨', desde: '6:1', hasta: '7:60' },
+  { slug: 'felipe', nombre: 'Felipe', orden: 5, icono: '💧', desde: '8:1', hasta: '8:40' },
+  { slug: 'conversion-de-saulo', nombre: 'Conversión de Saulo', orden: 6, icono: '⚡', desde: '9:1', hasta: '9:43' },
+  { slug: 'cornelio', nombre: 'Cornelio', orden: 7, icono: '🕊️', desde: '10:1', hasta: '11:30' },
+  { slug: 'herodes-y-la-mision', nombre: 'Herodes y la misión', orden: 8, icono: '⛵', desde: '12:1', hasta: '14:28' },
+  { slug: 'el-concilio', nombre: 'El concilio', orden: 9, icono: '📜', desde: '15:1', hasta: '15:41' },
+  { slug: 'filipos-y-atenas', nombre: 'Filipos y Atenas', orden: 10, icono: '🏛️', desde: '16:1', hasta: '17:34' },
+  { slug: 'corinto-y-efeso', nombre: 'Corinto y Éfeso', orden: 11, icono: '🔥', desde: '18:1', hasta: '19:41' },
+  { slug: 'camino-a-jerusalen', nombre: 'Camino a Jerusalén', orden: 12, icono: '🛤️', desde: '20:1', hasta: '21:40' },
+  { slug: 'defensa-de-pablo', nombre: 'Defensa de Pablo', orden: 13, icono: '⚖️', desde: '22:1', hasta: '26:32' },
+  { slug: 'roma', nombre: 'Roma', orden: 14, icono: '⚓', desde: '27:1', hasta: '28:31' },
+]

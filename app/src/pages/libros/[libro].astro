@@ -1,0 +1,124 @@
+---
+import { Icon } from 'astro-icon/components'
+import Layout from '../../components/Layout.astro'
+import StudyShell from '../../components/StudyShell.astro'
+import { getLibroPage, getStaticLibroPaths } from '../../lib/biblia'
+
+export function getStaticPaths() {
+  return getStaticLibroPaths()
+}
+
+const { libro: libroSlug } = Astro.params
+if (!libroSlug) throw new Error('Falta el slug del libro')
+
+const page = getLibroPage(libroSlug)
+const { libro, temas, ejes, unidad, totalVersiculos, notasUnicas } = page
+const esRelato = unidad === 'pericopa'
+const tieneEjes = ejes.length > 0
+---
+
+<Layout
+  title={tieneEjes ? `${libro.nombre} por temas` : esRelato ? `${libro.nombre} por relatos` : `${libro.nombre} por temas`}
+  description={
+    tieneEjes
+      ? `Temas y relatos de ${libro.nombre} con RVR, NTV, DHH y TLA.`
+      : esRelato
+        ? `Relatos de ${libro.nombre} con RVR, NTV, DHH y TLA.`
+        : `Temas de ${libro.nombre} con RVR, NTV, DHH y TLA.`
+  }
+>
+  <StudyShell
+    libro={libro}
+    temas={temas}
+    unidad={unidad}
+    ejesCount={ejes.length}
+    totalVersiculos={totalVersiculos}
+    notasUnicas={notasUnicas}
+  >
+    <div class="flex min-h-0 flex-1 flex-col gap-3 overflow-y-auto sm:gap-4">
+      <header
+        class="fade-up shrink-0 rounded-2xl border border-line bg-[var(--color-card)] p-4 shadow-paper sm:p-5"
+      >
+        <p class="text-xs font-semibold uppercase tracking-wider text-[var(--color-muted)]">Libro</p>
+        <h2 class="mt-1 font-display text-2xl text-[var(--color-text)] lg:text-3xl">
+          {libro.nombre}
+        </h2>
+        <p class="mt-2 text-sm leading-relaxed text-[var(--color-text-soft)]">
+          {
+            tieneEjes
+              ? 'Elegí un tema. Cada uno junta los relatos que lo tratan, con las cuatro versiones en la misma página.'
+              : esRelato
+                ? 'Elegí un relato. Cada uno tiene URL propia y las cuatro versiones en la misma página.'
+                : 'Elegí un tema. Cada uno tiene URL propia y las cuatro versiones en la misma página.'
+          }
+        </p>
+      </header>
+
+      {
+        tieneEjes ? (
+          <section>
+            <h3 class="mb-3 px-1 font-display text-lg text-[var(--color-text)]">Por temas</h3>
+            <ul class="fade-stagger grid gap-3 sm:grid-cols-2">
+              {ejes.map((tema) => (
+                <li>
+                  <a
+                    href={`/libros/${libro.slug}/ejes/${tema.slug}`}
+                    class="group flex items-center gap-3 rounded-2xl border border-line bg-[var(--color-card)] p-4 shadow-paper transition-shadow hover:shadow-paper-lg"
+                  >
+                    <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-[var(--color-accent-soft)] text-lg">
+                      <span class="icono-tinta">{tema.icono}</span>
+                    </span>
+                    <span class="min-w-0 flex-1">
+                      <span class="block font-semibold text-[var(--color-text)]">{tema.nombre}</span>
+                      <span class="mt-0.5 block text-xs text-[var(--color-muted)]">
+                        {tema.conteo} versículos
+                      </span>
+                    </span>
+                    <Icon
+                      name="ph:arrow-right"
+                      class="h-4 w-4 shrink-0 text-[var(--color-muted)] transition-colors group-hover:text-[var(--color-accent)]"
+                    />
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ) : null
+      }
+
+      <section>
+        {
+          tieneEjes ? (
+            <h3 class="mb-3 px-1 font-display text-lg text-[var(--color-text)]">Relatos</h3>
+          ) : null
+        }
+        <ul class="fade-stagger grid gap-3 sm:grid-cols-2">
+          {
+            temas.map((tema) => (
+              <li>
+                <a
+                  href={`/libros/${libro.slug}/temas/${tema.slug}`}
+                  class="group flex items-center gap-3 rounded-2xl border border-line bg-[var(--color-card)] p-4 shadow-paper transition-shadow hover:shadow-paper-lg"
+                >
+                  <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-[var(--color-accent-soft)] text-lg">
+                    <span class="icono-tinta">{tema.icono}</span>
+                  </span>
+                  <span class="min-w-0 flex-1">
+                    <span class="block font-semibold text-[var(--color-text)]">{tema.nombre}</span>
+                    <span class="mt-0.5 block text-xs text-[var(--color-muted)]">
+                      {tema.conteo} versículos
+                    </span>
+                  </span>
+                  <Icon
+                    name="ph:arrow-right"
+                    class="h-4 w-4 shrink-0 text-[var(--color-muted)] transition-colors group-hover:text-[var(--color-accent)]"
+                  />
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+    </div>
+  </StudyShell>
+</Layout>

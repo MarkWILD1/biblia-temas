@@ -1,0 +1,16 @@
+export const PERICOPAS_DEUTERONOMIO = [
+  { slug: 'desde-horeb-hasta-moab', nombre: 'Desde Horeb hasta Moab', orden: 1, icono: '🚶', desde: '1:1', hasta: '3:29' },
+  { slug: 'llamado-a-obedecer', nombre: 'Llamado a obedecer', orden: 2, icono: '📢', desde: '4:1', hasta: '4:49' },
+  { slug: 'decalogo-y-shema', nombre: 'Decálogo y Shemá', orden: 3, icono: '❤️', desde: '5:1', hasta: '6:25' },
+  { slug: 'pueblo-apartado', nombre: 'Pueblo apartado', orden: 4, icono: '🛡️', desde: '7:1', hasta: '8:20' },
+  { slug: 'becerro-y-nuevas-tablas', nombre: 'Becerro y nuevas tablas', orden: 5, icono: '🪨', desde: '9:1', hasta: '10:22' },
+  { slug: 'un-santuario', nombre: 'Un santuario', orden: 6, icono: '⛪', desde: '11:1', hasta: '12:32' },
+  { slug: 'fidelidad-y-diezmos', nombre: 'Fidelidad y diezmos', orden: 7, icono: '🌾', desde: '13:1', hasta: '14:29' },
+  { slug: 'ano-sabatico-y-fiestas', nombre: 'Año sabático y fiestas', orden: 8, icono: '🗓️', desde: '15:1', hasta: '16:22' },
+  { slug: 'autoridades', nombre: 'Autoridades', orden: 9, icono: '👑', desde: '17:1', hasta: '18:22' },
+  { slug: 'justicia-y-guerra', nombre: 'Justicia y guerra', orden: 10, icono: '⚖️', desde: '19:1', hasta: '21:23' },
+  { slug: 'leyes-sociales', nombre: 'Leyes sociales', orden: 11, icono: '🤝', desde: '22:1', hasta: '25:19' },
+  { slug: 'primicias-y-pacto', nombre: 'Primicias y pacto', orden: 12, icono: '🧺', desde: '26:1', hasta: '26:19' },
+  { slug: 'bendiciones-y-maldiciones', nombre: 'Bendiciones y maldiciones', orden: 13, icono: '📜', desde: '27:1', hasta: '30:20' },
+  { slug: 'josue-y-muerte-de-moises', nombre: 'Josué y la muerte de Moisés', orden: 14, icono: '🌄', desde: '31:1', hasta: '34:12' },
+]

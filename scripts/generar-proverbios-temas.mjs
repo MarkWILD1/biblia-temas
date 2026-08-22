@@ -6,6 +6,7 @@ import { parseProverbios } from './parse-proverbios.mjs';
 import { clasificarVersiculo } from './clasificar-versiculo.mjs';
 import { TEMAS } from './temas-proverbios.mjs';
 import { getOverrides } from './overrides-proverbios.mjs';
+import { escribirCapasDesdeBlob } from './lib/escribir-capas-proverbios.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUTPUT_PATH = join(__dirname, '..', 'proverbios-por-temas.json');
@@ -117,6 +118,13 @@ function main() {
   validarCobertura(versiculos, resultado.indice);
 
   writeFileSync(OUTPUT_PATH, `${JSON.stringify(resultado, null, 2)}\n`, 'utf8');
+
+  try {
+    escribirCapasDesdeBlob(resultado, join(__dirname, '..'));
+    console.log('Capas actualizadas en data/ (RVR + asignaciones). Completar NTV/DHH/TLA con agregar-ntv-proverbios.mjs');
+  } catch (error) {
+    console.warn(`Capas no escritas (faltan versiones): ${error.message}`);
+  }
 
   console.log(`Archivo generado: ${OUTPUT_PATH}`);
   console.log(`Versículos clasificados: ${resultado.totalVersiculos}`);

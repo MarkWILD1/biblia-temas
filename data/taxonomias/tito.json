@@ -1,0 +1,79 @@
+{
+  "libro": "TIT",
+  "id": "tito",
+  "unidad": "pericopa",
+  "temas": [
+    {
+      "slug": "pablo-a-tito",
+      "nombre": "Pablo a Tito",
+      "orden": 1,
+      "icono": "✉️",
+      "desde": "1:1",
+      "hasta": "1:4",
+      "conteoOrientativo": 4
+    },
+    {
+      "slug": "ancianos-en-creta",
+      "nombre": "Ancianos en Creta",
+      "orden": 2,
+      "icono": "⚖️",
+      "desde": "1:5",
+      "hasta": "1:9",
+      "conteoOrientativo": 5
+    },
+    {
+      "slug": "los-de-la-circuncision",
+      "nombre": "Los de la circuncisión",
+      "orden": 3,
+      "icono": "🗣️",
+      "desde": "1:10",
+      "hasta": "1:16",
+      "conteoOrientativo": 7
+    },
+    {
+      "slug": "conducta-en-casa",
+      "nombre": "Conducta en casa",
+      "orden": 4,
+      "icono": "🏠",
+      "desde": "2:1",
+      "hasta": "2:10",
+      "conteoOrientativo": 10
+    },
+    {
+      "slug": "la-gracia-aparecio",
+      "nombre": "La gracia apareció",
+      "orden": 5,
+      "icono": "✨",
+      "desde": "2:11",
+      "hasta": "2:15",
+      "conteoOrientativo": 5
+    },
+    {
+      "slug": "las-buenas-obras",
+      "nombre": "Las buenas obras",
+      "orden": 6,
+      "icono": "🌾",
+      "desde": "3:1",
+      "hasta": "3:8",
+      "conteoOrientativo": 8
+    },
+    {
+      "slug": "herejias-y-division",
+      "nombre": "Herejías y división",
+      "orden": 7,
+      "icono": "⚠️",
+      "desde": "3:9",
+      "hasta": "3:11",
+      "conteoOrientativo": 3
+    },
+    {
+      "slug": "despedida-en-creta",
+      "nombre": "Despedida en Creta",
+      "orden": 8,
+      "icono": "🤝",
+      "desde": "3:12",
+      "hasta": "3:15",
+      "conteoOrientativo": 4
+    }
+  ]
+}

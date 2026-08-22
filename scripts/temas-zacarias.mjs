@@ -1,0 +1,16 @@
+export const PERICOPAS_ZACARIAS = [
+  { slug: 'volved-a-mi', nombre: 'Volved a mí', orden: 1, icono: '↩️', desde: '1:1', hasta: '1:6' },
+  { slug: 'entre-los-arrayanes', nombre: 'Entre los arrayanes', orden: 2, icono: '🌳', desde: '1:7', hasta: '1:17' },
+  { slug: 'el-cordel-de-medir', nombre: 'El cordel de medir', orden: 3, icono: '📏', desde: '1:18', hasta: '2:13' },
+  { slug: 'josue-el-sacerdote', nombre: 'Josué el sacerdote', orden: 4, icono: '👔', desde: '3:1', hasta: '3:10' },
+  { slug: 'el-candelero', nombre: 'El candelero', orden: 5, icono: '🕎', desde: '4:1', hasta: '4:14' },
+  { slug: 'el-rollo-y-el-efa', nombre: 'El rollo y el efa', orden: 6, icono: '📜', desde: '5:1', hasta: '5:11' },
+  { slug: 'carros-y-coronas', nombre: 'Carros y coronas', orden: 7, icono: '🐎', desde: '6:1', hasta: '6:15' },
+  { slug: 'el-ayuno', nombre: 'El ayuno', orden: 8, icono: '🍽️', desde: '7:1', hasta: '7:14' },
+  { slug: 'sion-habitada', nombre: 'Sion habitada', orden: 9, icono: '🏔️', desde: '8:1', hasta: '8:23' },
+  { slug: 'el-rey-humilde', nombre: 'El rey humilde', orden: 10, icono: '🐴', desde: '9:1', hasta: '9:17' },
+  { slug: 'juda-y-efrain', nombre: 'Judá y Efraín', orden: 11, icono: '🌧️', desde: '10:1', hasta: '10:12' },
+  { slug: 'los-dos-pastores', nombre: 'Los dos pastores', orden: 12, icono: '🐑', desde: '11:1', hasta: '11:17' },
+  { slug: 'el-traspasado', nombre: 'El traspasado', orden: 13, icono: '💔', desde: '12:1', hasta: '13:9' },
+  { slug: 'el-senor-viene', nombre: 'El Señor viene', orden: 14, icono: '🌅', desde: '14:1', hasta: '14:21' },
+]

@@ -1,0 +1,10 @@
+export const PERICOPAS_2_PEDRO = [
+  { slug: 'preciosas-promesas', nombre: 'Preciosas promesas', orden: 1, icono: '💎', desde: '1:1', hasta: '1:11' },
+  { slug: 'testigos-oculares', nombre: 'Testigos oculares', orden: 2, icono: '👁️', desde: '1:12', hasta: '1:21' },
+  { slug: 'falsos-maestros', nombre: 'Falsos maestros', orden: 3, icono: '⚠️', desde: '2:1', hasta: '2:10' },
+  { slug: 'balaam-y-tinieblas', nombre: 'Balaam y tinieblas', orden: 4, icono: '🌑', desde: '2:11', hasta: '2:22' },
+  { slug: 'burladores', nombre: 'Burladores', orden: 5, icono: '🌊', desde: '3:1', hasta: '3:7' },
+  { slug: 'mil-anos', nombre: 'Mil años', orden: 6, icono: '⏳', desde: '3:8', hasta: '3:10' },
+  { slug: 'nuevos-cielos', nombre: 'Nuevos cielos', orden: 7, icono: '🌅', desde: '3:11', hasta: '3:13' },
+  { slug: 'creced-en-gracia', nombre: 'Creced en gracia', orden: 8, icono: '🌾', desde: '3:14', hasta: '3:18' },
+]

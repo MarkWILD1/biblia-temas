@@ -1,0 +1,87 @@
+{
+  "libro": "HAG",
+  "temas": [
+    {
+      "slug": "templo",
+      "nombre": "Templo",
+      "orden": 1,
+      "icono": "🏛️"
+    },
+    {
+      "slug": "descuido",
+      "nombre": "Descuido",
+      "orden": 2,
+      "icono": "🛋️"
+    },
+    {
+      "slug": "juicio",
+      "nombre": "Juicio",
+      "orden": 3,
+      "icono": "⚖️"
+    },
+    {
+      "slug": "obediencia",
+      "nombre": "Obediencia",
+      "orden": 4,
+      "icono": "✅"
+    },
+    {
+      "slug": "presencia",
+      "nombre": "Presencia",
+      "orden": 5,
+      "icono": "🕊️"
+    },
+    {
+      "slug": "gloria",
+      "nombre": "Gloria",
+      "orden": 6,
+      "icono": "✨"
+    },
+    {
+      "slug": "santidad",
+      "nombre": "Santidad",
+      "orden": 7,
+      "icono": "🕯️"
+    },
+    {
+      "slug": "esperanza",
+      "nombre": "Esperanza",
+      "orden": 8,
+      "icono": "🌅"
+    }
+  ],
+  "pericopaATemas": {
+    "casas-artesonadas": [
+      "descuido",
+      "templo"
+    ],
+    "meditad-vuestros-caminos": [
+      "juicio",
+      "templo"
+    ],
+    "el-pueblo-obedece": [
+      "obediencia",
+      "templo"
+    ],
+    "sed-fuertes": [
+      "presencia",
+      "obediencia"
+    ],
+    "la-gloria-postrera": [
+      "gloria",
+      "templo"
+    ],
+    "pueblo-impuro": [
+      "santidad",
+      "juicio"
+    ],
+    "desde-este-dia": [
+      "esperanza",
+      "templo"
+    ],
+    "zorobabel-sello": [
+      "esperanza",
+      "presencia"
+    ]
+  }
+}

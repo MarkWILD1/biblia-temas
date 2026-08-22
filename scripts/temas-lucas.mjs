@@ -1,0 +1,16 @@
+export const PERICOPAS_LUCAS = [
+  { slug: 'anuncios-y-nacimiento', nombre: 'Anuncios y nacimiento', orden: 1, icono: '⭐', desde: '1:1', hasta: '2:52' },
+  { slug: 'bautista-y-desierto', nombre: 'Bautista y desierto', orden: 2, icono: '🌊', desde: '3:1', hasta: '4:44' },
+  { slug: 'llamado-y-sermon', nombre: 'Llamado y sermón', orden: 3, icono: '⛰️', desde: '5:1', hasta: '6:49' },
+  { slug: 'fe-y-perdon', nombre: 'Fe y perdón', orden: 4, icono: '✋', desde: '7:1', hasta: '8:56' },
+  { slug: 'los-doce-y-la-cruz', nombre: 'Los doce y la cruz', orden: 5, icono: '👣', desde: '9:1', hasta: '9:62' },
+  { slug: 'el-buen-samaritano', nombre: 'El buen samaritano', orden: 6, icono: '🤝', desde: '10:1', hasta: '10:42' },
+  { slug: 'oracion-y-controversia', nombre: 'Oración y controversia', orden: 7, icono: '🙏', desde: '11:1', hasta: '12:59' },
+  { slug: 'arrepentimiento-y-banquete', nombre: 'Arrepentimiento y banquete', orden: 8, icono: '🍞', desde: '13:1', hasta: '14:35' },
+  { slug: 'los-perdidos', nombre: 'Los perdidos', orden: 9, icono: '🐑', desde: '15:1', hasta: '16:31' },
+  { slug: 'fe-y-el-reino', nombre: 'Fe y el reino', orden: 10, icono: '👑', desde: '17:1', hasta: '18:43' },
+  { slug: 'jerico-y-jerusalen', nombre: 'Jericó y Jerusalén', orden: 11, icono: '🛤️', desde: '19:1', hasta: '19:48' },
+  { slug: 'templo-y-el-olivo', nombre: 'Templo y el olivo', orden: 12, icono: '🏛️', desde: '20:1', hasta: '21:38' },
+  { slug: 'la-pasion', nombre: 'La pasión', orden: 13, icono: '✝️', desde: '22:1', hasta: '23:56' },
+  { slug: 'la-resurreccion', nombre: 'La resurrección', orden: 14, icono: '🌅', desde: '24:1', hasta: '24:53' },
+]

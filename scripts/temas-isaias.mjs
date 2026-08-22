@@ -1,0 +1,16 @@
+export const PERICOPAS_ISAIAS = [
+  { slug: 'juicio-de-juda', nombre: 'Juicio de Judá', orden: 1, icono: '⚖️', desde: '1:1', hasta: '5:30' },
+  { slug: 'llamado-y-emmanuel', nombre: 'Llamado y Emmanuel', orden: 2, icono: '👑', desde: '6:1', hasta: '12:6' },
+  { slug: 'caida-de-babilonia', nombre: 'Caída de Babilonia', orden: 3, icono: '🏚️', desde: '13:1', hasta: '14:32' },
+  { slug: 'oraculos-a-las-naciones', nombre: 'Oráculos a las naciones', orden: 4, icono: '🌍', desde: '15:1', hasta: '23:18' },
+  { slug: 'la-tierra-desolada', nombre: 'La tierra desolada', orden: 5, icono: '🌑', desde: '24:1', hasta: '27:13' },
+  { slug: 'ayes-sobre-efraim', nombre: 'Ayes sobre Efraín', orden: 6, icono: '⚠️', desde: '28:1', hasta: '33:24' },
+  { slug: 'edom-y-el-desierto', nombre: 'Edom y el desierto', orden: 7, icono: '🌵', desde: '34:1', hasta: '35:10' },
+  { slug: 'ezequias-y-senaquerib', nombre: 'Ezequías y Senaquerib', orden: 8, icono: '🛡️', desde: '36:1', hasta: '39:8' },
+  { slug: 'consuelen-a-mi-pueblo', nombre: 'Consuelen a mi pueblo', orden: 9, icono: '🌅', desde: '40:1', hasta: '44:28' },
+  { slug: 'ciros', nombre: 'Ciro', orden: 10, icono: '📯', desde: '45:1', hasta: '48:22' },
+  { slug: 'el-siervo', nombre: 'El siervo', orden: 11, icono: '🕊️', desde: '49:1', hasta: '53:12' },
+  { slug: 'venid-a-las-aguas', nombre: 'Venid a las aguas', orden: 12, icono: '💧', desde: '54:1', hasta: '55:13' },
+  { slug: 'justicia-y-ayuno', nombre: 'Justicia y ayuno', orden: 13, icono: '🔥', desde: '56:1', hasta: '59:21' },
+  { slug: 'sion-y-cielos-nuevos', nombre: 'Sion y cielos nuevos', orden: 14, icono: '✨', desde: '60:1', hasta: '66:24' },
+]

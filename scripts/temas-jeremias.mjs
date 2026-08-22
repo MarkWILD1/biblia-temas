@@ -1,0 +1,16 @@
+export const PERICOPAS_JEREMIAS = [
+  { slug: 'el-llamado', nombre: 'El llamado', orden: 1, icono: '🔥', desde: '1:1', hasta: '1:19' },
+  { slug: 'apostasia-de-juda', nombre: 'Apostasía de Judá', orden: 2, icono: '💔', desde: '2:1', hasta: '6:30' },
+  { slug: 'el-sermon-del-templo', nombre: 'El sermón del templo', orden: 3, icono: '🏛️', desde: '7:1', hasta: '10:25' },
+  { slug: 'el-pacto-roto', nombre: 'El pacto roto', orden: 4, icono: '📜', desde: '11:1', hasta: '13:27' },
+  { slug: 'sequia-y-lamento', nombre: 'Sequía y lamento', orden: 5, icono: '💧', desde: '14:1', hasta: '17:27' },
+  { slug: 'el-alfarero', nombre: 'El alfarero', orden: 6, icono: '🏺', desde: '18:1', hasta: '20:18' },
+  { slug: 'contra-los-reyes', nombre: 'Contra los reyes', orden: 7, icono: '👑', desde: '21:1', hasta: '24:10' },
+  { slug: 'setenta-anos', nombre: 'Setenta años', orden: 8, icono: '⏳', desde: '25:1', hasta: '29:32' },
+  { slug: 'libro-de-consuelo', nombre: 'Libro de consuelo', orden: 9, icono: '🌅', desde: '30:1', hasta: '33:26' },
+  { slug: 'el-rollo-y-los-recabitas', nombre: 'El rollo y los recabitas', orden: 10, icono: '📖', desde: '34:1', hasta: '36:32' },
+  { slug: 'el-sitio', nombre: 'El sitio', orden: 11, icono: '🛡️', desde: '37:1', hasta: '39:18' },
+  { slug: 'gedalias-y-egipto', nombre: 'Gedalías y Egipto', orden: 12, icono: '🛶', desde: '40:1', hasta: '45:5' },
+  { slug: 'oraculos-a-las-naciones', nombre: 'Oráculos a las naciones', orden: 13, icono: '🌍', desde: '46:1', hasta: '51:64' },
+  { slug: 'caida-de-jerusalen', nombre: 'Caída de Jerusalén', orden: 14, icono: '🏚️', desde: '52:1', hasta: '52:34' },
+]

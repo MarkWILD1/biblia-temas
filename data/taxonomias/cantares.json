@@ -1,0 +1,79 @@
+{
+  "libro": "SNG",
+  "id": "cantares",
+  "unidad": "pericopa",
+  "temas": [
+    {
+      "slug": "invitacion-al-amor",
+      "nombre": "Invitación al amor",
+      "orden": 1,
+      "icono": "💋",
+      "desde": "1:1",
+      "hasta": "1:17",
+      "conteoOrientativo": 17
+    },
+    {
+      "slug": "la-primavera",
+      "nombre": "La primavera",
+      "orden": 2,
+      "icono": "🌸",
+      "desde": "2:1",
+      "hasta": "2:17",
+      "conteoOrientativo": 17
+    },
+    {
+      "slug": "busqueda-y-cortejo",
+      "nombre": "Búsqueda y cortejo",
+      "orden": 3,
+      "icono": "🌙",
+      "desde": "3:1",
+      "hasta": "3:11",
+      "conteoOrientativo": 11
+    },
+    {
+      "slug": "huerto-cerrado",
+      "nombre": "Huerto cerrado",
+      "orden": 4,
+      "icono": "🌺",
+      "desde": "4:1",
+      "hasta": "4:16",
+      "conteoOrientativo": 16
+    },
+    {
+      "slug": "abre-a-mi-amada",
+      "nombre": "Abre a mi amada",
+      "orden": 5,
+      "icono": "🚪",
+      "desde": "5:1",
+      "hasta": "5:16",
+      "conteoOrientativo": 16
+    },
+    {
+      "slug": "unica-es-mi-paloma",
+      "nombre": "Única es mi paloma",
+      "orden": 6,
+      "icono": "🕊️",
+      "desde": "6:1",
+      "hasta": "6:13",
+      "conteoOrientativo": 13
+    },
+    {
+      "slug": "danza-de-sulamita",
+      "nombre": "Danza de Sulamita",
+      "orden": 7,
+      "icono": "💃",
+      "desde": "7:1",
+      "hasta": "7:13",
+      "conteoOrientativo": 13
+    },
+    {
+      "slug": "el-sello-del-amor",
+      "nombre": "El sello del amor",
+      "orden": 8,
+      "icono": "💍",
+      "desde": "8:1",
+      "hasta": "8:14",
+      "conteoOrientativo": 14
+    }
+  ]
+}

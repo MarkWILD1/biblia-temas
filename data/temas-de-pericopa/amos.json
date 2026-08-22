@@ -1,0 +1,87 @@
+{
+  "libro": "AMO",
+  "temas": [
+    {
+      "slug": "naciones",
+      "nombre": "Naciones",
+      "orden": 1,
+      "icono": "🌍"
+    },
+    {
+      "slug": "juicio",
+      "nombre": "Juicio",
+      "orden": 2,
+      "icono": "⚡"
+    },
+    {
+      "slug": "justicia",
+      "nombre": "Justicia",
+      "orden": 3,
+      "icono": "⚖️"
+    },
+    {
+      "slug": "opresion",
+      "nombre": "Opresión",
+      "orden": 4,
+      "icono": "⛓️"
+    },
+    {
+      "slug": "culto",
+      "nombre": "Culto",
+      "orden": 5,
+      "icono": "🔔"
+    },
+    {
+      "slug": "pacto",
+      "nombre": "Pacto",
+      "orden": 6,
+      "icono": "🤝"
+    },
+    {
+      "slug": "vision",
+      "nombre": "Visión",
+      "orden": 7,
+      "icono": "👁️"
+    },
+    {
+      "slug": "restauracion",
+      "nombre": "Restauración",
+      "orden": 8,
+      "icono": "🌅"
+    }
+  ],
+  "pericopaATemas": {
+    "oraculos-a-las-naciones": [
+      "naciones",
+      "juicio"
+    ],
+    "el-leon-ruge": [
+      "pacto",
+      "juicio"
+    ],
+    "vacas-de-basan": [
+      "opresion",
+      "culto"
+    ],
+    "buscadme-y-vivid": [
+      "justicia",
+      "culto"
+    ],
+    "los-confiados-de-sion": [
+      "opresion",
+      "juicio"
+    ],
+    "plomada-y-amasias": [
+      "vision",
+      "pacto"
+    ],
+    "canasta-de-verano": [
+      "vision",
+      "justicia"
+    ],
+    "tabernaculo-de-david": [
+      "restauracion",
+      "juicio"
+    ]
+  }
+}

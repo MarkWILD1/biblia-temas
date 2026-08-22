@@ -1,0 +1,16 @@
+export const PERICOPAS_JUAN = [
+  { slug: 'el-verbo', nombre: 'El Verbo', orden: 1, icono: '✨', desde: '1:1', hasta: '1:51' },
+  { slug: 'cana-y-el-templo', nombre: 'Caná y el templo', orden: 2, icono: '🍷', desde: '2:1', hasta: '2:25' },
+  { slug: 'nicodemo-y-el-bautista', nombre: 'Nicodemo y el Bautista', orden: 3, icono: '🌙', desde: '3:1', hasta: '3:36' },
+  { slug: 'la-samaritana', nombre: 'La samaritana', orden: 4, icono: '💧', desde: '4:1', hasta: '4:54' },
+  { slug: 'el-paralitico', nombre: 'El paralítico', orden: 5, icono: '✋', desde: '5:1', hasta: '5:47' },
+  { slug: 'el-pan-de-vida', nombre: 'El pan de vida', orden: 6, icono: '🍞', desde: '6:1', hasta: '6:71' },
+  { slug: 'en-la-fiesta', nombre: 'En la fiesta', orden: 7, icono: '🕯️', desde: '7:1', hasta: '8:59' },
+  { slug: 'el-ciego', nombre: 'El ciego', orden: 8, icono: '👁️', desde: '9:1', hasta: '9:41' },
+  { slug: 'el-buen-pastor', nombre: 'El buen pastor', orden: 9, icono: '🐑', desde: '10:1', hasta: '10:42' },
+  { slug: 'lazaro', nombre: 'Lázaro', orden: 10, icono: '🪦', desde: '11:1', hasta: '11:57' },
+  { slug: 'la-hora', nombre: 'La hora', orden: 11, icono: '🌴', desde: '12:1', hasta: '12:50' },
+  { slug: 'el-cenaculo', nombre: 'El cenáculo', orden: 12, icono: '🕊️', desde: '13:1', hasta: '17:26' },
+  { slug: 'la-pasion', nombre: 'La pasión', orden: 13, icono: '✝️', desde: '18:1', hasta: '19:42' },
+  { slug: 'la-resurreccion', nombre: 'La resurrección', orden: 14, icono: '🌅', desde: '20:1', hasta: '21:25' },
+]

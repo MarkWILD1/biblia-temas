@@ -1,0 +1,111 @@
+{
+  "libro": "1CO",
+  "temas": [
+    {
+      "slug": "unidad",
+      "nombre": "Unidad",
+      "orden": 1,
+      "icono": "🤝"
+    },
+    {
+      "slug": "sabiduria",
+      "nombre": "Sabiduría",
+      "orden": 2,
+      "icono": "✨"
+    },
+    {
+      "slug": "santidad",
+      "nombre": "Santidad",
+      "orden": 3,
+      "icono": "🕊️"
+    },
+    {
+      "slug": "libertad",
+      "nombre": "Libertad",
+      "orden": 4,
+      "icono": "🔓"
+    },
+    {
+      "slug": "cuerpo",
+      "nombre": "Cuerpo",
+      "orden": 5,
+      "icono": "⛪"
+    },
+    {
+      "slug": "dones",
+      "nombre": "Dones",
+      "orden": 6,
+      "icono": "🎁"
+    },
+    {
+      "slug": "amor",
+      "nombre": "Amor",
+      "orden": 7,
+      "icono": "❤️"
+    },
+    {
+      "slug": "resurreccion",
+      "nombre": "Resurrección",
+      "orden": 8,
+      "icono": "🌅"
+    }
+  ],
+  "pericopaATemas": {
+    "divisiones": [
+      "unidad",
+      "sabiduria"
+    ],
+    "sabiduria-de-dios": [
+      "sabiduria",
+      "unidad"
+    ],
+    "apostoles-y-juicio": [
+      "unidad",
+      "sabiduria"
+    ],
+    "inmoralidad": [
+      "santidad",
+      "cuerpo"
+    ],
+    "matrimonio": [
+      "santidad",
+      "libertad"
+    ],
+    "idolos": [
+      "libertad",
+      "santidad"
+    ],
+    "derechos-del-apostol": [
+      "libertad",
+      "unidad"
+    ],
+    "israel-y-la-copa": [
+      "santidad",
+      "libertad"
+    ],
+    "velo-y-cena": [
+      "cuerpo",
+      "unidad"
+    ],
+    "dones": [
+      "dones",
+      "cuerpo"
+    ],
+    "el-amor": [
+      "amor",
+      "dones"
+    ],
+    "lenguas-y-profecia": [
+      "dones",
+      "unidad"
+    ],
+    "la-resurreccion": [
+      "resurreccion",
+      "cuerpo"
+    ],
+    "ofrenda-y-saludos": [
+      "unidad",
+      "amor"
+    ]
+  }
+}

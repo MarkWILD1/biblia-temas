@@ -1,0 +1,10 @@
+export const PERICOPAS_JOEL = [
+  { slug: 'la-plaga-de-langostas', nombre: 'La plaga de langostas', orden: 1, icono: '🦗', desde: '1:1', hasta: '1:12' },
+  { slug: 'lamento-y-ayuno', nombre: 'Lamento y ayuno', orden: 2, icono: '🕯️', desde: '1:13', hasta: '1:20' },
+  { slug: 'el-ejercito-del-senor', nombre: 'El ejército del Señor', orden: 3, icono: '📯', desde: '2:1', hasta: '2:11' },
+  { slug: 'rasgad-el-corazon', nombre: 'Rasgad el corazón', orden: 4, icono: '💔', desde: '2:12', hasta: '2:17' },
+  { slug: 'los-anos-de-la-langosta', nombre: 'Los años de la langosta', orden: 5, icono: '🌾', desde: '2:18', hasta: '2:27' },
+  { slug: 'derramare-mi-espiritu', nombre: 'Derramaré mi espíritu', orden: 6, icono: '🔥', desde: '2:28', hasta: '2:32' },
+  { slug: 'valle-de-josafat', nombre: 'Valle de Josafat', orden: 7, icono: '⚖️', desde: '3:1', hasta: '3:16' },
+  { slug: 'sion-habitada', nombre: 'Sion habitada', orden: 8, icono: '🏔️', desde: '3:17', hasta: '3:21' },
+]

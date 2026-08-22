@@ -1,0 +1,16 @@
+export const PERICOPAS_JOB = [
+  { slug: 'las-pruebas', nombre: 'Las pruebas', orden: 1, icono: '⚡', desde: '1:1', hasta: '2:13' },
+  { slug: 'lamento-de-job', nombre: 'Lamento de Job', orden: 2, icono: '💧', desde: '3:1', hasta: '3:26' },
+  { slug: 'elifaz-y-job', nombre: 'Elifaz y Job', orden: 3, icono: '💬', desde: '4:1', hasta: '7:21' },
+  { slug: 'bildad-y-job', nombre: 'Bildad y Job', orden: 4, icono: '💬', desde: '8:1', hasta: '10:22' },
+  { slug: 'zofar-y-job', nombre: 'Zofar y Job', orden: 5, icono: '💬', desde: '11:1', hasta: '14:22' },
+  { slug: 'segundo-elifaz', nombre: 'Segundo Elifaz', orden: 6, icono: '🔁', desde: '15:1', hasta: '17:16' },
+  { slug: 'segundo-bildad', nombre: 'Segundo Bildad', orden: 7, icono: '🔁', desde: '18:1', hasta: '19:29' },
+  { slug: 'segundo-zofar', nombre: 'Segundo Zofar', orden: 8, icono: '🔁', desde: '20:1', hasta: '21:34' },
+  { slug: 'tercer-ciclo', nombre: 'Tercer ciclo', orden: 9, icono: '🔁', desde: '22:1', hasta: '27:23' },
+  { slug: 'poema-de-la-sabiduria', nombre: 'Poema de la sabiduría', orden: 10, icono: '💎', desde: '28:1', hasta: '28:28' },
+  { slug: 'defensa-final', nombre: 'Defensa final', orden: 11, icono: '⚖️', desde: '29:1', hasta: '31:40' },
+  { slug: 'eliud', nombre: 'Eliú', orden: 12, icono: '🗣️', desde: '32:1', hasta: '37:24' },
+  { slug: 'jehova-responde', nombre: 'Jehová responde', orden: 13, icono: '🌪️', desde: '38:1', hasta: '41:34' },
+  { slug: 'restauracion', nombre: 'Restauración', orden: 14, icono: '🌅', desde: '42:1', hasta: '42:17' },
+]

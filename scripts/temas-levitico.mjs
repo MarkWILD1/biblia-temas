@@ -1,0 +1,16 @@
+export const PERICOPAS_LEVITICO = [
+  { slug: 'holocaustos-y-ofrendas', nombre: 'Holocaustos y ofrendas', orden: 1, icono: '🔥', desde: '1:1', hasta: '3:17' },
+  { slug: 'pecado-y-culpa', nombre: 'Pecado y culpa', orden: 2, icono: '🩸', desde: '4:1', hasta: '6:7' },
+  { slug: 'leyes-de-las-ofrendas', nombre: 'Leyes de las ofrendas', orden: 3, icono: '📜', desde: '6:8', hasta: '7:38' },
+  { slug: 'consagracion-sacerdotal', nombre: 'Consagración sacerdotal', orden: 4, icono: '🛢️', desde: '8:1', hasta: '10:20' },
+  { slug: 'alimentos-limpios', nombre: 'Alimentos limpios e inmundos', orden: 5, icono: '🍽️', desde: '11:1', hasta: '11:47' },
+  { slug: 'parto-y-lepra', nombre: 'Parto y lepra', orden: 6, icono: '🩺', desde: '12:1', hasta: '14:57' },
+  { slug: 'flujos', nombre: 'Flujos', orden: 7, icono: '💧', desde: '15:1', hasta: '15:33' },
+  { slug: 'dia-de-la-expiacion', nombre: 'El día de la expiación', orden: 8, icono: '🐐', desde: '16:1', hasta: '16:34' },
+  { slug: 'sangre-y-relaciones', nombre: 'Sangre y relaciones', orden: 9, icono: '🚫', desde: '17:1', hasta: '18:30' },
+  { slug: 'sed-santos', nombre: 'Sed santos', orden: 10, icono: '✨', desde: '19:1', hasta: '20:27' },
+  { slug: 'sacerdotes-santos', nombre: 'Sacerdotes santos', orden: 11, icono: '🕊️', desde: '21:1', hasta: '22:33' },
+  { slug: 'fiestas', nombre: 'Fiestas', orden: 12, icono: '🗓️', desde: '23:1', hasta: '24:23' },
+  { slug: 'sabatico-y-jubileo', nombre: 'Sabático y jubileo', orden: 13, icono: '🌾', desde: '25:1', hasta: '26:46' },
+  { slug: 'votos', nombre: 'Votos', orden: 14, icono: '🤝', desde: '27:1', hasta: '27:34' },
+]

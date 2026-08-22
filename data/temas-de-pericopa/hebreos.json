@@ -1,0 +1,104 @@
+{
+  "libro": "HEB",
+  "temas": [
+    {
+      "slug": "hijo",
+      "nombre": "Hijo",
+      "orden": 1,
+      "icono": "👑"
+    },
+    {
+      "slug": "sacerdote",
+      "nombre": "Sacerdote",
+      "orden": 2,
+      "icono": "⚖️"
+    },
+    {
+      "slug": "pacto",
+      "nombre": "Pacto",
+      "orden": 3,
+      "icono": "📜"
+    },
+    {
+      "slug": "fe",
+      "nombre": "Fe",
+      "orden": 4,
+      "icono": "🔥"
+    },
+    {
+      "slug": "reposo",
+      "nombre": "Reposo",
+      "orden": 5,
+      "icono": "🌿"
+    },
+    {
+      "slug": "sangre",
+      "nombre": "Sangre",
+      "orden": 6,
+      "icono": "🩸"
+    },
+    {
+      "slug": "perseverancia",
+      "nombre": "Perseverancia",
+      "orden": 7,
+      "icono": "🏃"
+    },
+    {
+      "slug": "esperanza",
+      "nombre": "Esperanza",
+      "orden": 8,
+      "icono": "⚓"
+    }
+  ],
+  "pericopaATemas": {
+    "el-hijo": [
+      "hijo"
+    ],
+    "tan-grande-salvacion": [
+      "hijo",
+      "esperanza"
+    ],
+    "moises-y-el-desierto": [
+      "reposo",
+      "fe"
+    ],
+    "el-reposo": [
+      "reposo"
+    ],
+    "sumo-sacerdote": [
+      "sacerdote"
+    ],
+    "ir-adelante": [
+      "esperanza",
+      "perseverancia"
+    ],
+    "melquisedec": [
+      "sacerdote"
+    ],
+    "nuevo-pacto": [
+      "pacto"
+    ],
+    "sangre-del-pacto": [
+      "sangre",
+      "pacto"
+    ],
+    "una-vez": [
+      "sangre",
+      "sacerdote"
+    ],
+    "no-dejemos": [
+      "perseverancia",
+      "fe"
+    ],
+    "por-la-fe": [
+      "fe"
+    ],
+    "la-carrera": [
+      "perseverancia"
+    ],
+    "sacrificio-de-alabanza": [
+      "esperanza",
+      "pacto"
+    ]
+  }
+}

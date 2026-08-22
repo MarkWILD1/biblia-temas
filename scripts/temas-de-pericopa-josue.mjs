@@ -1,0 +1,28 @@
+export const TEMAS_JOSUE = [
+  { slug: 'llamado', nombre: 'Llamado', orden: 1, icono: '📜' },
+  { slug: 'fe', nombre: 'Fe', orden: 2, icono: '🎺' },
+  { slug: 'pacto', nombre: 'Pacto', orden: 3, icono: '⭐' },
+  { slug: 'conquista', nombre: 'Conquista', orden: 4, icono: '⚔️' },
+  { slug: 'juicio', nombre: 'Juicio', orden: 5, icono: '⚖️' },
+  { slug: 'tierra', nombre: 'Tierra', orden: 6, icono: '🗺️' },
+  { slug: 'santuario', nombre: 'Santuario', orden: 7, icono: '🕊️' },
+  { slug: 'fidelidad', nombre: 'Fidelidad', orden: 8, icono: '❤️' },
+]
+
+/** Cada relato entra en uno o más temas. No se tocan versos. */
+export const PERICOPA_A_TEMAS_JOSUE = {
+  'comision-de-josue': ['llamado'],
+  'rahab-y-los-espias': ['fe'],
+  'cruce-del-jordan': ['fe', 'pacto'],
+  gilgal: ['pacto', 'santuario'],
+  jerico: ['conquista', 'fe'],
+  'acan-y-hai': ['conquista', 'juicio'],
+  'gabaon-y-sur': ['conquista'],
+  'norte-y-reyes': ['conquista', 'tierra'],
+  'tierra-restante-y-caleb': ['tierra'],
+  'reparto-de-juda': ['tierra'],
+  'reparto-de-jose': ['tierra'],
+  'reparto-del-resto': ['tierra'],
+  'refugio-y-levitas': ['santuario', 'tierra'],
+  'altar-y-pacto-en-siquem': ['pacto', 'fidelidad', 'santuario'],
+}

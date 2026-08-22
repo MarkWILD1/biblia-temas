@@ -1,0 +1,16 @@
+export const PERICOPAS_MARCOS = [
+  { slug: 'el-principio', nombre: 'El principio', orden: 1, icono: '🌊', desde: '1:1', hasta: '1:45' },
+  { slug: 'controversias-en-galilea', nombre: 'Controversias en Galilea', orden: 2, icono: '⚔️', desde: '2:1', hasta: '3:35' },
+  { slug: 'las-parabolas', nombre: 'Las parábolas', orden: 3, icono: '🌱', desde: '4:1', hasta: '4:41' },
+  { slug: 'poder-sobre-el-caos', nombre: 'Poder sobre el caos', orden: 4, icono: '✋', desde: '5:1', hasta: '5:43' },
+  { slug: 'rechazo-y-los-doce', nombre: 'Rechazo y los doce', orden: 5, icono: '👣', desde: '6:1', hasta: '6:56' },
+  { slug: 'lo-puro-y-lo-impuro', nombre: 'Lo puro y lo impuro', orden: 6, icono: '🍞', desde: '7:1', hasta: '7:37' },
+  { slug: 'panes-y-el-cristo', nombre: 'Panes y el Cristo', orden: 7, icono: '👑', desde: '8:1', hasta: '8:38' },
+  { slug: 'transfiguracion-y-servicio', nombre: 'Transfiguración y servicio', orden: 8, icono: '✨', desde: '9:1', hasta: '9:50' },
+  { slug: 'camino-a-jerusalen', nombre: 'Camino a Jerusalén', orden: 9, icono: '🛤️', desde: '10:1', hasta: '10:52' },
+  { slug: 'entrada-y-templo', nombre: 'Entrada y templo', orden: 10, icono: '🐴', desde: '11:1', hasta: '11:33' },
+  { slug: 'controversias-en-el-templo', nombre: 'Controversias en el templo', orden: 11, icono: '🏛️', desde: '12:1', hasta: '12:44' },
+  { slug: 'el-discurso-del-olivo', nombre: 'El discurso del olivo', orden: 12, icono: '🫒', desde: '13:1', hasta: '13:37' },
+  { slug: 'la-pasion', nombre: 'La pasión', orden: 13, icono: '✝️', desde: '14:1', hasta: '15:47' },
+  { slug: 'la-resurreccion', nombre: 'La resurrección', orden: 14, icono: '🌅', desde: '16:1', hasta: '16:20' },
+]

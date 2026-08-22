@@ -1,0 +1,330 @@
+---
+interface Props {
+  size?: 'sm' | 'md' | 'lg' | 'xl'
+  frame?: boolean
+  href?: string
+  class?: string
+}
+
+const { size = 'md', frame = false, href, class: className } = Astro.props
+const chars = ['A', '0', '1']
+const Tag = href ? 'a' : 'div'
+---
+
+<Tag
+  {...href ? { href } : {}}
+  class:list={['a01-logo', `a01-logo--${size}`, className]}
+  role="img"
+  aria-label="Arcano01"
+  data-logo-flip
+>
+  {frame ? <span class="a01-roller" aria-hidden="true"></span> : null}
+  <span class="a01-flaps" aria-hidden="true">
+    {
+      chars.map((char) => (
+        <span class="a01-flap" data-flap data-final={char}>
+          <span class="a01-half a01-half--top">
+            <b data-static-top>{char}</b>
+          </span>
+          <span class="a01-half a01-half--bottom">
+            <b data-static-bottom>{char}</b>
+          </span>
+          <span class="a01-leaf a01-leaf--top" data-leaf-top>
+            <b>{char}</b>
+          </span>
+          <span class="a01-leaf a01-leaf--bottom" data-leaf-bottom>
+            <b>{char}</b>
+          </span>
+        </span>
+      ))
+    }
+  </span>
+  {frame ? <span class="a01-roller" aria-hidden="true"></span> : null}
+</Tag>
+
+<style>
+  .a01-logo {
+    --flap-h: 2.75rem;
+    --flap-w: 2.4rem;
+    --flap-gap: 0.2rem;
+    --flap-radius: 0.34rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    text-decoration: none;
+  }
+
+  .a01-logo--sm {
+    --flap-h: 1.75rem;
+    --flap-w: 1.5rem;
+    --flap-gap: 0.14rem;
+    --flap-radius: 0.22rem;
+  }
+
+  .a01-logo--lg {
+    --flap-h: 4.5rem;
+    --flap-w: 3.9rem;
+    --flap-gap: 0.3rem;
+    --flap-radius: 0.5rem;
+  }
+
+  .a01-logo--xl {
+    --flap-h: 5.25rem;
+    --flap-w: 4.5rem;
+    --flap-gap: 0.35rem;
+    --flap-radius: 0.55rem;
+  }
+
+  @media (min-width: 640px) {
+    .a01-logo--xl {
+      --flap-h: 7.5rem;
+      --flap-w: 6.4rem;
+      --flap-gap: 0.5rem;
+      --flap-radius: 0.75rem;
+    }
+  }
+
+  .a01-flaps {
+    display: inline-flex;
+    gap: var(--flap-gap);
+    perspective: calc(var(--flap-h) * 9);
+  }
+
+  .a01-roller {
+    width: calc(var(--flap-h) * 0.22);
+    height: calc(var(--flap-h) * 0.72);
+    border-radius: 999px;
+    background: linear-gradient(90deg, #f2ece0 0%, #fffdf9 45%, #e4dbc8 100%);
+    box-shadow: inset 0 0 0 1px rgba(84, 68, 40, 0.08);
+  }
+
+  .a01-flap {
+    position: relative;
+    display: block;
+    width: var(--flap-w);
+    height: var(--flap-h);
+    border-radius: var(--flap-radius);
+    background: #fffdf9;
+    box-shadow:
+      0 1px 2px rgba(84, 68, 40, 0.14),
+      0 6px 14px -8px rgba(84, 68, 40, 0.3),
+      inset 0 0 0 1px rgba(84, 68, 40, 0.07);
+    transform-style: preserve-3d;
+  }
+
+  /* Costura central del reloj de solapa */
+  .a01-flap::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    height: 1px;
+    margin-top: -0.5px;
+    background: rgba(84, 68, 40, 0.22);
+    z-index: 4;
+  }
+
+  .a01-half,
+  .a01-leaf {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 50%;
+    overflow: hidden;
+    background: #fffdf9;
+    backface-visibility: hidden;
+  }
+
+  .a01-half--top,
+  .a01-leaf--top {
+    top: 0;
+    border-radius: var(--flap-radius) var(--flap-radius) 0 0;
+  }
+
+  .a01-half--bottom,
+  .a01-leaf--bottom {
+    bottom: 0;
+    border-radius: 0 0 var(--flap-radius) var(--flap-radius);
+  }
+
+  .a01-leaf--top {
+    transform-origin: bottom center;
+    z-index: 3;
+  }
+
+  .a01-leaf--bottom {
+    transform-origin: top center;
+    transform: rotateX(90deg);
+    z-index: 3;
+  }
+
+  .a01-flap b {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: var(--flap-h);
+    line-height: var(--flap-h);
+    text-align: center;
+    font-family: var(--font-sans);
+    font-size: calc(var(--flap-h) * 0.74);
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    color: #1c1a17;
+    font-variant-numeric: lining-nums;
+  }
+
+  .a01-half--top b,
+  .a01-leaf--top b {
+    top: 0;
+  }
+
+  .a01-half--bottom b,
+  .a01-leaf--bottom b {
+    top: calc(var(--flap-h) * -0.5);
+  }
+
+  .a01-leaf--top::before,
+  .a01-leaf--bottom::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+  }
+
+  .a01-leaf--top::before {
+    background: linear-gradient(to bottom, rgba(84, 68, 40, 0) 55%, rgba(84, 68, 40, 0.1) 100%);
+  }
+
+  .a01-leaf--bottom::before {
+    background: linear-gradient(to bottom, rgba(84, 68, 40, 0.12) 0%, rgba(84, 68, 40, 0) 45%);
+  }
+</style>
+
+<script>
+  const POOL = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
+  const HALF = 90
+
+  type Flap = {
+    top: HTMLElement
+    bottom: HTMLElement
+    leafTop: HTMLElement
+    leafBottom: HTMLElement
+    final: string
+  }
+
+  function readFlap(el: HTMLElement): Flap | null {
+    const top = el.querySelector<HTMLElement>('[data-static-top]')
+    const bottom = el.querySelector<HTMLElement>('[data-static-bottom]')
+    const leafTop = el.querySelector<HTMLElement>('[data-leaf-top]')
+    const leafBottom = el.querySelector<HTMLElement>('[data-leaf-bottom]')
+    if (!top || !bottom || !leafTop || !leafBottom) return null
+    return { top, bottom, leafTop, leafBottom, final: el.dataset.final ?? '' }
+  }
+
+  function setLeafChar(leaf: HTMLElement, char: string) {
+    const glyph = leaf.querySelector('b')
+    if (glyph) glyph.textContent = char
+  }
+
+  async function flipTo(flap: Flap, next: string) {
+    setLeafChar(flap.leafTop, flap.top.textContent ?? '')
+    setLeafChar(flap.leafBottom, next)
+    flap.top.textContent = next
+
+    const falling = flap.leafTop.animate(
+      [{ transform: 'rotateX(0deg)' }, { transform: 'rotateX(-90deg)' }],
+      { duration: HALF, easing: 'cubic-bezier(0.4, 0, 1, 1)', fill: 'both' },
+    )
+    const landing = flap.leafBottom.animate(
+      [{ transform: 'rotateX(90deg)' }, { transform: 'rotateX(0deg)' }],
+      { duration: HALF, delay: HALF, easing: 'cubic-bezier(0, 0, 0.3, 1)', fill: 'both' },
+    )
+
+    await landing.finished
+    flap.bottom.textContent = next
+    setLeafChar(flap.leafTop, next)
+    falling.cancel()
+    landing.cancel()
+  }
+
+  function randomChar(exclude: string) {
+    let char = exclude
+    while (char === exclude) char = POOL[Math.floor(Math.random() * POOL.length)]
+    return char
+  }
+
+  async function runFlap(el: HTMLElement, steps: number, delay: number) {
+    const flap = readFlap(el)
+    if (!flap) return
+
+    // El HTML llega con el carácter final para que funcione sin JS; lo revolvemos antes de girar.
+    let current = randomChar(flap.final)
+    flap.top.textContent = current
+    flap.bottom.textContent = current
+    setLeafChar(flap.leafTop, current)
+
+    await new Promise((resolve) => setTimeout(resolve, delay))
+
+    for (let index = 0; index < steps; index += 1) {
+      const next = index === steps - 1 ? flap.final : randomChar(current)
+      await flipTo(flap, next)
+      current = next
+    }
+  }
+
+  function finish(root: HTMLElement) {
+    root.dataset.flipState = 'done'
+    root.dispatchEvent(new CustomEvent('a01-flip-done', { bubbles: true }))
+  }
+
+  function splashIsBlocking() {
+    if (document.documentElement.dataset.splash === 'done') return false
+    const splash = document.querySelector<HTMLElement>('[data-splash]')
+    if (!splash) return false
+    return !splash.hidden && !splash.classList.contains('is-done')
+  }
+
+  function run(root: HTMLElement) {
+    if (root.dataset.flipState) return
+
+    const inSplash = Boolean(root.closest('[data-splash]'))
+    if (inSplash && !root.offsetParent) {
+      finish(root)
+      return
+    }
+
+    // El logo de la página espera a que termine la intro a pantalla completa.
+    if (!inSplash && splashIsBlocking()) return
+
+    root.dataset.flipState = 'running'
+
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      finish(root)
+      return
+    }
+
+    const intense = root.classList.contains('a01-logo--xl')
+    const flaps = [...root.querySelectorAll<HTMLElement>('[data-flap]')]
+    const steps = intense
+      ? (index: number) => 10 + index * 3
+      : (index: number) => 5 + index * 2
+    const stagger = intense ? 200 : 140
+
+    Promise.all(flaps.map((el, index) => runFlap(el, steps(index), index * stagger))).then(() => {
+      finish(root)
+    })
+  }
+
+  function init() {
+    for (const root of document.querySelectorAll<HTMLElement>('[data-logo-flip]')) run(root)
+  }
+
+  if (!document.documentElement.dataset.a01FlipWired) {
+    document.documentElement.dataset.a01FlipWired = 'true'
+    document.addEventListener('astro:page-load', init)
+    document.addEventListener('a01-splash-done', init)
+  }
+
+  init()
+</script>

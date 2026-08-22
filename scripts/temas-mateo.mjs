@@ -1,0 +1,16 @@
+export const PERICOPAS_MATEO = [
+  { slug: 'nacimiento-e-infancia', nombre: 'Nacimiento e infancia', orden: 1, icono: '⭐', desde: '1:1', hasta: '2:23' },
+  { slug: 'bautismo-y-desierto', nombre: 'Bautismo y desierto', orden: 2, icono: '🌊', desde: '3:1', hasta: '4:25' },
+  { slug: 'el-sermon-del-monte', nombre: 'El sermón del monte', orden: 3, icono: '⛰️', desde: '5:1', hasta: '7:29' },
+  { slug: 'milagros-y-autoridad', nombre: 'Milagros y autoridad', orden: 4, icono: '✋', desde: '8:1', hasta: '9:38' },
+  { slug: 'mision-de-los-doce', nombre: 'Misión de los doce', orden: 5, icono: '👣', desde: '10:1', hasta: '10:42' },
+  { slug: 'oposicion', nombre: 'Oposición', orden: 6, icono: '⚔️', desde: '11:1', hasta: '12:50' },
+  { slug: 'las-parabolas', nombre: 'Las parábolas', orden: 7, icono: '🌱', desde: '13:1', hasta: '13:58' },
+  { slug: 'panes-y-fariseos', nombre: 'Panes y fariseos', orden: 8, icono: '🍞', desde: '14:1', hasta: '16:12' },
+  { slug: 'confesion-y-transfiguracion', nombre: 'Confesión y transfiguración', orden: 9, icono: '👑', desde: '16:13', hasta: '17:27' },
+  { slug: 'la-comunidad', nombre: 'La comunidad', orden: 10, icono: '🤝', desde: '18:1', hasta: '18:35' },
+  { slug: 'camino-a-jerusalen', nombre: 'Camino a Jerusalén', orden: 11, icono: '🛤️', desde: '19:1', hasta: '20:34' },
+  { slug: 'templo-y-controversias', nombre: 'Templo y controversias', orden: 12, icono: '🏛️', desde: '21:1', hasta: '23:39' },
+  { slug: 'el-discurso-del-olivo', nombre: 'El discurso del olivo', orden: 13, icono: '🫒', desde: '24:1', hasta: '25:46' },
+  { slug: 'pasion-y-resurreccion', nombre: 'Pasión y resurrección', orden: 14, icono: '✝️', desde: '26:1', hasta: '28:20' },
+]

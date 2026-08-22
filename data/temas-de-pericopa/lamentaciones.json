@@ -1,0 +1,87 @@
+{
+  "libro": "LAM",
+  "temas": [
+    {
+      "slug": "lamento",
+      "nombre": "Lamento",
+      "orden": 1,
+      "icono": "💧"
+    },
+    {
+      "slug": "sion",
+      "nombre": "Sion",
+      "orden": 2,
+      "icono": "🏙️"
+    },
+    {
+      "slug": "ira",
+      "nombre": "Ira",
+      "orden": 3,
+      "icono": "⚡"
+    },
+    {
+      "slug": "esperanza",
+      "nombre": "Esperanza",
+      "orden": 4,
+      "icono": "🌅"
+    },
+    {
+      "slug": "fidelidad",
+      "nombre": "Fidelidad",
+      "orden": 5,
+      "icono": "✨"
+    },
+    {
+      "slug": "pecado",
+      "nombre": "Pecado",
+      "orden": 6,
+      "icono": "🌑"
+    },
+    {
+      "slug": "hambre",
+      "nombre": "Hambre",
+      "orden": 7,
+      "icono": "🍞"
+    },
+    {
+      "slug": "oracion",
+      "nombre": "Oración",
+      "orden": 8,
+      "icono": "🙏"
+    }
+  ],
+  "pericopaATemas": {
+    "sion-sola": [
+      "sion",
+      "lamento"
+    ],
+    "no-hay-consolador": [
+      "lamento",
+      "sion"
+    ],
+    "la-ira-del-senor": [
+      "ira",
+      "sion"
+    ],
+    "el-hombre-afligido": [
+      "lamento",
+      "ira"
+    ],
+    "nuevas-cada-manana": [
+      "esperanza",
+      "fidelidad"
+    ],
+    "examinenos": [
+      "pecado",
+      "esperanza"
+    ],
+    "el-oro-oscurecido": [
+      "sion",
+      "hambre"
+    ],
+    "restauranos": [
+      "oracion",
+      "hambre"
+    ]
+  }
+}

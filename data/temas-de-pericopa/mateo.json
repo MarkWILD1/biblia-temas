@@ -1,0 +1,111 @@
+{
+  "libro": "MAT",
+  "temas": [
+    {
+      "slug": "reino",
+      "nombre": "Reino",
+      "orden": 1,
+      "icono": "👑"
+    },
+    {
+      "slug": "discipulado",
+      "nombre": "Discipulado",
+      "orden": 2,
+      "icono": "👣"
+    },
+    {
+      "slug": "milagro",
+      "nombre": "Milagro",
+      "orden": 3,
+      "icono": "✋"
+    },
+    {
+      "slug": "oposicion",
+      "nombre": "Oposición",
+      "orden": 4,
+      "icono": "⚔️"
+    },
+    {
+      "slug": "parabolas",
+      "nombre": "Parábolas",
+      "orden": 5,
+      "icono": "🌱"
+    },
+    {
+      "slug": "templo",
+      "nombre": "Templo",
+      "orden": 6,
+      "icono": "🏛️"
+    },
+    {
+      "slug": "juicio",
+      "nombre": "Juicio",
+      "orden": 7,
+      "icono": "⚖️"
+    },
+    {
+      "slug": "cruz",
+      "nombre": "Cruz",
+      "orden": 8,
+      "icono": "✝️"
+    }
+  ],
+  "pericopaATemas": {
+    "nacimiento-e-infancia": [
+      "reino",
+      "oposicion"
+    ],
+    "bautismo-y-desierto": [
+      "reino",
+      "discipulado"
+    ],
+    "el-sermon-del-monte": [
+      "reino",
+      "discipulado"
+    ],
+    "milagros-y-autoridad": [
+      "milagro",
+      "discipulado"
+    ],
+    "mision-de-los-doce": [
+      "discipulado",
+      "oposicion"
+    ],
+    "oposicion": [
+      "oposicion",
+      "reino"
+    ],
+    "las-parabolas": [
+      "parabolas",
+      "reino"
+    ],
+    "panes-y-fariseos": [
+      "milagro",
+      "oposicion"
+    ],
+    "confesion-y-transfiguracion": [
+      "discipulado",
+      "cruz"
+    ],
+    "la-comunidad": [
+      "discipulado",
+      "reino"
+    ],
+    "camino-a-jerusalen": [
+      "discipulado",
+      "milagro"
+    ],
+    "templo-y-controversias": [
+      "templo",
+      "juicio"
+    ],
+    "el-discurso-del-olivo": [
+      "juicio",
+      "reino"
+    ],
+    "pasion-y-resurreccion": [
+      "cruz",
+      "reino"
+    ]
+  }
+}

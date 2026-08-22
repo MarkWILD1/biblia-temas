@@ -1,0 +1,23 @@
+export const PERICOPAS_GENESIS = [
+  { slug: 'creacion', nombre: 'La creación', orden: 1, icono: '🌅', desde: '1:1', hasta: '2:3' },
+  { slug: 'eden-y-caida', nombre: 'Edén y la caída', orden: 2, icono: '🌳', desde: '2:4', hasta: '3:24' },
+  { slug: 'cain-abel-y-set', nombre: 'Caín, Abel y Set', orden: 3, icono: '👥', desde: '4:1', hasta: '5:32' },
+  { slug: 'diluvio', nombre: 'El diluvio', orden: 4, icono: '🌊', desde: '6:1', hasta: '9:17' },
+  { slug: 'naciones-y-babel', nombre: 'Naciones y Babel', orden: 5, icono: '🗼', desde: '9:18', hasta: '11:26' },
+  { slug: 'llamado-de-abram', nombre: 'El llamado de Abram', orden: 6, icono: '🚶', desde: '11:27', hasta: '14:24' },
+  { slug: 'pacto-con-abraham', nombre: 'Pacto con Abraham', orden: 7, icono: '⭐', desde: '15:1', hasta: '17:27' },
+  { slug: 'sodoma-e-isaac', nombre: 'Sodoma e Isaac', orden: 8, icono: '🔥', desde: '18:1', hasta: '23:20' },
+  { slug: 'isaac-e-rebeca', nombre: 'Isaac y Rebeca', orden: 9, icono: '💍', desde: '24:1', hasta: '25:18' },
+  { slug: 'jacob-y-esau', nombre: 'Jacob y Esaú', orden: 10, icono: '⚔️', desde: '25:19', hasta: '28:9' },
+  { slug: 'jacob-en-aran', nombre: 'Jacob en Arán', orden: 11, icono: '🐑', desde: '28:10', hasta: '31:55' },
+  { slug: 'retorno-de-jacob', nombre: 'Retorno de Jacob', orden: 12, icono: '🏕️', desde: '32:1', hasta: '36:43' },
+  { slug: 'jose-en-egipto', nombre: 'José en Egipto', orden: 13, icono: '🌾', desde: '37:1', hasta: '41:57' },
+  {
+    slug: 'reconciliacion-y-bendicion',
+    nombre: 'Reconciliación y bendición',
+    orden: 14,
+    icono: '🤝',
+    desde: '42:1',
+    hasta: '50:26',
+  },
+]

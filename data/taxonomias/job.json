@@ -1,0 +1,133 @@
+{
+  "libro": "JOB",
+  "id": "job",
+  "unidad": "pericopa",
+  "temas": [
+    {
+      "slug": "las-pruebas",
+      "nombre": "Las pruebas",
+      "orden": 1,
+      "icono": "⚡",
+      "desde": "1:1",
+      "hasta": "2:13",
+      "conteoOrientativo": 35
+    },
+    {
+      "slug": "lamento-de-job",
+      "nombre": "Lamento de Job",
+      "orden": 2,
+      "icono": "💧",
+      "desde": "3:1",
+      "hasta": "3:26",
+      "conteoOrientativo": 26
+    },
+    {
+      "slug": "elifaz-y-job",
+      "nombre": "Elifaz y Job",
+      "orden": 3,
+      "icono": "💬",
+      "desde": "4:1",
+      "hasta": "7:21",
+      "conteoOrientativo": 99
+    },
+    {
+      "slug": "bildad-y-job",
+      "nombre": "Bildad y Job",
+      "orden": 4,
+      "icono": "💬",
+      "desde": "8:1",
+      "hasta": "10:22",
+      "conteoOrientativo": 79
+    },
+    {
+      "slug": "zofar-y-job",
+      "nombre": "Zofar y Job",
+      "orden": 5,
+      "icono": "💬",
+      "desde": "11:1",
+      "hasta": "14:22",
+      "conteoOrientativo": 95
+    },
+    {
+      "slug": "segundo-elifaz",
+      "nombre": "Segundo Elifaz",
+      "orden": 6,
+      "icono": "🔁",
+      "desde": "15:1",
+      "hasta": "17:16",
+      "conteoOrientativo": 73
+    },
+    {
+      "slug": "segundo-bildad",
+      "nombre": "Segundo Bildad",
+      "orden": 7,
+      "icono": "🔁",
+      "desde": "18:1",
+      "hasta": "19:29",
+      "conteoOrientativo": 50
+    },
+    {
+      "slug": "segundo-zofar",
+      "nombre": "Segundo Zofar",
+      "orden": 8,
+      "icono": "🔁",
+      "desde": "20:1",
+      "hasta": "21:34",
+      "conteoOrientativo": 63
+    },
+    {
+      "slug": "tercer-ciclo",
+      "nombre": "Tercer ciclo",
+      "orden": 9,
+      "icono": "🔁",
+      "desde": "22:1",
+      "hasta": "27:23",
+      "conteoOrientativo": 115
+    },
+    {
+      "slug": "poema-de-la-sabiduria",
+      "nombre": "Poema de la sabiduría",
+      "orden": 10,
+      "icono": "💎",
+      "desde": "28:1",
+      "hasta": "28:28",
+      "conteoOrientativo": 28
+    },
+    {
+      "slug": "defensa-final",
+      "nombre": "Defensa final",
+      "orden": 11,
+      "icono": "⚖️",
+      "desde": "29:1",
+      "hasta": "31:40",
+      "conteoOrientativo": 96
+    },
+    {
+      "slug": "eliud",
+      "nombre": "Eliú",
+      "orden": 12,
+      "icono": "🗣️",
+      "desde": "32:1",
+      "hasta": "37:24",
+      "conteoOrientativo": 165
+    },
+    {
+      "slug": "jehova-responde",
+      "nombre": "Jehová responde",
+      "orden": 13,
+      "icono": "🌪️",
+      "desde": "38:1",
+      "hasta": "41:34",
+      "conteoOrientativo": 129
+    },
+    {
+      "slug": "restauracion",
+      "nombre": "Restauración",
+      "orden": 14,
+      "icono": "🌅",
+      "desde": "42:1",
+      "hasta": "42:17",
+      "conteoOrientativo": 17
+    }
+  ]
+}

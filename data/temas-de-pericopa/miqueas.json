@@ -1,0 +1,87 @@
+{
+  "libro": "MIC",
+  "temas": [
+    {
+      "slug": "juicio",
+      "nombre": "Juicio",
+      "orden": 1,
+      "icono": "⚡"
+    },
+    {
+      "slug": "opresion",
+      "nombre": "Opresión",
+      "orden": 2,
+      "icono": "⛓️"
+    },
+    {
+      "slug": "sion",
+      "nombre": "Sion",
+      "orden": 3,
+      "icono": "🏔️"
+    },
+    {
+      "slug": "resto",
+      "nombre": "Resto",
+      "orden": 4,
+      "icono": "🌱"
+    },
+    {
+      "slug": "rey",
+      "nombre": "Rey",
+      "orden": 5,
+      "icono": "👑"
+    },
+    {
+      "slug": "pacto",
+      "nombre": "Pacto",
+      "orden": 6,
+      "icono": "🤝"
+    },
+    {
+      "slug": "humildad",
+      "nombre": "Humildad",
+      "orden": 7,
+      "icono": "🙏"
+    },
+    {
+      "slug": "perdon",
+      "nombre": "Perdón",
+      "orden": 8,
+      "icono": "🤍"
+    }
+  ],
+  "pericopaATemas": {
+    "juicio-sobre-samaria": [
+      "juicio",
+      "sion"
+    ],
+    "ay-de-los-opresores": [
+      "opresion",
+      "resto"
+    ],
+    "sion-arada": [
+      "juicio",
+      "sion"
+    ],
+    "el-monte-del-senor": [
+      "sion",
+      "resto"
+    ],
+    "de-belen": [
+      "rey",
+      "resto"
+    ],
+    "que-pide-el-senor": [
+      "pacto",
+      "humildad"
+    ],
+    "balanzas-enganosas": [
+      "opresion",
+      "juicio"
+    ],
+    "quien-como-tu": [
+      "perdon",
+      "pacto"
+    ]
+  }
+}

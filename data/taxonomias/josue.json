@@ -1,0 +1,133 @@
+{
+  "libro": "JOS",
+  "id": "josue",
+  "unidad": "pericopa",
+  "temas": [
+    {
+      "slug": "comision-de-josue",
+      "nombre": "La comisión de Josué",
+      "orden": 1,
+      "icono": "📜",
+      "desde": "1:1",
+      "hasta": "1:18",
+      "conteoOrientativo": 18
+    },
+    {
+      "slug": "rahab-y-los-espias",
+      "nombre": "Rahab y los espías",
+      "orden": 2,
+      "icono": "🧵",
+      "desde": "2:1",
+      "hasta": "2:24",
+      "conteoOrientativo": 24
+    },
+    {
+      "slug": "cruce-del-jordan",
+      "nombre": "El cruce del Jordán",
+      "orden": 3,
+      "icono": "🌊",
+      "desde": "3:1",
+      "hasta": "4:24",
+      "conteoOrientativo": 41
+    },
+    {
+      "slug": "gilgal",
+      "nombre": "Gilgal",
+      "orden": 4,
+      "icono": "🪨",
+      "desde": "5:1",
+      "hasta": "5:15",
+      "conteoOrientativo": 15
+    },
+    {
+      "slug": "jerico",
+      "nombre": "Jericó",
+      "orden": 5,
+      "icono": "🎺",
+      "desde": "6:1",
+      "hasta": "6:27",
+      "conteoOrientativo": 27
+    },
+    {
+      "slug": "acan-y-hai",
+      "nombre": "Acán y Hai",
+      "orden": 6,
+      "icono": "⛰️",
+      "desde": "7:1",
+      "hasta": "8:35",
+      "conteoOrientativo": 61
+    },
+    {
+      "slug": "gabaon-y-sur",
+      "nombre": "Gabaón y el sur",
+      "orden": 7,
+      "icono": "☀️",
+      "desde": "9:1",
+      "hasta": "10:43",
+      "conteoOrientativo": 70
+    },
+    {
+      "slug": "norte-y-reyes",
+      "nombre": "Norte y reyes",
+      "orden": 8,
+      "icono": "⚔️",
+      "desde": "11:1",
+      "hasta": "12:24",
+      "conteoOrientativo": 47
+    },
+    {
+      "slug": "tierra-restante-y-caleb",
+      "nombre": "Tierra restante y Caleb",
+      "orden": 9,
+      "icono": "🥾",
+      "desde": "13:1",
+      "hasta": "14:15",
+      "conteoOrientativo": 48
+    },
+    {
+      "slug": "reparto-de-juda",
+      "nombre": "Reparto de Judá",
+      "orden": 10,
+      "icono": "🦁",
+      "desde": "15:1",
+      "hasta": "15:63",
+      "conteoOrientativo": 63
+    },
+    {
+      "slug": "reparto-de-jose",
+      "nombre": "Reparto de José",
+      "orden": 11,
+      "icono": "🌾",
+      "desde": "16:1",
+      "hasta": "17:18",
+      "conteoOrientativo": 28
+    },
+    {
+      "slug": "reparto-del-resto",
+      "nombre": "Reparto del resto",
+      "orden": 12,
+      "icono": "🗺️",
+      "desde": "18:1",
+      "hasta": "19:51",
+      "conteoOrientativo": 79
+    },
+    {
+      "slug": "refugio-y-levitas",
+      "nombre": "Refugio y levitas",
+      "orden": 13,
+      "icono": "🕊️",
+      "desde": "20:1",
+      "hasta": "21:45",
+      "conteoOrientativo": 54
+    },
+    {
+      "slug": "altar-y-pacto-en-siquem",
+      "nombre": "Altar y pacto en Siquem",
+      "orden": 14,
+      "icono": "⭐",
+      "desde": "22:1",
+      "hasta": "24:33",
+      "conteoOrientativo": 83
+    }
+  ]
+}

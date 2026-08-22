@@ -1,0 +1,22 @@
+export const TEMAS_GALATAS = [
+  { slug: 'evangelio', nombre: 'Evangelio', orden: 1, icono: '📜' },
+  { slug: 'fe', nombre: 'Fe', orden: 2, icono: '✨' },
+  { slug: 'ley', nombre: 'Ley', orden: 3, icono: '⚖️' },
+  { slug: 'libertad', nombre: 'Libertad', orden: 4, icono: '🔓' },
+  { slug: 'espiritu', nombre: 'Espíritu', orden: 5, icono: '🕊️' },
+  { slug: 'promesa', nombre: 'Promesa', orden: 6, icono: '🌿' },
+  { slug: 'cruz', nombre: 'Cruz', orden: 7, icono: '✝️' },
+  { slug: 'gracia', nombre: 'Gracia', orden: 8, icono: '💛' },
+]
+
+/** Cada relato entra en uno o más temas. No se tocan versos. */
+export const PERICOPA_A_TEMAS_GALATAS = {
+  'otro-evangelio': ['evangelio', 'gracia'],
+  'el-concilio-y-antioquia': ['evangelio', 'fe'],
+  'la-fe-de-abraham': ['fe', 'promesa'],
+  'la-ley-y-la-promesa': ['ley', 'promesa'],
+  herederos: ['promesa', 'gracia'],
+  'agar-y-sara': ['libertad', 'ley'],
+  libertad: ['libertad', 'espiritu'],
+  'la-cruz': ['cruz', 'espiritu'],
+}

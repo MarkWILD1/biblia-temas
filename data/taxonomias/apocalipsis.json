@@ -1,0 +1,133 @@
+{
+  "libro": "REV",
+  "id": "apocalipsis",
+  "unidad": "pericopa",
+  "temas": [
+    {
+      "slug": "el-que-vive",
+      "nombre": "El que vive",
+      "orden": 1,
+      "icono": "👑",
+      "desde": "1:1",
+      "hasta": "1:20",
+      "conteoOrientativo": 20
+    },
+    {
+      "slug": "efeso-a-pergamo",
+      "nombre": "Éfeso a Pérgamo",
+      "orden": 2,
+      "icono": "🕯️",
+      "desde": "2:1",
+      "hasta": "2:17",
+      "conteoOrientativo": 17
+    },
+    {
+      "slug": "tiatira-a-laodicea",
+      "nombre": "Tiatira a Laodicea",
+      "orden": 3,
+      "icono": "📬",
+      "desde": "2:18",
+      "hasta": "3:22",
+      "conteoOrientativo": 34
+    },
+    {
+      "slug": "el-trono-y-el-cordero",
+      "nombre": "El trono y el Cordero",
+      "orden": 4,
+      "icono": "🐑",
+      "desde": "4:1",
+      "hasta": "5:14",
+      "conteoOrientativo": 25
+    },
+    {
+      "slug": "los-sellos",
+      "nombre": "Los sellos",
+      "orden": 5,
+      "icono": "📜",
+      "desde": "6:1",
+      "hasta": "7:17",
+      "conteoOrientativo": 34
+    },
+    {
+      "slug": "las-trompetas",
+      "nombre": "Las trompetas",
+      "orden": 6,
+      "icono": "📯",
+      "desde": "8:1",
+      "hasta": "9:21",
+      "conteoOrientativo": 34
+    },
+    {
+      "slug": "el-librito-y-los-testigos",
+      "nombre": "El librito y los testigos",
+      "orden": 7,
+      "icono": "📖",
+      "desde": "10:1",
+      "hasta": "11:19",
+      "conteoOrientativo": 30
+    },
+    {
+      "slug": "la-mujer-y-el-dragon",
+      "nombre": "La mujer y el dragón",
+      "orden": 8,
+      "icono": "🐉",
+      "desde": "12:1",
+      "hasta": "13:18",
+      "conteoOrientativo": 35
+    },
+    {
+      "slug": "la-cosecha",
+      "nombre": "La cosecha",
+      "orden": 9,
+      "icono": "🌾",
+      "desde": "14:1",
+      "hasta": "14:20",
+      "conteoOrientativo": 20
+    },
+    {
+      "slug": "las-siete-copas",
+      "nombre": "Las siete copas",
+      "orden": 10,
+      "icono": "🥣",
+      "desde": "15:1",
+      "hasta": "16:21",
+      "conteoOrientativo": 29
+    },
+    {
+      "slug": "babilonia",
+      "nombre": "Babilonia",
+      "orden": 11,
+      "icono": "🏚️",
+      "desde": "17:1",
+      "hasta": "18:24",
+      "conteoOrientativo": 42
+    },
+    {
+      "slug": "las-bodas-y-el-jinete",
+      "nombre": "Las bodas y el jinete",
+      "orden": 12,
+      "icono": "🐎",
+      "desde": "19:1",
+      "hasta": "19:21",
+      "conteoOrientativo": 21
+    },
+    {
+      "slug": "el-milenio",
+      "nombre": "El milenio",
+      "orden": 13,
+      "icono": "⏳",
+      "desde": "20:1",
+      "hasta": "20:15",
+      "conteoOrientativo": 15
+    },
+    {
+      "slug": "cielos-nuevos",
+      "nombre": "Cielos nuevos",
+      "orden": 14,
+      "icono": "🌅",
+      "desde": "21:1",
+      "hasta": "22:21",
+      "conteoOrientativo": 48
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "libro": "DAN",
+  "temas": [
+    {
+      "slug": "fidelidad",
+      "nombre": "Fidelidad",
+      "orden": 1,
+      "icono": "🙏"
+    },
+    {
+      "slug": "sabiduria",
+      "nombre": "Sabiduría",
+      "orden": 2,
+      "icono": "💎"
+    },
+    {
+      "slug": "soberania",
+      "nombre": "Soberanía",
+      "orden": 3,
+      "icono": "👑"
+    },
+    {
+      "slug": "idolatria",
+      "nombre": "Idolatría",
+      "orden": 4,
+      "icono": "🗿"
+    },
+    {
+      "slug": "juicio",
+      "nombre": "Juicio",
+      "orden": 5,
+      "icono": "⚖️"
+    },
+    {
+      "slug": "vision",
+      "nombre": "Visión",
+      "orden": 6,
+      "icono": "👁️"
+    },
+    {
+      "slug": "oracion",
+      "nombre": "Oración",
+      "orden": 7,
+      "icono": "🧎"
+    },
+    {
+      "slug": "reino",
+      "nombre": "Reino",
+      "orden": 8,
+      "icono": "🌅"
+    }
+  ],
+  "pericopaATemas": {
+    "en-babilonia": [
+      "fidelidad",
+      "sabiduria"
+    ],
+    "el-sueno-de-la-estatua": [
+      "sabiduria",
+      "soberania"
+    ],
+    "el-horno-de-fuego": [
+      "fidelidad",
+      "idolatria"
+    ],
+    "el-arbol-y-la-locura": [
+      "soberania",
+      "juicio"
+    ],
+    "la-escritura-en-la-pared": [
+      "juicio",
+      "soberania"
+    ],
+    "el-foso-de-los-leones": [
+      "fidelidad",
+      "oracion"
+    ],
+    "las-cuatro-bestias": [
+      "vision",
+      "reino"
+    ],
+    "el-carnero-y-el-macho": [
+      "vision",
+      "juicio"
+    ],
+    "las-setenta-semanas": [
+      "oracion",
+      "vision"
+    ],
+    "el-hombre-vestido-de-lino": [
+      "vision"
+    ],
+    "reyes-del-norte-y-sur": [
+      "vision",
+      "juicio"
+    ],
+    "el-tiempo-del-fin": [
+      "reino",
+      "vision"
+    ]
+  }
+}

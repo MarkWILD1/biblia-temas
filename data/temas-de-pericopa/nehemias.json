@@ -1,0 +1,103 @@
+{
+  "libro": "NEH",
+  "temas": [
+    {
+      "slug": "muro",
+      "nombre": "Muro",
+      "orden": 1,
+      "icono": "🧱"
+    },
+    {
+      "slug": "oracion",
+      "nombre": "Oración",
+      "orden": 2,
+      "icono": "🙏"
+    },
+    {
+      "slug": "oposicion",
+      "nombre": "Oposición",
+      "orden": 3,
+      "icono": "🚫"
+    },
+    {
+      "slug": "ley",
+      "nombre": "Ley",
+      "orden": 4,
+      "icono": "📖"
+    },
+    {
+      "slug": "pacto",
+      "nombre": "Pacto",
+      "orden": 5,
+      "icono": "📜"
+    },
+    {
+      "slug": "justicia",
+      "nombre": "Justicia",
+      "orden": 6,
+      "icono": "⚖️"
+    },
+    {
+      "slug": "liderazgo",
+      "nombre": "Liderazgo",
+      "orden": 7,
+      "icono": "👑"
+    },
+    {
+      "slug": "pueblo",
+      "nombre": "Pueblo",
+      "orden": 8,
+      "icono": "🚶"
+    }
+  ],
+  "pericopaATemas": {
+    "oracion-de-nehemias": [
+      "oracion",
+      "liderazgo"
+    ],
+    "comision-e-inspeccion": [
+      "liderazgo",
+      "muro"
+    ],
+    "los-constructores": [
+      "muro"
+    ],
+    "oposicion-al-muro": [
+      "oposicion",
+      "muro"
+    ],
+    "injusticia-social": [
+      "justicia",
+      "liderazgo"
+    ],
+    "el-muro-terminado": [
+      "muro",
+      "oposicion",
+      "liderazgo"
+    ],
+    "los-que-volvieron": [
+      "pueblo"
+    ],
+    "la-ley-leida": [
+      "ley"
+    ],
+    "la-confesion": [
+      "oracion",
+      "pacto"
+    ],
+    "el-pacto-sellado": [
+      "pacto"
+    ],
+    "habitantes-de-jerusalen": [
+      "pueblo"
+    ],
+    "dedicacion-del-muro": [
+      "muro",
+      "pueblo"
+    ],
+    "las-reformas": [
+      "ley",
+      "justicia"
+    ]
+  }
+}

@@ -1,0 +1,608 @@
+{
+  "idioma": "es",
+  "canon": "protestante-66",
+  "versiones": [
+    {
+      "id": "rvr1960",
+      "nombre": "Reina-Valera 1960",
+      "etiqueta": "Reina-Valera 1960"
+    },
+    {
+      "id": "ntv",
+      "nombre": "Nueva Traducción Viviente",
+      "etiqueta": "NTV"
+    },
+    {
+      "id": "dhh",
+      "nombre": "Biblia Dios Habla Hoy",
+      "etiqueta": "DHH"
+    },
+    {
+      "id": "tla",
+      "nombre": "Traducción en Lenguaje Actual",
+      "etiqueta": "TLA"
+    }
+  ],
+  "grupos": [
+    {
+      "id": "pentateuco",
+      "nombre": "Pentateuco",
+      "testamento": "at"
+    },
+    {
+      "id": "historicos",
+      "nombre": "Históricos",
+      "testamento": "at"
+    },
+    {
+      "id": "poeticos",
+      "nombre": "Poéticos y sabiduría",
+      "testamento": "at"
+    },
+    {
+      "id": "profetas-mayores",
+      "nombre": "Profetas mayores",
+      "testamento": "at"
+    },
+    {
+      "id": "profetas-menores",
+      "nombre": "Profetas menores",
+      "testamento": "at"
+    },
+    {
+      "id": "evangelios",
+      "nombre": "Evangelios",
+      "testamento": "nt"
+    },
+    {
+      "id": "hechos",
+      "nombre": "Hechos",
+      "testamento": "nt"
+    },
+    {
+      "id": "epistolas-paulinas",
+      "nombre": "Epístolas paulinas",
+      "testamento": "nt"
+    },
+    {
+      "id": "epistolas-generales",
+      "nombre": "Epístolas generales",
+      "testamento": "nt"
+    },
+    {
+      "id": "apocalipsis",
+      "nombre": "Apocalipsis",
+      "testamento": "nt"
+    }
+  ],
+  "libros": [
+    {
+      "usfm": "GEN",
+      "slug": "genesis",
+      "nombre": "Génesis",
+      "testamento": "at",
+      "grupo": "pentateuco",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "EXO",
+      "slug": "exodo",
+      "nombre": "Éxodo",
+      "testamento": "at",
+      "grupo": "pentateuco",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "LEV",
+      "slug": "levitico",
+      "nombre": "Levítico",
+      "testamento": "at",
+      "grupo": "pentateuco",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "NUM",
+      "slug": "numeros",
+      "nombre": "Números",
+      "testamento": "at",
+      "grupo": "pentateuco",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "DEU",
+      "slug": "deuteronomio",
+      "nombre": "Deuteronomio",
+      "testamento": "at",
+      "grupo": "pentateuco",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "JOS",
+      "slug": "josue",
+      "nombre": "Josué",
+      "testamento": "at",
+      "grupo": "historicos",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "JDG",
+      "slug": "jueces",
+      "nombre": "Jueces",
+      "testamento": "at",
+      "grupo": "historicos",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "RUT",
+      "slug": "rut",
+      "nombre": "Rut",
+      "testamento": "at",
+      "grupo": "historicos",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "1SA",
+      "slug": "1-samuel",
+      "nombre": "1 Samuel",
+      "testamento": "at",
+      "grupo": "historicos",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "2SA",
+      "slug": "2-samuel",
+      "nombre": "2 Samuel",
+      "testamento": "at",
+      "grupo": "historicos",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "1KI",
+      "slug": "1-reyes",
+      "nombre": "1 Reyes",
+      "testamento": "at",
+      "grupo": "historicos",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "2KI",
+      "slug": "2-reyes",
+      "nombre": "2 Reyes",
+      "testamento": "at",
+      "grupo": "historicos",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "1CH",
+      "slug": "1-cronicas",
+      "nombre": "1 Crónicas",
+      "testamento": "at",
+      "grupo": "historicos",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "2CH",
+      "slug": "2-cronicas",
+      "nombre": "2 Crónicas",
+      "testamento": "at",
+      "grupo": "historicos",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "EZR",
+      "slug": "esdras",
+      "nombre": "Esdras",
+      "testamento": "at",
+      "grupo": "historicos",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "NEH",
+      "slug": "nehemias",
+      "nombre": "Nehemías",
+      "testamento": "at",
+      "grupo": "historicos",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "EST",
+      "slug": "ester",
+      "nombre": "Ester",
+      "testamento": "at",
+      "grupo": "historicos",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "JOB",
+      "slug": "job",
+      "nombre": "Job",
+      "testamento": "at",
+      "grupo": "poeticos",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "PSA",
+      "slug": "salmos",
+      "nombre": "Salmos",
+      "testamento": "at",
+      "grupo": "poeticos",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "PRO",
+      "slug": "proverbios",
+      "nombre": "Proverbios",
+      "testamento": "at",
+      "grupo": "poeticos",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "ECC",
+      "slug": "eclesiastes",
+      "nombre": "Eclesiastés",
+      "testamento": "at",
+      "grupo": "poeticos",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "SNG",
+      "slug": "cantares",
+      "nombre": "Cantares",
+      "testamento": "at",
+      "grupo": "poeticos",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "ISA",
+      "slug": "isaias",
+      "nombre": "Isaías",
+      "testamento": "at",
+      "grupo": "profetas-mayores",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "JER",
+      "slug": "jeremias",
+      "nombre": "Jeremías",
+      "testamento": "at",
+      "grupo": "profetas-mayores",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "LAM",
+      "slug": "lamentaciones",
+      "nombre": "Lamentaciones",
+      "testamento": "at",
+      "grupo": "profetas-mayores",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "EZK",
+      "slug": "ezequiel",
+      "nombre": "Ezequiel",
+      "testamento": "at",
+      "grupo": "profetas-mayores",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "DAN",
+      "slug": "daniel",
+      "nombre": "Daniel",
+      "testamento": "at",
+      "grupo": "profetas-mayores",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "HOS",
+      "slug": "oseas",
+      "nombre": "Oseas",
+      "testamento": "at",
+      "grupo": "profetas-menores",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "JOL",
+      "slug": "joel",
+      "nombre": "Joel",
+      "testamento": "at",
+      "grupo": "profetas-menores",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "AMO",
+      "slug": "amos",
+      "nombre": "Amós",
+      "testamento": "at",
+      "grupo": "profetas-menores",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "OBA",
+      "slug": "abdias",
+      "nombre": "Abdías",
+      "testamento": "at",
+      "grupo": "profetas-menores",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "JON",
+      "slug": "jonas",
+      "nombre": "Jonás",
+      "testamento": "at",
+      "grupo": "profetas-menores",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "MIC",
+      "slug": "miqueas",
+      "nombre": "Miqueas",
+      "testamento": "at",
+      "grupo": "profetas-menores",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "NAM",
+      "slug": "nahum",
+      "nombre": "Nahúm",
+      "testamento": "at",
+      "grupo": "profetas-menores",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "HAB",
+      "slug": "habacuc",
+      "nombre": "Habacuc",
+      "testamento": "at",
+      "grupo": "profetas-menores",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "ZEP",
+      "slug": "sofonias",
+      "nombre": "Sofonías",
+      "testamento": "at",
+      "grupo": "profetas-menores",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "HAG",
+      "slug": "hageo",
+      "nombre": "Hageo",
+      "testamento": "at",
+      "grupo": "profetas-menores",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "ZEC",
+      "slug": "zacarias",
+      "nombre": "Zacarías",
+      "testamento": "at",
+      "grupo": "profetas-menores",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "MAL",
+      "slug": "malaquias",
+      "nombre": "Malaquías",
+      "testamento": "at",
+      "grupo": "profetas-menores",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "MAT",
+      "slug": "mateo",
+      "nombre": "Mateo",
+      "testamento": "nt",
+      "grupo": "evangelios",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "MRK",
+      "slug": "marcos",
+      "nombre": "Marcos",
+      "testamento": "nt",
+      "grupo": "evangelios",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "LUK",
+      "slug": "lucas",
+      "nombre": "Lucas",
+      "testamento": "nt",
+      "grupo": "evangelios",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "JHN",
+      "slug": "juan",
+      "nombre": "Juan",
+      "testamento": "nt",
+      "grupo": "evangelios",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "ACT",
+      "slug": "hechos",
+      "nombre": "Hechos",
+      "testamento": "nt",
+      "grupo": "hechos",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "ROM",
+      "slug": "romanos",
+      "nombre": "Romanos",
+      "testamento": "nt",
+      "grupo": "epistolas-paulinas",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "1CO",
+      "slug": "1-corintios",
+      "nombre": "1 Corintios",
+      "testamento": "nt",
+      "grupo": "epistolas-paulinas",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "2CO",
+      "slug": "2-corintios",
+      "nombre": "2 Corintios",
+      "testamento": "nt",
+      "grupo": "epistolas-paulinas",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "GAL",
+      "slug": "galatas",
+      "nombre": "Gálatas",
+      "testamento": "nt",
+      "grupo": "epistolas-paulinas",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "EPH",
+      "slug": "efesios",
+      "nombre": "Efesios",
+      "testamento": "nt",
+      "grupo": "epistolas-paulinas",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "PHP",
+      "slug": "filipenses",
+      "nombre": "Filipenses",
+      "testamento": "nt",
+      "grupo": "epistolas-paulinas",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "COL",
+      "slug": "colosenses",
+      "nombre": "Colosenses",
+      "testamento": "nt",
+      "grupo": "epistolas-paulinas",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "1TH",
+      "slug": "1-tesalonicenses",
+      "nombre": "1 Tesalonicenses",
+      "testamento": "nt",
+      "grupo": "epistolas-paulinas",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "2TH",
+      "slug": "2-tesalonicenses",
+      "nombre": "2 Tesalonicenses",
+      "testamento": "nt",
+      "grupo": "epistolas-paulinas",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "1TI",
+      "slug": "1-timoteo",
+      "nombre": "1 Timoteo",
+      "testamento": "nt",
+      "grupo": "epistolas-paulinas",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "2TI",
+      "slug": "2-timoteo",
+      "nombre": "2 Timoteo",
+      "testamento": "nt",
+      "grupo": "epistolas-paulinas",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "TIT",
+      "slug": "tito",
+      "nombre": "Tito",
+      "testamento": "nt",
+      "grupo": "epistolas-paulinas",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "PHM",
+      "slug": "filemon",
+      "nombre": "Filemón",
+      "testamento": "nt",
+      "grupo": "epistolas-paulinas",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "HEB",
+      "slug": "hebreos",
+      "nombre": "Hebreos",
+      "testamento": "nt",
+      "grupo": "epistolas-generales",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "JAS",
+      "slug": "santiago",
+      "nombre": "Santiago",
+      "testamento": "nt",
+      "grupo": "epistolas-generales",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "1PE",
+      "slug": "1-pedro",
+      "nombre": "1 Pedro",
+      "testamento": "nt",
+      "grupo": "epistolas-generales",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "2PE",
+      "slug": "2-pedro",
+      "nombre": "2 Pedro",
+      "testamento": "nt",
+      "grupo": "epistolas-generales",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "1JN",
+      "slug": "1-juan",
+      "nombre": "1 Juan",
+      "testamento": "nt",
+      "grupo": "epistolas-generales",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "2JN",
+      "slug": "2-juan",
+      "nombre": "2 Juan",
+      "testamento": "nt",
+      "grupo": "epistolas-generales",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "3JN",
+      "slug": "3-juan",
+      "nombre": "3 Juan",
+      "testamento": "nt",
+      "grupo": "epistolas-generales",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "JUD",
+      "slug": "judas",
+      "nombre": "Judas",
+      "testamento": "nt",
+      "grupo": "epistolas-generales",
+      "estado": "publicado"
+    },
+    {
+      "usfm": "REV",
+      "slug": "apocalipsis",
+      "nombre": "Apocalipsis",
+      "testamento": "nt",
+      "grupo": "apocalipsis",
+      "estado": "publicado"
+    }
+  ]
+}

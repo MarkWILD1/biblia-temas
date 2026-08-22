@@ -1,0 +1,28 @@
+export const TEMAS_NUMEROS = [
+  { slug: 'censo', nombre: 'Censo y orden', orden: 1, icono: '📋' },
+  { slug: 'sacerdocio', nombre: 'Sacerdocio', orden: 2, icono: '🪔' },
+  { slug: 'santidad', nombre: 'Santidad', orden: 3, icono: '✨' },
+  { slug: 'queja', nombre: 'Queja y rebelión', orden: 4, icono: '🗣️' },
+  { slug: 'juicio', nombre: 'Juicio', orden: 5, icono: '⚖️' },
+  { slug: 'provision', nombre: 'Provisión', orden: 6, icono: '🍞' },
+  { slug: 'bendicion', nombre: 'Bendición', orden: 7, icono: '🙏' },
+  { slug: 'tierra', nombre: 'Tierra', orden: 8, icono: '🗺️' },
+]
+
+/** Cada relato entra en uno o más temas. No se tocan versos. */
+export const PERICOPA_A_TEMAS_NUMEROS = {
+  'censo-y-campamento': ['censo'],
+  'pureza-nazareo-y-bendicion': ['santidad', 'bendicion'],
+  'ofrendas-y-levitas': ['sacerdocio'],
+  'pascua-y-partida': ['santidad'],
+  'quejas-en-el-desierto': ['queja', 'provision'],
+  'los-espias': ['queja', 'juicio', 'tierra'],
+  core: ['queja', 'juicio', 'sacerdocio'],
+  'sacerdocio-y-vaca-roja': ['sacerdocio', 'santidad'],
+  'cades-y-serpiente': ['juicio', 'provision'],
+  balaam: ['bendicion'],
+  'baal-peor': ['queja', 'juicio'],
+  'segundo-censo-y-sucesion': ['censo', 'tierra'],
+  'fiestas-y-votos': ['santidad'],
+  'tierra-al-este-y-reparto': ['tierra'],
+}
