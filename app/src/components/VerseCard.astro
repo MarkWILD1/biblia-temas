@@ -15,8 +15,9 @@ const searchText = verso.searchText
   data-search={searchText}
   data-has-note={verso.nota ? 'true' : 'false'}
   class:list={[
+    'w-full min-w-0',
     featured
-      ? 'overflow-hidden rounded-xl border border-line bg-[var(--color-card)] shadow-paper'
+      ? 'shrink-0 overflow-hidden rounded-2xl border border-line bg-[var(--color-card)] shadow-paper'
       : 'rounded-xl border border-line bg-[var(--color-card)] p-4 shadow-paper transition-shadow hover:shadow-paper-lg',
   ]}
 >
