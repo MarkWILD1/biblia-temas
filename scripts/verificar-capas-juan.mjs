@@ -18,6 +18,7 @@ const rvr = load('versiones/rvr1960/JHN.json').versiculos
 const ntv = load('versiones/ntv/JHN.json').versiculos
 const dhh = load('versiones/dhh/JHN.json').versiculos
 const tla = load('versiones/tla/JHN.json').versiculos
+const rv1909 = load('versiones/rv1909/JHN.json').versiculos
 const asignaciones = load('asignaciones/JHN.json').asignaciones
 const taxonomia = load('taxonomias/juan.json')
 const canon = load('canon.json')
@@ -38,6 +39,7 @@ for (const [nombre, mapa] of [
   ['ntv', ntv],
   ['dhh', dhh],
   ['tla', tla],
+  ['rv1909', rv1909],
 ]) {
   const missing = rvrKeys.filter((key) => !mapa[key])
   assert(missing.length === 0, `${nombre} pierde ${missing.slice(0, 8).join(', ')}`)

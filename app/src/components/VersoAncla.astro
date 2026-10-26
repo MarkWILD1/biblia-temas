@@ -1,0 +1,35 @@
+<script>
+  function revelarVerso(verso: HTMLElement) {
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    let parent = verso.parentElement
+    while (parent) {
+      const style = getComputedStyle(parent)
+      const seDesplaza = /(auto|scroll)/.test(style.overflowY) && parent.scrollHeight > parent.clientHeight
+      if (seDesplaza) {
+        const parentRect = parent.getBoundingClientRect()
+        const versoRect = verso.getBoundingClientRect()
+        const delta = versoRect.top - parentRect.top - 12
+        parent.scrollTo({ top: parent.scrollTop + delta, behavior: reduce ? 'auto' : 'smooth' })
+      }
+      parent = parent.parentElement
+    }
+  }
+
+  function marcarVerso() {
+    const id = location.hash.replace(/^#/, '')
+    if (!id.startsWith('v-')) return
+    const verso = document.getElementById(id)
+    if (!verso) return
+    for (const marcado of document.querySelectorAll('.verso-destino')) {
+      marcado.classList.remove('verso-destino')
+    }
+    verso.classList.add('verso-destino')
+    requestAnimationFrame(() => revelarVerso(verso))
+  }
+
+  if (!document.documentElement.dataset.versoAncla) {
+    document.documentElement.dataset.versoAncla = 'true'
+    document.addEventListener('astro:page-load', marcarVerso)
+  }
+  marcarVerso()
+</script>

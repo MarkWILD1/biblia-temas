@@ -23,6 +23,7 @@ const rvr = load('versiones/rvr1960/PRO.json').versiculos
 const ntv = load('versiones/ntv/PRO.json').versiculos
 const dhh = load('versiones/dhh/PRO.json').versiculos
 const tla = load('versiones/tla/PRO.json').versiculos
+const rv1909 = load('versiones/rv1909/PRO.json').versiculos
 const notas = load('notas/rvr-esquematizada/PRO.json').notas
 
 const keys = Object.keys(asignaciones)
@@ -40,6 +41,7 @@ for (const [nombre, mapa] of [
   ['ntv', ntv],
   ['dhh', dhh],
   ['tla', tla],
+  ['rv1909', rv1909],
 ]) {
   const mapaKeys = Object.keys(mapa)
   assert(mapaKeys.length === 915, `T2: ${nombre} tiene ${mapaKeys.length} claves`)
@@ -136,7 +138,7 @@ assert(
 )
 
 for (const key of keys) {
-  assert(rvr[key] && ntv[key] && dhh[key] && tla[key], `T9: ${key} no tiene las cuatro versiones`)
+  assert(rvr[key] && rv1909[key] && ntv[key] && dhh[key] && tla[key], `T9: ${key} no tiene las cinco versiones`)
 }
 
 console.log('OK: T1–T4, T7–T9')

@@ -1,6 +1,7 @@
 ---
 import Layout from '../../../../components/Layout.astro'
 import StudyShell from '../../../../components/StudyShell.astro'
+import VersoAncla from '../../../../components/VersoAncla.astro'
 import VerseCard from '../../../../components/VerseCard.astro'
 import { getStaticTemaPaths, getTemaPage } from '../../../../lib/biblia'
 
@@ -21,7 +22,7 @@ const esRelato = unidad === 'pericopa'
 
 <Layout
   title={`${tema.nombre} · ${libro.nombre}`}
-  description={`${tema.nombre} en ${libro.nombre}: ${tema.conteo} versículos en RVR, NTV, DHH y TLA.`}
+  description={`${tema.nombre} en ${libro.nombre}: ${tema.conteo} versículos en RVR 1960, RV1909, NTV, DHH y TLA.`}
 >
   <StudyShell
     libro={libro}
@@ -106,5 +107,6 @@ const esRelato = unidad === 'pericopa'
         </div>
       </div>
     </div>
+    <VersoAncla />
   </StudyShell>
 </Layout>

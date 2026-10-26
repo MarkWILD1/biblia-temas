@@ -1,0 +1,332 @@
+---
+import { Icon } from 'astro-icon/components'
+import type { CapituloReferencia } from '../lib/types'
+
+interface Props {
+  libroSlug: string
+  libroNombre: string
+  indice: CapituloReferencia[]
+  pedirVersiculo: boolean
+}
+
+const { libroSlug, libroNombre, indice, pedirVersiculo } = Astro.props
+const indiceJson = JSON.stringify(indice).replaceAll('<', '\\u003c')
+const listaId = `referencia-lista-${libroSlug}`
+const inputId = `referencia-${libroSlug}`
+---
+
+<div
+  class="relative mt-4"
+  data-referencia-buscador
+  data-libro={libroSlug}
+  data-nombre={libroNombre}
+  data-pedir-versiculo={pedirVersiculo ? 'true' : 'false'}
+>
+  <label class="block max-w-md" for={inputId}>
+    <span class="mb-2 block text-xs font-semibold uppercase tracking-wider text-[var(--color-muted)]">
+      Ir a un pasaje
+    </span>
+    <span class="relative block">
+      <Icon
+        name="ph:magnifying-glass"
+        class="pointer-events-none absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-[var(--color-muted)]"
+      />
+      <input
+        id={inputId}
+        type="search"
+        data-referencia-input
+        role="combobox"
+        aria-autocomplete="list"
+        aria-expanded="false"
+        aria-controls={listaId}
+        autocomplete="off"
+        spellcheck="false"
+        placeholder="Capítulo o versículo, por ejemplo 16 o 16:15"
+        class="w-full rounded-full border border-line bg-[var(--color-surface)] py-2 pl-10 pr-4 text-sm text-[var(--color-text)] outline-none transition placeholder:text-[var(--color-muted)] focus:border-[var(--color-accent)] focus:ring-2 focus:ring-[var(--color-accent-soft)]"
+      />
+    </span>
+  </label>
+  <ul
+    id={listaId}
+    data-referencia-lista
+    role="listbox"
+    aria-label="Pasajes"
+    hidden
+    class="mt-2 max-h-80 max-w-md overflow-y-auto rounded-2xl border border-line bg-[var(--color-card)] py-1 shadow-paper-lg"
+  >
+  </ul>
+  <script is:inline type="application/json" data-referencia-indice set:html={indiceJson} />
+</div>
+
+<script>
+  interface ParteIndice {
+    desde: number
+    hasta: number
+    slug: string
+    nombre: string
+  }
+
+  interface CapituloIndice {
+    capitulo: number
+    ultimo: number
+    partes: ParteIndice[]
+  }
+
+  interface EnlacePasaje {
+    tipo: 'enlace'
+    href: string
+    titulo: string
+    detalle: string
+  }
+
+  interface AvisoPasaje {
+    tipo: 'aviso'
+    texto: string
+  }
+
+  type Sugerencia = EnlacePasaje | AvisoPasaje
+
+  function parseConsulta(raw: string): { capitulo: number; versiculo: string | null } | null {
+    const texto = raw
+      .trim()
+      .toLowerCase()
+      .replace(/^cap(?:[ií]tulo)?\.?\s+|^c\.?\s+/, '')
+    const match = texto.match(/^(\d+)\s*(?:[:,.]\s*(\d*)|(\d+))?$/)
+    if (!match?.[1]) return null
+    const versiculo = match[2] !== undefined ? match[2] : match[3] !== undefined ? match[3] : null
+    return { capitulo: Number(match[1]), versiculo }
+  }
+
+  function hrefDe(libro: string, slug: string, capitulo: number, versiculo: number) {
+    return `/libros/${libro}/temas/${slug}#v-${capitulo}-${versiculo}`
+  }
+
+  function sugerenciasDe(
+    indice: CapituloIndice[],
+    libro: string,
+    nombre: string,
+    pedirVersiculo: boolean,
+    raw: string,
+  ): Sugerencia[] {
+    const consulta = parseConsulta(raw)
+    if (!consulta) {
+      if (!raw.trim()) return []
+      return [{ tipo: 'aviso', texto: 'Escribí un capítulo o un versículo, por ejemplo 16 o 16:15.' }]
+    }
+
+    const capitulo = indice.find((item) => item.capitulo === consulta.capitulo)
+    const total = indice.at(-1)?.capitulo ?? indice.length
+    if (!capitulo) {
+      return [{ tipo: 'aviso', texto: `${nombre} tiene ${total} capítulos.` }]
+    }
+
+    if (consulta.versiculo === null || consulta.versiculo === '') {
+      if (pedirVersiculo) {
+        const primero = capitulo.partes[0]?.desde ?? 1
+        return [
+          {
+            tipo: 'aviso',
+            texto: `Escribí el versículo, por ejemplo ${capitulo.capitulo}:${primero}.`,
+          },
+        ]
+      }
+      if (capitulo.partes.length === 1) {
+        const parte = capitulo.partes[0]
+        if (!parte) return []
+        const cantidad = parte.hasta - parte.desde + 1
+        return [
+          {
+            tipo: 'enlace',
+            href: hrefDe(libro, parte.slug, capitulo.capitulo, parte.desde),
+            titulo: `Capítulo ${capitulo.capitulo}`,
+            detalle: `${parte.nombre} · ${cantidad} versículos`,
+          },
+        ]
+      }
+      return capitulo.partes.map((parte) => ({
+        tipo: 'enlace' as const,
+        href: hrefDe(libro, parte.slug, capitulo.capitulo, parte.desde),
+        titulo:
+          parte.desde === parte.hasta
+            ? `Capítulo ${capitulo.capitulo} · versículo ${parte.desde}`
+            : `Capítulo ${capitulo.capitulo} · ${parte.desde}–${parte.hasta}`,
+        detalle: parte.nombre,
+      }))
+    }
+
+    const coincidencias: EnlacePasaje[] = []
+    for (let versiculo = 1; versiculo <= capitulo.ultimo; versiculo++) {
+      if (!String(versiculo).startsWith(consulta.versiculo)) continue
+      const parte = capitulo.partes.find((item) => versiculo >= item.desde && versiculo <= item.hasta)
+      if (!parte) continue
+      coincidencias.push({
+        tipo: 'enlace',
+        href: hrefDe(libro, parte.slug, capitulo.capitulo, versiculo),
+        titulo: `${capitulo.capitulo}:${versiculo}`,
+        detalle: parte.nombre,
+      })
+      if (coincidencias.length === 12) break
+    }
+    if (coincidencias.length) return coincidencias
+
+    const pedido = Number(consulta.versiculo)
+    if (pedido > capitulo.ultimo) {
+      return [
+        {
+          tipo: 'aviso',
+          texto: `El capítulo ${capitulo.capitulo} termina en el versículo ${capitulo.ultimo}.`,
+        },
+      ]
+    }
+    return [{ tipo: 'aviso', texto: `El capítulo ${capitulo.capitulo} no tiene versículo ${pedido}.` }]
+  }
+
+  function textoPlano(valor: string) {
+    return valor
+      .replaceAll('&', '&amp;')
+      .replaceAll('<', '&lt;')
+      .replaceAll('>', '&gt;')
+      .replaceAll('"', '&quot;')
+  }
+
+  function wireReferenciaBuscador() {
+    const root = document.querySelector<HTMLElement>('div[data-referencia-buscador]')
+    if (!root || root.dataset.wired === 'true') return
+    const input = root.querySelector<HTMLInputElement>('[data-referencia-input]')
+    const lista = root.querySelector<HTMLUListElement>('[data-referencia-lista]')
+    const dataEl = root.querySelector<HTMLScriptElement>('[data-referencia-indice]')
+    if (!input || !lista || !dataEl?.textContent) return
+    root.dataset.wired = 'true'
+
+    const indice = JSON.parse(dataEl.textContent) as CapituloIndice[]
+    const libro = root.dataset.libro ?? ''
+    const nombre = root.dataset.nombre ?? 'Este libro'
+    const pedirVersiculo = root.dataset.pedirVersiculo === 'true'
+
+    const anclas = () => [...lista.querySelectorAll<HTMLAnchorElement>('a[role="option"]')]
+
+    const cerrar = () => {
+      lista.hidden = true
+      lista.replaceChildren()
+      input.setAttribute('aria-expanded', 'false')
+      input.removeAttribute('aria-activedescendant')
+    }
+
+    const marcar = (indiceOpcion: number, desplazar: boolean) => {
+      const items = anclas()
+      if (!items.length) {
+        input.removeAttribute('aria-activedescendant')
+        return
+      }
+      const elegido = Math.max(0, Math.min(indiceOpcion, items.length - 1))
+      for (const [index, item] of items.entries()) {
+        const activo = index === elegido
+        item.setAttribute('aria-selected', String(activo))
+        if (!activo) continue
+        input.setAttribute('aria-activedescendant', item.id)
+        if (!desplazar) continue
+        const itemRect = item.getBoundingClientRect()
+        const listRect = lista.getBoundingClientRect()
+        if (itemRect.top < listRect.top) lista.scrollTop += itemRect.top - listRect.top
+        else if (itemRect.bottom > listRect.bottom) lista.scrollTop += itemRect.bottom - listRect.bottom
+      }
+    }
+
+    const pintar = () => {
+      const items = sugerenciasDe(indice, libro, nombre, pedirVersiculo, input.value)
+      if (!items.length) {
+        cerrar()
+        return
+      }
+      let enlace = 0
+      lista.replaceChildren()
+      for (const item of items) {
+        const li = document.createElement('li')
+        if (item.tipo === 'aviso') {
+          li.className = 'px-4 py-3 text-sm text-[var(--color-text-soft)]'
+          li.setAttribute('role', 'status')
+          li.textContent = item.texto
+          lista.append(li)
+          continue
+        }
+        const link = document.createElement('a')
+        link.id = `referencia-opcion-${enlace}`
+        link.role = 'option'
+        link.href = item.href
+        link.className = 'block px-4 py-2.5'
+        link.innerHTML = `<span class="block text-sm font-semibold text-[var(--color-text)]">${textoPlano(item.titulo)}</span><span class="block text-xs text-[var(--color-muted)]">${textoPlano(item.detalle)}</span>`
+        li.append(link)
+        lista.append(li)
+        enlace += 1
+      }
+      lista.hidden = false
+      input.setAttribute('aria-expanded', 'true')
+      marcar(0, false)
+    }
+
+    input.addEventListener('input', pintar)
+    input.addEventListener('focus', pintar)
+    input.addEventListener('keydown', (event) => {
+      if (event.key === 'ArrowDown') {
+        event.preventDefault()
+        if (lista.hidden) {
+          pintar()
+          return
+        }
+        const items = anclas()
+        if (!items.length) return
+        const actual = items.findIndex((item) => item.getAttribute('aria-selected') === 'true')
+        marcar(actual < 0 ? 0 : (actual + 1) % items.length, true)
+        return
+      }
+      if (event.key === 'ArrowUp') {
+        event.preventDefault()
+        const items = anclas()
+        if (!items.length) return
+        const actual = items.findIndex((item) => item.getAttribute('aria-selected') === 'true')
+        marcar(actual <= 0 ? items.length - 1 : actual - 1, true)
+        return
+      }
+      if (event.key === 'Enter') {
+        const elegido = lista.querySelector<HTMLAnchorElement>('a[aria-selected="true"]')
+        if (!elegido) return
+        event.preventDefault()
+        elegido.click()
+        return
+      }
+      if (event.key === 'Escape' && !lista.hidden) {
+        event.preventDefault()
+        cerrar()
+      }
+    })
+
+    let clicEnLista = false
+    lista.addEventListener('pointerdown', () => {
+      clicEnLista = true
+    })
+    lista.addEventListener('pointermove', (event) => {
+      const link = (event.target as HTMLElement | null)?.closest('a[role="option"]')
+      if (!(link instanceof HTMLAnchorElement)) return
+      const index = anclas().indexOf(link)
+      if (index >= 0) marcar(index, false)
+    })
+    root.addEventListener('focusout', (event) => {
+      const next = event.relatedTarget
+      if (next instanceof Node && root.contains(next)) return
+      requestAnimationFrame(() => {
+        if (clicEnLista) {
+          clicEnLista = false
+          return
+        }
+        if (root.contains(document.activeElement)) return
+        cerrar()
+      })
+    })
+  }
+
+  if (!document.documentElement.dataset.a01ReferenciaWired) {
+    document.documentElement.dataset.a01ReferenciaWired = 'true'
+    document.addEventListener('astro:page-load', wireReferenciaBuscador)
+  }
+  wireReferenciaBuscador()
+</script>

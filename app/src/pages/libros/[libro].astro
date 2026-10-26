@@ -1,8 +1,9 @@
 ---
 import { Icon } from 'astro-icon/components'
 import Layout from '../../components/Layout.astro'
+import ReferenciaBuscador from '../../components/ReferenciaBuscador.astro'
 import StudyShell from '../../components/StudyShell.astro'
-import { getLibroPage, getStaticLibroPaths } from '../../lib/biblia'
+import { getIndiceReferencias, getLibroPage, getStaticLibroPaths } from '../../lib/biblia'
 
 export function getStaticPaths() {
   return getStaticLibroPaths()
@@ -12,6 +13,7 @@ const { libro: libroSlug } = Astro.params
 if (!libroSlug) throw new Error('Falta el slug del libro')
 
 const page = getLibroPage(libroSlug)
+const indice = getIndiceReferencias(libroSlug)
 const { libro, temas, ejes, unidad, totalVersiculos, notasUnicas } = page
 const esRelato = unidad === 'pericopa'
 const tieneEjes = ejes.length > 0
@@ -21,10 +23,10 @@ const tieneEjes = ejes.length > 0
   title={tieneEjes ? `${libro.nombre} por temas` : esRelato ? `${libro.nombre} por relatos` : `${libro.nombre} por temas`}
   description={
     tieneEjes
-      ? `Temas y relatos de ${libro.nombre} con RVR, NTV, DHH y TLA.`
+      ? `Temas y relatos de ${libro.nombre} con RVR 1960, RV1909, NTV, DHH y TLA.`
       : esRelato
-        ? `Relatos de ${libro.nombre} con RVR, NTV, DHH y TLA.`
-        : `Temas de ${libro.nombre} con RVR, NTV, DHH y TLA.`
+        ? `Relatos de ${libro.nombre} con RVR 1960, RV1909, NTV, DHH y TLA.`
+        : `Temas de ${libro.nombre} con RVR 1960, RV1909, NTV, DHH y TLA.`
   }
 >
   <StudyShell
@@ -46,12 +48,18 @@ const tieneEjes = ejes.length > 0
         <p class="mt-2 text-sm leading-relaxed text-[var(--color-text-soft)]">
           {
             tieneEjes
-              ? 'Elegí un tema. Cada uno junta los relatos que lo tratan, con las cuatro versiones en la misma página.'
+              ? 'Elegí un tema. Cada uno junta los relatos que lo tratan, con las cinco versiones en la misma página.'
               : esRelato
-                ? 'Elegí un relato. Cada uno tiene URL propia y las cuatro versiones en la misma página.'
-                : 'Elegí un tema. Cada uno tiene URL propia y las cuatro versiones en la misma página.'
+                ? 'Elegí un relato. Cada uno tiene URL propia y las cinco versiones en la misma página.'
+                : 'Elegí un tema. Cada uno tiene URL propia y las cinco versiones en la misma página.'
           }
         </p>
+        <ReferenciaBuscador
+          libroSlug={libro.slug}
+          libroNombre={libro.nombre}
+          indice={indice}
+          pedirVersiculo={!esRelato}
+        />
       </header>
 
       {

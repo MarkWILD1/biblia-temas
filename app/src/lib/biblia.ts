@@ -6,6 +6,7 @@ import type {
   LibroCanon,
   LibroPage,
   TemaPage,
+  CapituloReferencia,
   TemaTaxonomia,
   Traduccion,
   UnidadTaxonomia,
@@ -202,6 +203,44 @@ export function getTemas(libroSlug: string): TemaTaxonomia[] {
   return taxonomia.temas
     .map((tema) => ({ ...tema, conteo: counts.get(tema.slug) ?? 0 }))
     .sort((a, b) => a.orden - b.orden)
+}
+
+export function getIndiceReferencias(libroSlug: string): CapituloReferencia[] {
+  const libro = getLibro(libroSlug)
+  if (!libro || libro.estado !== 'publicado') return []
+
+  const nombres = new Map(getTemas(libroSlug).map((tema) => [tema.slug, tema.nombre]))
+  const { asignaciones } = loadAsignaciones(libro.usfm)
+  const claves = Object.entries(asignaciones)
+    .map(([key, slug]) => {
+      const [capitulo, versiculo] = key.split(':').map(Number)
+      return { capitulo, versiculo, slug }
+    })
+    .sort((a, b) => a.capitulo - b.capitulo || a.versiculo - b.versiculo)
+
+  const capitulos: CapituloReferencia[] = []
+
+  for (const clave of claves) {
+    let actual = capitulos.at(-1)
+    if (!actual || actual.capitulo !== clave.capitulo) {
+      actual = { capitulo: clave.capitulo, ultimo: clave.versiculo, partes: [] }
+      capitulos.push(actual)
+    }
+    actual.ultimo = clave.versiculo
+    const parte = actual.partes.at(-1)
+    if (parte && parte.slug === clave.slug && parte.hasta + 1 === clave.versiculo) {
+      parte.hasta = clave.versiculo
+      continue
+    }
+    actual.partes.push({
+      desde: clave.versiculo,
+      hasta: clave.versiculo,
+      slug: clave.slug,
+      nombre: nombres.get(clave.slug) ?? clave.slug,
+    })
+  }
+
+  return capitulos
 }
 
 export function getLibroPage(libroSlug: string): LibroPage {

@@ -11,6 +11,7 @@ const searchText = verso.searchText
 ---
 
 <article
+  id={`v-${verso.capitulo}-${verso.versiculo}`}
   data-verse-card
   data-search={searchText}
   data-has-note={verso.nota ? 'true' : 'false'}

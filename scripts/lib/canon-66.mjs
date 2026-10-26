@@ -11,7 +11,7 @@ const GRUPOS = [
   { id: 'apocalipsis', nombre: 'Apocalipsis', testamento: 'nt' },
 ]
 
-const LIBROS = [
+export const LIBROS = [
   ['GEN', 'genesis', 'Génesis', 'pentateuco'],
   ['EXO', 'exodo', 'Éxodo', 'pentateuco'],
   ['LEV', 'levitico', 'Levítico', 'pentateuco'],
@@ -92,6 +92,7 @@ export function buildCanon({ publicados = LIBROS_PUBLICADOS } = {}) {
     canon: 'protestante-66',
     versiones: [
       { id: 'rvr1960', nombre: 'Reina-Valera 1960', etiqueta: 'Reina-Valera 1960' },
+      { id: 'rv1909', nombre: 'Reina-Valera 1909', etiqueta: 'Reina-Valera 1909' },
       { id: 'ntv', nombre: 'Nueva Traducción Viviente', etiqueta: 'NTV' },
       { id: 'dhh', nombre: 'Biblia Dios Habla Hoy', etiqueta: 'DHH' },
       { id: 'tla', nombre: 'Traducción en Lenguaje Actual', etiqueta: 'TLA' },

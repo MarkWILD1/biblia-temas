@@ -39,6 +39,19 @@ export interface TemaTaxonomia {
   conteo: number
 }
 
+export interface ParteReferencia {
+  desde: number
+  hasta: number
+  slug: string
+  nombre: string
+}
+
+export interface CapituloReferencia {
+  capitulo: number
+  ultimo: number
+  partes: ParteReferencia[]
+}
+
 export interface Traduccion {
   id: string
   etiqueta: string
